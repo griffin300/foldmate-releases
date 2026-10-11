@@ -25,7 +25,9 @@ This is an early build shared with friends. Thanks for trying it.
 ## What you need
 
 - **Windows 11, 64-bit.** Windows 10 hasn't been tested yet.
-- **RAM:** 16 GB or more is recommended. 8 GB works with small models.
+- **RAM:** 16 GB or more is recommended. 8 GB works with small models. With web research
+  running, the first load may say the model won't fit. Tick **Override guardrail for this load**
+  to load it anyway.
 - **Virtualization turned on** in your PC's BIOS/UEFI, for web research. Without it, chat still
   works, and Foldmate tells you what to turn on.
 - **Disk:** a few GB for Foldmate, plus your models. A small model is about 1–2 GB.
