@@ -16,21 +16,21 @@ This is an early build shared with friends. Thanks for trying it.
    code-signed yet. Click **More info**, then **Run anyway**.
 3. The installer sets up what Foldmate needs:
    - Microsoft's Visual C++ runtime, if your PC doesn't have it;
-   - Foldmate's private web engine, which runs on Windows' own WSL.
+   - Windows' WSL, which Foldmate's private web engine runs on, if your PC doesn't have it.
 
-   Windows asks for permission once. A restart may be needed.
-4. Open Foldmate. On the first start, a guide points at a model that fits your PC.
-   Downloading still asks first.
+   Windows may ask for permission (up to twice). A restart may be needed.
+4. Foldmate opens and sets itself up. Its AI engine comes with it. The model that best fits
+   your PC downloads and loads on its own, and you can pick another in **Models** any time.
+   Private web research finishes setting up in the background during the first few minutes.
 
 ## What you need
 
 - **Windows 11, 64-bit.** Windows 10 hasn't been tested yet.
-- **RAM:** 16 GB or more is recommended. 8 GB works with small models. With web research
-  running, the first load may say the model won't fit. Tick **Override guardrail for this load**
-  to load it anyway.
+- **RAM:** 16 GB or more is recommended. 8 GB works with small models.
 - **Virtualization turned on** in your PC's BIOS/UEFI, for web research. Without it, chat still
   works, and Foldmate tells you what to turn on.
-- **Disk:** a few GB for Foldmate, plus your models. A small model is about 1–2 GB.
+- **Disk:** about 15 GB free to install and set up (about 9 GB stays in use), plus your models.
+  A small model is about 1–2 GB.
 - **A graphics card is optional.** Models run on the processor too, just slower.
 
 ## Updates
@@ -38,17 +38,32 @@ This is an early build shared with friends. Thanks for trying it.
 Foldmate checks this page for new versions through Tor. Only releases signed with Foldmate's key
 install, and each file is checked first.
 
-When an update is ready, a small arrow appears next to Foldmate's name in the sidebar. Choose
+When an update is available, a small arrow appears next to Foldmate's name in the sidebar.
+Choose it to download the update (you can follow its progress or cancel it), then choose
 **Restart to update**.
+
+## The Lens and Assist
+
+- **Lens:** right-click Foldmate's icon by the clock and choose **Lens**, or press
+  **Ctrl+Alt+Space** with nothing selected. The screen freezes. Drag a box around anything to
+  ask about it.
+- **Assist:** select text in any app and press **Ctrl+Alt+Space** to proofread, rewrite,
+  summarize, explain or translate it with your own model.
 
 ## Known limits of this preview
 
 - Windows only for now.
 - The installer isn't code-signed yet (see step 2 above).
+- On an 8 GB PC, Foldmate may say no model fits while web research is still setting up. Wait a
+  few minutes, then choose **Load a model**. The next update fixes this.
+- Reinstalling the same version after uninstalling it can fail with "Foldmate couldn't be
+  installed". Restart the PC, delete the folder
+  `%LOCALAPPDATA%\Programs\PrivateLocalBot\releases`, then run the installer again. The next
+  update fixes this too.
 
 ## Questions and problems
 
 Tell the person who shared this with you.
 
 Requests for the source code of the open-source parts Foldmate ships (named in its license notes,
-under Settings > App > Open-source licenses) go to winning1946@yahoo.com.
+under App settings > About & updates > Open-source licenses) go to winning1946@yahoo.com.
