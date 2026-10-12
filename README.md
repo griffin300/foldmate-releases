@@ -19,9 +19,10 @@ This is an early build shared with friends. Thanks for trying it.
    - Windows' WSL, which Foldmate's private web engine runs on, if your PC doesn't have it.
 
    Windows may ask for permission (up to twice). A restart may be needed.
-4. Foldmate opens and sets itself up. Its AI engine comes with it. The model that best fits
-   your PC downloads and loads on its own, and you can pick another in **Models** any time.
-   Private web research finishes setting up in the background during the first few minutes.
+4. Foldmate opens. Its AI engine comes with it, and private web research finishes setting up
+   in the background during the first few minutes. Foldmate recommends the model that best
+   fits your PC and downloads it only when you choose **Download and load**. You can pick
+   another in **Models** any time.
 
 ## What you need
 
@@ -35,8 +36,9 @@ This is an early build shared with friends. Thanks for trying it.
 
 ## Updates
 
-Foldmate checks this page for new versions through Tor. Only releases signed with Foldmate's key
-install, and each file is checked first.
+Foldmate checks this page for new versions directly (not through Tor, so GitHub sees your IP
+address, as when you visit this page). Only releases signed with Foldmate's key install, and
+each file is checked first.
 
 When an update is available, a small arrow appears next to Foldmate's name in the sidebar.
 Choose it to download the update (you can follow its progress or cancel it), then choose
@@ -54,12 +56,6 @@ Choose it to download the update (you can follow its progress or cancel it), the
 
 - Windows only for now.
 - The installer isn't code-signed yet (see step 2 above).
-- On an 8 GB PC, Foldmate may say no model fits while web research is still setting up. Wait a
-  few minutes, then choose **Load a model**. The next update fixes this.
-- Reinstalling the same version after uninstalling it can fail with "Foldmate couldn't be
-  installed". Restart the PC, delete the folder
-  `%LOCALAPPDATA%\Programs\PrivateLocalBot\releases`, then run the installer again. The next
-  update fixes this too.
 
 ## Questions and problems
 
