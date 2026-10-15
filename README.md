@@ -6,7 +6,7 @@ Foldmate runs AI models on your own PC. No account.
 - No telemetry.
 - Web research goes through Tor by default, with no automatic direct fallback.
 
-This is an early build shared with friends. Thanks for trying it. The latest version is **0.4.0**.
+This is an early build shared with friends. Thanks for trying it. The latest version is **0.4.1**.
 
 ## Install
 
@@ -45,7 +45,8 @@ Choose it to download the update (you can follow its progress or cancel it), the
 **Restart to update**.
 
 From 0.4.0 on, most updates download only the files that changed, often about 15 MB instead of
-the whole 1.4 GB installer. Updating to 0.4.0 itself is still a full download.
+the whole 1.4 GB installer. With 0.4.0 installed, updating to 0.4.1 is one of those small
+downloads; older versions get the full installer.
 
 ## Asking before it acts
 
