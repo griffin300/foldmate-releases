@@ -6,7 +6,19 @@ Foldmate runs AI models on your own PC. No account.
 - No telemetry.
 - Web research goes through Tor by default, with no automatic direct fallback.
 
-This is an early build shared with friends. Thanks for trying it. The latest version is **0.4.1**.
+This is an early build shared with friends. Thanks for trying it. The latest version is **0.4.2**.
+
+## New in 0.4.2
+
+- **Alt + right-click** opens Lens anywhere, or Assist on selected text. It's on by default, even if you had turned it off (App settings › This PC).
+- **Better private search:** a second search engine is back on, and a shortcut that cut answers short is off.
+- **Your LM Studio and Ollama models** show up in Models and load where they are; nothing is copied.
+- **A new model browser,** and tidier menus and settings.
+- **Read aloud** on replies, in Windows' own voices, on this PC.
+- **Help** (F1), offline, and a support report you read first. Foldmate never sends it.
+- **Seven more draft languages:** French, Portuguese (Brazil), Japanese, Simplified Chinese, Korean, Italian and Russian. The installer speaks all of them but Simplified Chinese.
+- **Also:** a smoother first run, and an Airtable connection.
+- **License:** from 0.4.2, Foldmate is free to use but not open source (all rights reserved). The open-source parts it carries keep their own licenses.
 
 ## Install
 
@@ -20,9 +32,10 @@ This is an early build shared with friends. Thanks for trying it. The latest ver
 
    Windows may ask for permission (up to twice). A restart may be needed.
 4. Foldmate opens. Its AI engine comes with it, and private web research finishes setting up
-   in the background during the first few minutes. Foldmate recommends the model that best
-   fits your PC and downloads it only when you choose **Download and load**. You can pick
-   another in **Models** any time.
+   in the background during the first few minutes. Foldmate recommends a model that fits
+   your PC and downloads it only when you choose **Download and load**. Models already in
+   LM Studio's or Ollama's folders show up in **Models** where they are; nothing is copied.
+   You can pick another in **Models** any time.
 
 ## What you need
 
@@ -44,9 +57,9 @@ When an update is available, a small arrow appears next to Foldmate's name in th
 Choose it to download the update (you can follow its progress or cancel it), then choose
 **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed, often about 15 MB instead of
-the whole 1.4 GB installer. With 0.4.0 installed, updating to 0.4.1 is one of those small
-downloads; older versions get the full installer.
+From 0.4.0 on, most updates download only the files that changed, often about 15 MB. 0.4.2
+brings a new private web engine, so updating to it is the full download, once. The installer
+is now about 0.83 GB (0.4.1's was 1.4 GB).
 
 ## Asking before it acts
 
@@ -63,22 +76,32 @@ Each chat has an approval mode:
 
 ## The tray, the Lens and Assist
 
-- **The tray:** right-click Foldmate's icon by the clock for a small menu: open Foldmate, load
-  one of your recent models, the Lens, eject the model, Settings and **Quit Foldmate**. Quit
+- **The tray:** right-click Foldmate's icon by the clock for a small menu: **Open Foldmate**,
+  **Load model** (your recent models), **Lens mode**, **Eject model**, **Settings** and **Quit Foldmate**. Quit
   unloads Foldmate's model and stops its private web research, so their memory is free again.
-- **Lens:** choose **Lens** in that menu, or press **Ctrl+Alt+Space** with nothing selected. The
-  screen freezes. Drag a box around anything to ask about it.
-- **Assist:** select text in any app and press **Ctrl+Alt+Space** to proofread, rewrite,
-  summarize, explain or translate it with your own model.
+- **Lens:** choose **Lens mode** in that menu, press **Ctrl+Alt+Space** with nothing selected,
+  or **Alt + right-click** anywhere. The screen freezes. Drag a box around anything to ask about it.
+- **Assist:** select text in any app, then press **Ctrl+Alt+Space** or **Alt + right-click** it, to
+  proofread, rewrite, summarize, explain or translate it with your own model.
+- **Alt + right-click** is on by default from 0.4.2, even if you had turned it off. If an app
+  needs that click, turn it off in **App settings › This PC**.
 
 ## Known limits of this preview
 
 - Windows only for now.
 - The installer isn't code-signed yet (see step 2 above).
+- On a PC where Windows' Smart App Control is on, it may block Foldmate and its AI engine,
+  because they aren't code-signed yet.
+
+## Help
+
+Press **F1** (or **Settings & tools › Support › Help**) for Foldmate's Help. It opens offline.
+If something goes wrong, **Settings & tools › Support › Support report** shows a short summary of
+your PC and Foldmate. Read it, save it, and send it yourself: Foldmate never sends it.
 
 ## Questions and problems
 
-Tell the person who shared this with you.
+Tell the person who shared this with you, and attach a support report if it helps.
 
 Requests for the source code of the open-source parts Foldmate ships (named in its license notes,
 under App settings > About & updates > Open-source licenses) go to winning1946@yahoo.com.
