@@ -6,7 +6,7 @@ Foldmate runs AI models on your own PC. No account.
 - No telemetry.
 - Web research goes through Tor by default, with no automatic direct fallback.
 
-This is an early build shared with friends. Thanks for trying it.
+This is an early build shared with friends. Thanks for trying it. The latest version is **0.4.0**.
 
 ## Install
 
@@ -44,11 +44,29 @@ When an update is available, a small arrow appears next to Foldmate's name in th
 Choose it to download the update (you can follow its progress or cancel it), then choose
 **Restart to update**.
 
-## The Lens and Assist
+From 0.4.0 on, most updates download only the files that changed, often about 15 MB instead of
+the whole 1.4 GB installer. Updating to 0.4.0 itself is still a full download.
 
-- **Lens:** right-click Foldmate's icon by the clock and choose **Lens**, or press
-  **Ctrl+Alt+Space** with nothing selected. The screen freezes. Drag a box around anything to
-  ask about it.
+## Asking before it acts
+
+Each chat has an approval mode:
+
+- **Ask every time:** every action on your PC shows a card first.
+- **Approve for me:** reading your screen, and OpenCode's work inside its project's sealed box,
+  run without asking; clicks, typing, deleting and browser steps still ask.
+- **Full access:** Foldmate uses your PC without asking first: it opens apps, clicks and types,
+  sends and deletes, uses the clipboard, opens files and runs PC commands. Steps in protected
+  windows still ask: password managers, Windows Security and Settings, sign-in and User Account
+  Control prompts, Task Manager and the Registry Editor. Every action is recorded in the chat.
+  Use it only in chats where you trust what the model is doing.
+
+## The tray, the Lens and Assist
+
+- **The tray:** right-click Foldmate's icon by the clock for a small menu: open Foldmate, load
+  one of your recent models, the Lens, eject the model, Settings and **Quit Foldmate**. Quit
+  unloads Foldmate's model and stops its private web research, so their memory is free again.
+- **Lens:** choose **Lens** in that menu, or press **Ctrl+Alt+Space** with nothing selected. The
+  screen freezes. Drag a box around anything to ask about it.
 - **Assist:** select text in any app and press **Ctrl+Alt+Space** to proofread, rewrite,
   summarize, explain or translate it with your own model.
 
