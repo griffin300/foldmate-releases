@@ -6,19 +6,17 @@ Foldmate runs AI models on your own PC. No account.
 - No telemetry.
 - Web research goes through Tor by default, with no automatic direct fallback.
 
-This is an early build shared with friends. Thanks for trying it. The latest version is **0.4.2**.
+This is an early build shared with friends. Thanks for trying it. The latest version is **0.4.3**.
 
-## New in 0.4.2
+## New in 0.4.3
 
-- **Alt + right-click** opens Lens anywhere, or Assist on selected text. It's on by default, even if you had turned it off (App settings › This PC).
-- **Better private search:** a second search engine is back on, and a shortcut that cut answers short is off.
-- **Your LM Studio and Ollama models** show up in Models and load where they are; nothing is copied.
-- **A new model browser,** and tidier menus and settings.
-- **Read aloud** on replies, in Windows' own voices, on this PC.
-- **Help** (F1), offline, and a support report you read first. Foldmate never sends it.
-- **Seven more draft languages:** French, Portuguese (Brazil), Japanese, Simplified Chinese, Korean, Italian and Russian. The installer speaks all of them but Simplified Chinese.
-- **Also:** a smoother first run, and an Airtable connection.
-- **License:** from 0.4.2, Foldmate is free to use but not open source (all rights reserved). The open-source parts it carries keep their own licenses.
+- **Your models, easier to manage:** a compact model browser, your local models beside downloads, and tidier Connections, Hardware and Runtimes screens.
+- **Chat and Code remember separately:** each restores its own conversation. Code also has a subtle animated background you can turn off in App settings.
+- **Work on Office files:** add a work folder for OpenCode to make Word, PowerPoint and Excel files. Undo restores verified backups and keeps files whose origin is uncertain.
+- **Updated local model engine:** llama.cpp b11583. Existing builds stay available for rollback.
+- **Direct web research repaired** on the built-in engine. Tor remains the default.
+- **More complete draft languages,** with built-in Help in ten draft languages.
+- **License:** Foldmate is free to use but not open source (all rights reserved). The open-source parts it carries keep their own licenses.
 
 ## Install
 
@@ -57,9 +55,9 @@ When an update is available, a small arrow appears next to Foldmate's name in th
 Choose it to download the update (you can follow its progress or cancel it), then choose
 **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed, often about 15 MB. 0.4.2
-brings a new private web engine, so updating to it is the full download, once. The installer
-is now about 0.83 GB (0.4.1's was 1.4 GB).
+From 0.4.0 on, most updates download only the files that changed, often about 15 MB. 0.4.3
+brings a new model engine and web engine, so updating to it is the full download, once. The
+installer is about 0.83 GB.
 
 ## Asking before it acts
 
