@@ -6,16 +6,15 @@ Foldmate runs AI models on your own PC. No account.
 - No telemetry.
 - Web research goes through Tor by default, with no automatic direct fallback.
 
-This is an early build shared with friends. Thanks for trying it. The latest version is **0.4.3**.
+This is an early build shared with friends. Thanks for trying it. The latest version is **0.4.4**.
 
-## New in 0.4.3
+## New in 0.4.4
 
-- **Your models, easier to manage:** a compact model browser, your local models beside downloads, and tidier Connections, Hardware and Runtimes screens.
-- **Chat and Code remember separately:** each restores its own conversation. Code also has a subtle animated background you can turn off in App settings.
-- **Work on Office files:** add a work folder for OpenCode to make Word, PowerPoint and Excel files. Undo restores verified backups and keeps files whose origin is uncertain.
-- **Updated local model engine:** llama.cpp b11583. Existing builds stay available for rollback.
-- **Direct web research repaired** on the built-in engine. Tor remains the default.
-- **More complete draft languages,** with built-in Help in ten draft languages.
+- **Big files in Code:** OpenCode gets more room per reply and writes large files in parts. If a reply is still cut off, you see why, and the model can try again.
+- **Goals get to work:** type /goal and Foldmate starts at once. A slim strip above the message box shows it, with Pause and Delete.
+- **Engine updates in one go:** after its review, an update shows its progress on the button and is used from the next model load. The old build stays for rollback.
+- **A tidier Code tab:** the animated background shows only before a conversation starts, and Continue after Stop sits neatly beside it.
+- **Safer Undo for huge files:** Undo keeps a file over 1 GB rather than risk Windows deleting it for good.
 - **License:** Foldmate is free to use but not open source (all rights reserved). The open-source parts it carries keep their own licenses.
 
 ## Install
@@ -55,9 +54,8 @@ When an update is available, a small arrow appears next to Foldmate's name in th
 Choose it to download the update (you can follow its progress or cancel it), then choose
 **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed, often about 15 MB. 0.4.3
-brings a new model engine and web engine, so updating to it is the full download, once. The
-installer is about 0.83 GB.
+From 0.4.0 on, most updates download only the files that changed, often about 15 MB. 0.4.4 is
+one of those: from 0.4.3 it's a small download. The installer is about 0.83 GB.
 
 ## Asking before it acts
 
