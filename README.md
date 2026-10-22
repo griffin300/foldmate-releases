@@ -6,14 +6,17 @@ Foldmate runs AI models on your own PC. No account.
 - No telemetry.
 - Web research goes through Tor by default, with no automatic direct fallback.
 
-This is an early build shared with friends. Thanks for trying it. The latest version is **0.4.5**.
+This is an early build shared with friends. Thanks for trying it. The latest version is **0.5.0**.
 
-## New in 0.4.5
+## New in 0.5.0
 
-- **Drafts you can copy:** emails and documents Foldmate writes for you appear in a card. Copy and Expand stay in view as you scroll.
-- **A quieter Code screen:** the Run tests button is gone (type /test instead), the repeated approval notice is hidden, and scrolling past a running terminal no longer gets stuck.
-- **No half-finished replies:** if the local model stops mid-answer, Foldmate says so instead of showing part of a reply as done. A failed coding step never shows as done.
-- **Many smaller fixes:** canvas edits, automations, goals, dictation, model imports and downloads behave more reliably.
+- **Wallet & passwords:** logins and cards are kept encrypted on this PC. The model only picks which item to use and never sees the values. Each item fills only on its own site, and purchases follow your spending limits and ask you first. Open it from **Settings & tools**.
+- **A steadier Lens:** long answers no longer stop on their own, a busy model says so at once, and Do won't act on Foldmate's own window.
+- **See what fills the context:** click the context ring for a breakdown by part, with **Compact now**. Compacting no longer adds notices to the chat.
+- **Free cloud models in Code (optional):** OpenCode Zen's free models can be turned on per project, over Tor by default or directly. They're off until you choose them, and when on, that project's coding requests go to OpenCode Zen's servers.
+- **Faster replies:** models with built-in speculative decoding (MTP) now use it by default: about twice as fast, with the same answers.
+- **No Docker needed:** Foldmate's own engine runs web research and OpenCode. A PC that used Docker Desktop moves over once, automatically.
+- **Many smaller fixes:** pictures in chat, computer use, keyboard and screen-reader use, and project commands in Code behave more reliably.
 - **License:** Foldmate is free to use but not open source (all rights reserved). The open-source parts it carries keep their own licenses.
 
 ## Install
@@ -53,8 +56,8 @@ When an update is available, a small arrow appears next to Foldmate's name in th
 Choose it to download the update (you can follow its progress or cancel it), then choose
 **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed, often about 15 MB. 0.4.5 is
-one of those: from 0.4.4 it's a small download. The installer is about 0.83 GB.
+From 0.4.0 on, most updates download only the files that changed, often about 15 MB. 0.5.0 is
+not one of those: its engine images changed, so the update downloads the full installer (about 0.83 GB).
 
 ## Asking before it acts
 
@@ -68,6 +71,8 @@ Each chat has an approval mode:
   windows still ask: password managers, Windows Security and Settings, sign-in and User Account
   Control prompts, Task Manager and the Registry Editor. Every action is recorded in the chat.
   Use it only in chats where you trust what the model is doing.
+- **Purchases with the Wallet** ask you first in every mode. In **Wallet & passwords › Limits and
+  purchases** you can allow purchases within your limits in Full access without asking (off by default).
 
 ## The tray, the Lens and Assist
 
