@@ -6,7 +6,16 @@ Foldmate runs AI models on your own PC. No account.
 - No telemetry.
 - Web research goes through Tor by default, with no automatic direct fallback.
 
-This is an early build shared with friends. Thanks for trying it. The latest version is **0.5.0**.
+This is an early build shared with friends. Thanks for trying it. The latest version is **0.5.1**.
+
+## New in 0.5.1
+
+- **Agents:** give a bot a standing mission and a task list on the new **Team** page (in **Settings & tools**). Agents work through their tasks on their own, cloud and local side by side, and follow each chat's approval mode.
+- **PowerShell that finishes the job:** long commands keep running in the background and report back, each command picks up where the last one left off, and downloads are much faster. Downloads and installs ask first, even in Full access; simple look-ups need no click in **Ask every time**.
+- **Steadier computer use:** Foldmate waits for windows and dialogs to settle, switches to an app that's already open, and handles a pop-up in the middle of a task.
+- **A faster first reply:** after a model loads, the start every new chat shares is read ahead, so the first chat answers sooner. Streaming replies and opening **Models** are smoother.
+- **Cleaner replies:** a tool call the model writes out as text no longer shows in the chat, and the model is told when one couldn't run.
+- **Fixes:** the Wallet, OpenCode Zen in projects, the context panel, pictures in chat, and keyboard and screen-reader use.
 
 ## New in 0.5.0
 
@@ -56,8 +65,9 @@ When an update is available, a small arrow appears next to Foldmate's name in th
 Choose it to download the update (you can follow its progress or cancel it), then choose
 **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed, often about 15 MB. 0.5.0 is
-not one of those: its engine images changed, so the update downloads the full installer (about 0.83 GB).
+From 0.4.0 on, most updates download only the files that changed. 0.5.1 is one of those: from
+0.5.0 it's a small download (about 15 MB). From an older version, the update downloads the full
+installer (about 0.83 GB).
 
 ## Asking before it acts
 
@@ -69,7 +79,8 @@ Each chat has an approval mode:
 - **Full access:** Foldmate uses your PC without asking first: it opens apps, clicks and types,
   sends and deletes, uses the clipboard, opens files and runs PC commands. Steps in protected
   windows still ask: password managers, Windows Security and Settings, sign-in and User Account
-  Control prompts, Task Manager and the Registry Editor. Every action is recorded in the chat.
+  Control prompts, Task Manager and the Registry Editor. PC commands that download or install
+  software still show a card. Every action is recorded in the chat.
   Use it only in chats where you trust what the model is doing.
 - **Purchases with the Wallet** ask you first in every mode. In **Wallet & passwords › Limits and
   purchases** you can allow purchases within your limits in Full access without asking (off by default).
