@@ -6,7 +6,17 @@ Foldmate runs AI models on your own PC. No account.
 - No telemetry.
 - Web research goes through Tor by default, with no automatic direct fallback.
 
-This is an early build shared with friends. Thanks for trying it. The latest version is **0.6.1**.
+This is an early build shared with friends. Thanks for trying it. The latest version is **0.6.2**.
+
+## New in 0.6.2
+
+- **Agent teams:** start a Researcher, Writer and Reviewer team under any chat in one step. The **Team** board shows what each linked chat is doing, what waits and its last result.
+- **Agents ask when they're stuck:** a linked chat that needs something only you can do tells you in its parent chat, with **Open its chat**. A declined approval no longer leaves it waiting.
+- **A daily brief:** **Automations** has a **Daily brief**: each morning, what your agents finished, what's waiting for you and what's still running, from this PC's model.
+- **Read further in a referenced chat:** when you reference another chat in a message, Foldmate can search and read more of it for that message.
+- **Computer use keeps going:** many steps at once no longer end a turn, Foldmate carries on when it says what it will do next, and it hands you a step only after looking at the screen.
+- **OpenCode effort per project:** choose OpenCode's effort in the Code model menu. Code also shows when OpenCode compacts a long session.
+- **Fixes:** **Rules** lists every Always allowed tool, chat notices are translated, and agents, automations and screen readers work more reliably.
 
 ## New in 0.6.1
 
@@ -89,9 +99,9 @@ When an update is available, a small arrow appears next to Foldmate's name in th
 Choose it to download the update (you can follow its progress or cancel it), then choose
 **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 0.6.1 is one of those: from
-0.6.0 it's a small download (about 17 MB). From an older version, the update downloads the full
-installer (about 0.88 GB).
+From 0.4.0 on, most updates download only the files that changed. 0.6.2 is one of those: from
+0.6.1 or 0.6.0 it's a small download (about 17 MB). From an older version, the update downloads the
+full installer (about 0.88 GB).
 
 ## Asking before it acts
 
