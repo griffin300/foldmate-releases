@@ -6,7 +6,21 @@ Foldmate runs AI models on your own PC. No account.
 - No telemetry.
 - Web research goes through Tor by default, with no automatic direct fallback.
 
-This is an early build shared with friends. Thanks for trying it. The latest version is **0.5.1**.
+This is an early build shared with friends. Thanks for trying it. The latest version is **0.6.0**.
+
+## New in 0.6.0
+
+- **Linked chats:** start a chat linked to this one, on its own model: this PC's, a cloud model, or a free Zen model in Code. The two message each other, and **Open side by side** shows both.
+- **One model per Code chat:** type **/model** to give each Code chat its own model, local or a free OpenCode Zen one. Switching a chat to Zen, and attaching a file in a Zen chat, ask first.
+- **Code tasks told in a few lines:** a longer Code task is summed up as it works (what it read, changed and ran), and folds back to that summary when it finishes.
+- **Steadier computer use:** Foldmate sees each control's state (on or off, expanded, how far a list is scrolled), can search a long window past what one look shows, says whether an action changed the window, stops when a dialog opens over it and stops repeating a step that isn't working. If Send, Pay or Delete shows no change, it isn't pressed again: Foldmate tells you it may have gone through.
+- **Answer OpenCode's questions:** when OpenCode needs a choice, it asks in the chat. Pick an answer, type your own or skip.
+- **This PC's model can approve routine steps (optional):** in **Approve for me**, a switch lets your own model approve a step that's clearly what you asked for. Passwords, payments, protected windows, downloads, risky commands and deleting always ask you. It's off until you turn it on.
+- **Vision on the GPU or the CPU:** when loading a model, choose where its vision part runs. On the CPU the graphics card stays free for the model itself, and pictures take longer to read.
+- **Pictures from connected services** go to this PC's vision model only, never to a cloud model.
+- **Keep chats ready on disk (optional):** in **Settings**, an encrypted working copy of recent chats makes switching back faster after the engine restarts.
+- **Your data, in one place:** storage, backups, the Wallet, cookies and Trash share one popup. **Blocked commands** are refused in every mode, Full access too.
+- **Fixes:** shorter tool descriptions leave more room for your chat, and connected services, Zen in Code and pictures in chat behave more reliably.
 
 ## New in 0.5.1
 
@@ -65,9 +79,8 @@ When an update is available, a small arrow appears next to Foldmate's name in th
 Choose it to download the update (you can follow its progress or cancel it), then choose
 **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 0.5.1 is one of those: from
-0.5.0 it's a small download (about 15 MB). From an older version, the update downloads the full
-installer (about 0.83 GB).
+From 0.4.0 on, most updates download only the files that changed. 0.6.0 is not one of those:
+its engine images changed, so the update downloads the full installer (about 0.88 GB).
 
 ## Asking before it acts
 
@@ -75,7 +88,8 @@ Each chat has an approval mode:
 
 - **Ask every time:** every action on your PC shows a card first.
 - **Approve for me:** reading your screen, and OpenCode's work inside its project's sealed box,
-  run without asking; clicks, typing, deleting and browser steps still ask.
+  run without asking; clicks, typing, deleting and browser steps still ask. An optional switch
+  (off by default) lets this PC's model approve routine steps that are clearly what you asked for.
 - **Full access:** Foldmate uses your PC without asking first: it opens apps, clicks and types,
   sends and deletes, uses the clipboard, opens files and runs PC commands. Steps in protected
   windows still ask: password managers, Windows Security and Settings, sign-in and User Account
