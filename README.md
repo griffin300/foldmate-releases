@@ -6,7 +6,17 @@ Foldmate runs AI models on your own PC. No account.
 - No telemetry.
 - Web research goes through Tor by default, with no automatic direct fallback.
 
-This is an early build shared with friends. Thanks for trying it. The latest version is **0.6.0**.
+This is an early build shared with friends. Thanks for trying it. The latest version is **0.6.1**.
+
+## New in 0.6.1
+
+- **One menu for Code's model:** the model button in Code lists this PC's models, OpenCode Zen's free models and your cloud models, and shows which one each chat uses. **/model** opens the same menu.
+- **Free Zen models that work:** turning on OpenCode Zen in a project that already has chats now works, and the menu offers Zen's current top three free models, those that keep no data first, each with what its provider keeps. Without a connection, the menu says so and keeps the last list.
+- **Computer use finds the right item:** Foldmate scrolls a long list until the item you named shows, won't act on a similar-looking row by mistake, and notices changes it can only see in the screenshot.
+- **Undo a memory change:** a bot's memory shows how full it is, and **Undo** puts back its last change for a day.
+- **Bring another chat in:** drag a chat from the sidebar onto the message box to reference it in your next message.
+- **Every rule in one place:** **Blocked commands** also lists the rules Foldmate always follows.
+- **Fixes:** chats kept on disk, decision models, OpenCode sessions, the model picker and OpenCode's questions behave more reliably, and every language is complete again.
 
 ## New in 0.6.0
 
@@ -79,8 +89,9 @@ When an update is available, a small arrow appears next to Foldmate's name in th
 Choose it to download the update (you can follow its progress or cancel it), then choose
 **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 0.6.0 is not one of those:
-its engine images changed, so the update downloads the full installer (about 0.88 GB).
+From 0.4.0 on, most updates download only the files that changed. 0.6.1 is one of those: from
+0.6.0 it's a small download (about 17 MB). From an older version, the update downloads the full
+installer (about 0.88 GB).
 
 ## Asking before it acts
 
