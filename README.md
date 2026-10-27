@@ -7,7 +7,11 @@ Foldmate runs AI models on your own PC. No account.
 - Web research goes direct by default. Turn on Through Tor for the private route; it never falls
   back to direct.
 
-This is an early build shared with friends. Thanks for trying it. The latest version is **1.0.1**.
+This is an early build shared with friends. Thanks for trying it. The latest version is **1.0.2**.
+
+## New in 1.0.2
+
+- **More fixes from our own review:** automatic deletion keeps working when one chat has many screenshots, cancelled Google pickers free up at once, Excel sheet names are checked without case, and temporary chats' uploads stay out of a bot's files.
 
 ## New in 1.0.1
 
@@ -119,8 +123,8 @@ When an update is available, a small arrow appears next to Foldmate's name in th
 Choose it to download the update (you can follow its progress or cancel it), then choose
 **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.0.1 is one of those: from
-1.0.0 it's a small download (about 17 MB). From an older version, the update downloads the full
+From 0.4.0 on, most updates download only the files that changed. 1.0.2 is one of those: from
+1.0.1 or 1.0.0 it's a small download (about 17 MB). From an older version, the update downloads the full
 installer (about 0.88 GB).
 
 ## Asking before it acts
