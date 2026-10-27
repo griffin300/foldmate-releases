@@ -7,7 +7,13 @@ Foldmate runs AI models on your own PC. No account.
 - Web research goes direct by default. Turn on Through Tor for the private route; it never falls
   back to direct.
 
-This is an early build shared with friends. Thanks for trying it. The latest version is **1.0.0**.
+This is an early build shared with friends. Thanks for trying it. The latest version is **1.0.1**.
+
+## New in 1.0.1
+
+- **Full access can accept licences:** in Full access, Foldmate can accept a licence agreement a task needs. In other modes it still hands the licence to you.
+- **Long tasks keep their place:** on long computer-use tasks Foldmate keeps a short note of what it has done, so it finishes more of them. Scrolling to an item says when only part of a name matched.
+- **13 fixes from a code review:** imports, documents, Office, Google files, voice chat, saved prompts and OpenCode behave more reliably.
 
 ## New in 1.0.0
 
@@ -113,8 +119,9 @@ When an update is available, a small arrow appears next to Foldmate's name in th
 Choose it to download the update (you can follow its progress or cancel it), then choose
 **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.0.0 changes Foldmate's engine
-too, so every version downloads the full installer for it (about 0.88 GB).
+From 0.4.0 on, most updates download only the files that changed. 1.0.1 is one of those: from
+1.0.0 it's a small download (about 17 MB). From an older version, the update downloads the full
+installer (about 0.88 GB).
 
 ## Asking before it acts
 
