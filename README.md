@@ -4,9 +4,23 @@ Foldmate runs AI models on your own PC. No account.
 
 - Your chats are encrypted on your disk.
 - No telemetry.
-- Web research goes through Tor by default, with no automatic direct fallback.
+- Web research goes direct by default. Turn on Through Tor for the private route; it never falls
+  back to direct.
 
-This is an early build shared with friends. Thanks for trying it. The latest version is **0.6.2**.
+This is an early build shared with friends. Thanks for trying it. The latest version is **1.0.0**.
+
+## New in 1.0.0
+
+- **Bring your chats from ChatGPT or Claude:** in **Backup & recovery**, choose your ChatGPT or Claude data export. Foldmate shows how many chats it holds, then adds them with their original dates. It's read on this PC; nothing is sent.
+- **Knowledge files for a bot:** in a bot's menu, add files it reads in every chat. Replies list the passages they drew on. Only this PC's model reads them.
+- **Temporary chats:** turn on **Temporary chat** in a new chat. It isn't kept, and it's deleted for good when you leave it, lock or quit.
+- **Talk to your bot:** hold the microphone button to talk. Foldmate sends when you stop, reads the answer aloud, then listens again. Speech stays on this PC. Natural voices are an optional download.
+- **A Wallet for your logins:** import logins from Chrome, Edge or Firefox, make strong ones, fill them with Alt + right-click or Ctrl+Alt+P, and keep two-factor codes. The model never sees the values.
+- **Computer use goes further:** a task that's still making progress keeps going past 24 steps, up to 72, and Foldmate carries on after you approve a step instead of stopping to describe it.
+- **Licences stay yours to accept:** a PC command that would accept a licence agreement for you is refused. The rest of the task goes on, and you get the licence to accept yourself.
+- **Direct by default, Tor when you want it:** searches, downloads and connected services go direct. Turn on **Through Tor** in **Tools & integrations** for the private route; it never falls back to direct.
+- **More for your chats:** archive chats, saved prompts with /, saved messages, About you for every bot, usage per day, and every chat exported in one .zip.
+- **Many smaller fixes:** shorter menus, faster settings lists, translated error messages, and focus and screen-reader fixes across the app.
 
 ## New in 0.6.2
 
@@ -99,9 +113,8 @@ When an update is available, a small arrow appears next to Foldmate's name in th
 Choose it to download the update (you can follow its progress or cancel it), then choose
 **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 0.6.2 is one of those: from
-0.6.1 or 0.6.0 it's a small download (about 17 MB). From an older version, the update downloads the
-full installer (about 0.88 GB).
+From 0.4.0 on, most updates download only the files that changed. 1.0.0 changes Foldmate's engine
+too, so every version downloads the full installer for it (about 0.88 GB).
 
 ## Asking before it acts
 
