@@ -7,7 +7,14 @@ Foldmate runs AI models on your own PC. No account.
 - Web research goes direct by default. Turn on Through Tor for the private route; it never falls
   back to direct.
 
-This is an early build shared with friends. Thanks for trying it. The latest version is **1.0.5**.
+This is an early build shared with friends. Thanks for trying it. The latest version is **1.0.6**.
+
+## New in 1.0.6
+
+- **Long tasks keep going:** when a long task fills the model's context, Foldmate sets its oldest steps aside instead of stopping. They stay in the chat's saved history.
+- **More fixes from our own review:** an automation moved to another bot can't get stuck waiting for an approval, linked chats' messages get the same safety check as text read on screen, and PowerPoint gets keyboard tips.
+- **Computer use:** in Full access, a command that only joins lines of text no longer asks first, and a task the model leaves half done with a stray note goes on to its next step.
+- **Skills and the developer API:** fixes from a bug hunt, including clean errors instead of crashes for malformed requests.
 
 ## New in 1.0.5
 
@@ -128,8 +135,8 @@ When an update is available, a small arrow appears next to Foldmate's name in th
 Choose it to download the update (you can follow its progress or cancel it), then choose
 **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.0.5 is one of those: from
-1.0.2, 1.0.1 or 1.0.0 it's a small download (about 17 MB). From an older version, the update downloads the full
+From 0.4.0 on, most updates download only the files that changed. 1.0.6 is one of those: from
+1.0.5, 1.0.2 or 1.0.1 it's a small download (about 17 MB). From an older version, the update downloads the full
 installer (about 0.88 GB).
 
 ## Asking before it acts
