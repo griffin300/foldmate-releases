@@ -7,7 +7,14 @@ Foldmate runs AI models on your own PC. No account.
 - Web research goes direct by default. Turn on Through Tor for the private route; it never falls
   back to direct.
 
-This is an early build shared with friends. Thanks for trying it. The latest version is **1.1.0**.
+This is an early build shared with friends. Thanks for trying it. The latest version is **1.1.1**.
+
+## New in 1.1.1
+
+- **Long chats remember more:** when a long chat is compacted, Foldmate now keeps your rules and corrections word for word, lists the steps already done, and sorts what it kept, so the model forgets less. Nothing is paraphrased, and the whole chat stays saved.
+- **Batch files that cmd can run:** when Foldmate writes a .bat or .cmd file that runs a path with spaces without quotes, or saves it in a form cmd can't read, it's told at once so it can fix it, instead of you finding out when the shortcut flashes and closes.
+- **Safer Wallet screenshots:** a card's browser window stays blacked out while any page in it shows the shop, a card the Wallet filled stays hidden in screen text after it locks, and Show code asks for your passphrase, as Copy does.
+- **More in your language, and fixes:** download messages, first-run sizes and update-check reasons are translated, first-run Retry recovers in more cases, and computer use says when a window was too slow to read in full.
 
 ## New in 1.1.0
 
@@ -149,8 +156,8 @@ When an update is available, a small arrow appears next to Foldmate's name in th
 Choose it to download the update (you can follow its progress or cancel it), then choose
 **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.0 is one of those: from
-1.0.6, 1.0.5 or 1.0.2 it's a small download (about 18 MB). From an older version, the update downloads the full
+From 0.4.0 on, most updates download only the files that changed. 1.1.1 is one of those: from
+1.1.0, 1.0.6 or 1.0.5 it's a small download (about 18 MB). From an older version, the update downloads the full
 installer (about 0.88 GB).
 
 ## Asking before it acts
