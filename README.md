@@ -7,7 +7,21 @@ Foldmate runs AI models on your own PC. No account.
 - Web research goes direct by default. Turn on Through Tor for the private route; it never falls
   back to direct.
 
-This is an early build shared with friends. Thanks for trying it. The latest version is **1.0.6**.
+This is an early build shared with friends. Thanks for trying it. The latest version is **1.1.0**.
+
+## New in 1.1.0
+
+- **Lens reads the text in a box:** Copy the text gives the words read in the box, with no model; a model that can't see pictures answers from that text, and text laid out as a table copies into Excel or Sheets. It's all read on this PC.
+- **Lens blacks out personal details it recognises:** before Lens sends a picture to a cloud model, it blacks out the emails and the phone, card and Social Security numbers it recognises there. You can untick it when Lens asks to send.
+- **Search the web from Lens:** Search the web opens a chat that searches about the box you drew, or about the question you typed.
+- **Search the web from any app:** select text in any app, and Assist's Search the web opens a chat in Foldmate that searches about it. Emails and phone and card numbers it recognises are left out.
+- **Sources under web answers:** a reply that searched the web lists its sources, numbered, and its citations link to them. Copy includes the list.
+- **Recent results, and sites to skip:** in Tools & integrations, choose results from the past day, month or year for a chat, and list sites that web searches leave out (Deep research doesn't use the list yet).
+- **Clearer model errors in Code:** when a cloud or Zen model stops OpenCode, the Code tab says why in plain words, such as a used-up free limit or a refused key. It no longer offers Reload last used model then.
+- **Copy picture, and skip a site from its source:** Lens's Copy picture puts the box you drew on the clipboard, Esc asks before closing Lens while Do is still working, and a source under an answer has a button that skips its site in future web searches.
+- **Fixes from our Lens review:** the shortcut no longer sends Ctrl+C to common terminals, a refused Lens start leaves no empty chat, photos fit in a chat, and Lens menus work from the keyboard.
+- **Safer Wallet and connectors:** a card the Wallet filled guards its whole browser window, in every chat and tab, and the Wallet types a password only into a password box. A connected service's result counts as untrusted, like a web page: Always allow pauses until your next message after one (read-only tools excepted). Excel and PowerPoint use a file you already have open instead of opening it again.
+- **Smoother first run and narrow windows:** Retry resumes the starter model's download, a damaged download starts over, and a full disk says so. Buttons, banners and menus fit in narrow windows and right-to-left languages.
 
 ## New in 1.0.6
 
@@ -93,7 +107,7 @@ This is an early build shared with friends. Thanks for trying it. The latest ver
 - **A steadier Lens:** long answers no longer stop on their own, a busy model says so at once, and Do won't act on Foldmate's own window.
 - **See what fills the context:** click the context ring for a breakdown by part, with **Compact now**. Compacting no longer adds notices to the chat.
 - **Free cloud models in Code (optional):** OpenCode Zen's free models can be turned on per project, over Tor by default or directly. They're off until you choose them, and when on, that project's coding requests go to OpenCode Zen's servers.
-- **Faster replies:** models with built-in speculative decoding (MTP) now use it by default: about twice as fast, with the same answers.
+- **Faster replies:** models with built-in speculative decoding (MTP) now use it by default: faster, with the same answers.
 - **No Docker needed:** Foldmate's own engine runs web research and OpenCode. A PC that used Docker Desktop moves over once, automatically.
 - **Many smaller fixes:** pictures in chat, computer use, keyboard and screen-reader use, and project commands in Code behave more reliably.
 - **License:** Foldmate is free to use but not open source (all rights reserved). The open-source parts it carries keep their own licenses.
@@ -121,7 +135,7 @@ This is an early build shared with friends. Thanks for trying it. The latest ver
 - **RAM:** 16 GB or more is recommended. 8 GB works with small models.
 - **Virtualization turned on** in your PC's BIOS/UEFI, for web research. Without it, chat still
   works, and Foldmate tells you what to turn on.
-- **Disk:** about 15 GB free to install and set up (about 9 GB stays in use), plus your models.
+- **Disk:** plan for about 15 GB free to install and set up, plus your models.
   A small model is about 1–2 GB.
 - **A graphics card is optional.** Models run on the processor too, just slower.
 
@@ -135,8 +149,8 @@ When an update is available, a small arrow appears next to Foldmate's name in th
 Choose it to download the update (you can follow its progress or cancel it), then choose
 **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.0.6 is one of those: from
-1.0.5, 1.0.2 or 1.0.1 it's a small download (about 17 MB). From an older version, the update downloads the full
+From 0.4.0 on, most updates download only the files that changed. 1.1.0 is one of those: from
+1.0.6, 1.0.5 or 1.0.2 it's a small download (about 18 MB). From an older version, the update downloads the full
 installer (about 0.88 GB).
 
 ## Asking before it acts
@@ -164,7 +178,8 @@ Each chat has an approval mode:
 - **Lens:** choose **Lens mode** in that menu, press **Ctrl+Alt+Space** with nothing selected,
   or **Alt + right-click** anywhere. The screen freezes. Drag a box around anything to ask about it.
 - **Assist:** select text in any app, then press **Ctrl+Alt+Space** or **Alt + right-click** it, to
-  proofread, rewrite, summarize, explain or translate it with your own model.
+  proofread, rewrite, summarize, explain or translate it with your own model, or search the web
+  about it.
 - **Alt + right-click** is on by default from 0.4.2, even if you had turned it off. If an app
   needs that click, turn it off in **App settings › This PC**.
 
