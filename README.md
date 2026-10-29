@@ -7,7 +7,15 @@ Foldmate runs AI models on your own PC. No account.
 - Web research goes direct by default. Turn on Through Tor for the private route; it never falls
   back to direct.
 
-This is an early build shared with friends. Thanks for trying it. The latest version is **1.1.1**.
+This is an early build shared with friends. Thanks for trying it. The latest version is **1.1.2**.
+
+## New in 1.1.2
+
+- **Steadier computer use and PowerShell:** wide PowerShell tables are no longer cut, long command output keeps its start and end, a path built on an unset variable is pointed out, and the reply goes on when an approved step can't run.
+- **Memory shared across your bots:** when the model suggests something to remember, you can keep it for every bot and mode, or only for that bot. Lens and Assist can use it too once you turn that on.
+- **Automations that start on their own:** an automation can start when files arrive in a folder, with up to three of them attached, or when Foldmate starts.
+- **Transcribe a window:** Ctrl+Alt+T records only the front app's sound, never your microphone, and Stop turns the recording into a transcript chat.
+- **Model card settings, and fixes:** a model whose card lists recommended settings uses them by default, Deep Research quotes each page under its own link, and many smaller fixes make chats and automations more reliable. The web research service is updated too, so its first start after this update takes a little longer.
 
 ## New in 1.1.1
 
@@ -156,9 +164,8 @@ When an update is available, a small arrow appears next to Foldmate's name in th
 Choose it to download the update (you can follow its progress or cancel it), then choose
 **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.1 is one of those: from
-1.1.0, 1.0.6 or 1.0.5 it's a small download (about 18 MB). From an older version, the update downloads the full
-installer (about 0.88 GB).
+From 0.4.0 on, most updates download only the files that changed. 1.1.2 isn't one of those: its web
+research service changed, so every version downloads the full installer (about 0.88 GB) to update.
 
 ## Asking before it acts
 
