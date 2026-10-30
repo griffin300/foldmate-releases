@@ -7,7 +7,14 @@ Foldmate runs AI models on your own PC. No account.
 - Web research goes direct by default. Turn on Through Tor for the private route; it never falls
   back to direct.
 
-This is an early build shared with friends. Thanks for trying it. The latest version is **1.1.2**.
+This is an early build shared with friends. Thanks for trying it. The latest version is **1.1.3**.
+
+## New in 1.1.3
+
+- **A chat bar on Alt+right-click:** Alt+right-click opens a slim chat bar over any app, with what you selected attached. Add a screenshot by dragging a box, or dictate. It opens at the lower middle of the screen or next to the pointer, and this PC's model answers.
+- **Follow-ups that build on the last request:** Foldmate keeps the steps of your previous request in the chat, so a follow-up like "now do the same for March" can use what it already found instead of starting over.
+- **Approvals pick up where they stopped:** after you approve a step, the request continues from where it paused, so this PC's model doesn't reread everything first.
+- **Steadier transcription, and fixes:** transcribing a window stops cleanly when its sound can't be captured and says when part of it couldn't be written down. Quick changes to loading settings are all saved, an edit to Shared memory made while it saves is kept, and model-card settings you read apply to models installed earlier.
 
 ## New in 1.1.2
 
@@ -164,8 +171,9 @@ When an update is available, a small arrow appears next to Foldmate's name in th
 Choose it to download the update (you can follow its progress or cancel it), then choose
 **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.2 isn't one of those: its web
-research service changed, so every version downloads the full installer (about 0.88 GB) to update.
+From 0.4.0 on, most updates download only the files that changed. 1.1.3 is one of those: from
+1.1.2 it's a small download (about 18 MB). From an older version, the update downloads the
+full installer (about 0.88 GB).
 
 ## Asking before it acts
 
