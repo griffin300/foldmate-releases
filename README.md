@@ -7,7 +7,16 @@ Foldmate runs AI models on your own PC. No account.
 - Web research goes direct by default. Turn on Through Tor for the private route; it never falls
   back to direct.
 
-This is an early build shared with friends. Thanks for trying it. The latest version is **1.1.3**.
+This is an early build shared with friends. Thanks for trying it. The latest version is **1.1.4**.
+
+## New in 1.1.4
+
+- **The chat bar on Alt+Space:** Alt+Space opens the chat bar over any app. Highlight text while it's open and it joins your question. Temporary chats, Load model and Always on top are in its ⋮ menu.
+- **One memory to bring with you:** About you and shared memory are now one Memory box in Your data and memory, with an off switch and a prompt that brings your memories over from another assistant.
+- **Folders whose chats talk:** drag chats into a folder and they can message each other by name, each on its own bot and model. It's free, and any folder can turn it off.
+- **Locked chats and an app lock:** lock a chat to hide its title and messages behind a password, and if you like, have Foldmate ask for it when it starts.
+- **Zero data retention:** one switch sends web searches and page reads through Tor, stops keeping command output and starts new chats as temporary ones.
+- **Automation ideas, a tidier Wallet, and fixes:** Automations open with ideas to start from, the Wallet is one searchable list, Google and Microsoft 365 lead the connectors, and many fixes make the chat bar, Assist and transcription steadier. The web research service is updated too, so its first start after this update takes a little longer.
 
 ## New in 1.1.3
 
@@ -171,9 +180,8 @@ When an update is available, a small arrow appears next to Foldmate's name in th
 Choose it to download the update (you can follow its progress or cancel it), then choose
 **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.3 is one of those: from
-1.1.2 it's a small download (about 18 MB). From an older version, the update downloads the
-full installer (about 0.88 GB).
+From 0.4.0 on, most updates download only the files that changed. 1.1.4 isn't one of those: its web
+research service changed, so every version downloads the full installer (about 0.88 GB) to update.
 
 ## Asking before it acts
 
@@ -192,18 +200,19 @@ Each chat has an approval mode:
 - **Purchases with the Wallet** ask you first in every mode. In **Wallet & passwords › Limits and
   purchases** you can allow purchases within your limits in Full access without asking (off by default).
 
-## The tray, the Lens and Assist
+## The tray, the chat bar and Assist
 
 - **The tray:** right-click Foldmate's icon by the clock for a small menu: **Open Foldmate**,
-  **Load model** (your recent models), **Lens mode**, **Eject model**, **Settings** and **Quit Foldmate**. Quit
-  unloads Foldmate's model and stops its private web research, so their memory is free again.
-- **Lens:** choose **Lens mode** in that menu, press **Ctrl+Alt+Space** with nothing selected,
-  or **Alt + right-click** anywhere. The screen freezes. Drag a box around anything to ask about it.
-- **Assist:** select text in any app, then press **Ctrl+Alt+Space** or **Alt + right-click** it, to
-  proofread, rewrite, summarize, explain or translate it with your own model, or search the web
-  about it.
-- **Alt + right-click** is on by default from 0.4.2, even if you had turned it off. If an app
-  needs that click, turn it off in **App settings › This PC**.
+  **Load model** (your recent models), **Lens**, **Eject model**, **App settings** and **Quit Foldmate**.
+  Quit unloads Foldmate's model and stops its private web research, so their memory is free again.
+- **The chat bar:** press **Alt+Space**, choose **Lens** in that menu, or press **Ctrl+Alt+Space**
+  with nothing selected. A slim bar opens over any app; text you highlight while it's open joins
+  your question, and you can drag a box to add a screenshot or dictate. Its ⋮ menu has Temporary
+  chat, Load model and Always on top.
+- **Assist:** select text in any app, then press **Ctrl+Alt+Space**, to proofread, rewrite,
+  summarize, explain or translate it with your own model, or search the web about it.
+- **Alt + right-click** is off by default from 1.1.4. You can turn it on in **App settings ›
+  This PC** to open the chat bar with it; drawing and CAD apps lose that click.
 
 ## Known limits of this preview
 
