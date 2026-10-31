@@ -7,7 +7,17 @@ Foldmate runs AI models on your own PC. No account.
 - Web research goes direct by default. Turn on Through Tor for the private route; it never falls
   back to direct.
 
-This is an early build shared with friends. Thanks for trying it. The latest version is **1.1.5**.
+This is an early build shared with friends. Thanks for trying it. The latest version is **1.1.6**.
+
+## New in 1.1.6
+
+- **A smarter chat bar:** its menu has a compact model picker for this PC's models and your cloud ones, a stopwatch sets how much the model thinks (Medium by default), and the context ring opens a panel with Compact now. The bar opens in front of your windows, and its working light is a soft pink glow.
+- **Notes beside the chat bar:** a small list you can tick off, edit and export as Markdown, text or a web page, from the bar's menu or in Foldmate.
+- **Alt+` opens the bar:** the key under Esc is the new default; Alt+Space, Ctrl+Alt+F and Ctrl+Alt+B are choices in App settings.
+- **Cloud models connect directly by default:** cloud APIs and OpenCode Zen go straight to the provider, which avoids the free-limit errors a shared Tor address caused. Through Tor stays a choice, and settings you chose are kept.
+- **Edit and resend in Code:** edit an earlier message in the Code tab and send it again, or regenerate OpenCode's last reply. You first see which of OpenCode's file changes from then on are undone; what Undo removes goes to the Recycle Bin, and you can keep the files instead.
+- **A slimmer window and fixes:** the title bar matches the app, windows lose their blue accent borders, steps and approvals in chat are tidier, PCs with little graphics memory are offered Bonsai, and phone pairing survives a lost reply.
+- **Steadier web search:** on the direct route, search skips sources that refuse or fail from your address, gives up on a stalled page sooner, and keeps Tor and direct results apart. The web research service is updated too, so its first start after this update takes a little longer.
 
 ## New in 1.1.5
 
@@ -188,9 +198,8 @@ When an update is available, a small arrow appears next to Foldmate's name in th
 Choose it to download the update (you can follow its progress or cancel it), then choose
 **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.5 is one of those: from
-1.1.4 it's a small download (about 18 MB). From an older version, the update downloads the
-full installer (about 0.88 GB).
+From 0.4.0 on, most updates download only the files that changed. 1.1.6 isn't one of those: its web
+research service changed, so every version downloads the full installer (about 0.88 GB) to update.
 
 ## Asking before it acts
 
