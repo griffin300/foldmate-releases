@@ -7,7 +7,15 @@ Foldmate runs AI models on your own PC. No account.
 - Web research goes direct by default. Turn on Through Tor for the private route; it never falls
   back to direct.
 
-This is an early build shared with friends. Thanks for trying it. The latest version is **1.1.4**.
+This is an early build shared with friends. Thanks for trying it. The latest version is **1.1.5**.
+
+## New in 1.1.5
+
+- **Undo PC changes:** after PowerShell commands move, rename, copy, delete or write files, the reply offers Undo PC changes. A review shows what will happen first: moved files move back, changed files get their saved copy, and files the turn made go to the Recycle Bin. Nothing is deleted for good, and a file changed since is left as it is. Changes made by other programs, such as robocopy, aren't covered.
+- **Choice cards:** when only you can decide, such as which folder or which file, Foldmate shows the options as buttons, or you type your own answer, instead of guessing.
+- **Long computer tasks end with a report:** a task that reaches its step limit ends with a short report of what it did and what is left, and "continue" picks it up from there.
+- **Programs that end, and batch files:** when a finished command ends a program it started, Foldmate says which one and offers to keep it running with your approval. A batch file whose start line would never run its program is flagged at once.
+- **Fixes:** the chat bar's automatic save, folder messages, the Zero data retention switch, Memory and Privacy settings, transcription, the Wallet and Automation editors, and the Tools popup on small windows.
 
 ## New in 1.1.4
 
@@ -180,8 +188,9 @@ When an update is available, a small arrow appears next to Foldmate's name in th
 Choose it to download the update (you can follow its progress or cancel it), then choose
 **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.4 isn't one of those: its web
-research service changed, so every version downloads the full installer (about 0.88 GB) to update.
+From 0.4.0 on, most updates download only the files that changed. 1.1.5 is one of those: from
+1.1.4 it's a small download (about 18 MB). From an older version, the update downloads the
+full installer (about 0.88 GB).
 
 ## Asking before it acts
 
