@@ -7,7 +7,15 @@ Foldmate runs AI models on your own PC. No account.
 - Web research goes direct by default. Turn on Through Tor for the private route; it never falls
   back to direct.
 
-This is an early build shared with friends. Thanks for trying it. The latest version is **1.1.6**.
+This is an early build shared with friends. Thanks for trying it. The latest version is **1.1.7**.
+
+## New in 1.1.7
+
+- **Remote replaces Phone access:** Settings & tools › Remote lets your phone reach this computer through Foldmate's private link over Tor, with no account. Pair it with a QR code from the Foldmate iPhone app, see when each phone was last here, and set the name your phone shows for this computer. Unpairing in the app removes it here too; Tailscale and a phone browser are under Advanced.
+- **Load your last model from your phone:** when no model is loaded, the phone offers Load my last model: the one you last used on this computer, never a download. It needs the phone's Send permission, and says so when graphics memory is short.
+- **Phones respect locked chats:** a locked chat shows on the phone as Locked chat, with nothing readable, until you open it on this computer, and the phone waits while Foldmate asks for its startup password. Before 1.1.7 a paired phone could still read locked chats.
+- **A lighter engine:** an engine update that brings new images needs about 5.2 GB free instead of 7.9 GB and removes the previous version's images afterwards. If space is short, the Startup panel names the drive and how much is needed, and Retry checks again. The engine also starts about 10 seconds faster, and its log is capped at 64 MB.
+- **Clearer chat bar notices:** notices above the chat bar are one small card that stays readable over any wallpaper, with one button when there's something to do. A model that can't load for lack of graphics memory says so, with how much is free, instead of "Loading was cancelled".
 
 ## New in 1.1.6
 
@@ -198,8 +206,9 @@ When an update is available, a small arrow appears next to Foldmate's name in th
 Choose it to download the update (you can follow its progress or cancel it), then choose
 **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.6 isn't one of those: its web
-research service changed, so every version downloads the full installer (about 0.88 GB) to update.
+From 0.4.0 on, most updates download only the files that changed. 1.1.7 is one of those: from
+1.1.6 it's a small download (about 18 MB). From an older version, the update downloads the
+full installer (about 0.88 GB).
 
 ## Asking before it acts
 
