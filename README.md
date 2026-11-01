@@ -7,7 +7,20 @@ Foldmate runs AI models on your own PC. No account.
 - Web research goes direct by default. Turn on Through Tor for the private route; it never falls
   back to direct.
 
-This is an early build shared with friends. Thanks for trying it. The latest version is **1.1.7**.
+This is an early build shared with friends. Thanks for trying it. The latest version is **1.1.8**.
+
+## New in 1.1.8
+
+- **Fewer approval cards:** in Ask every time and Approve for me, one card can now allow a computer-use task: Allow for this task covers its steps in the apps it uses until the reply ends. Opening Chrome and searching asked 4 times; now it asks once. Sending, paying, deleting, passwords and protected windows still ask each time, and the cards and steps in the chat are smaller.
+- **More from your phone:** with the iPhone app's update, a paired phone can pick and load this computer's models, chat on them, set how hard a chat thinks, steer a reply while it runs and compact a chat.
+- **Phone messages follow the chat's mode:** a phone allowed to send can now raise or lower a chat's approval mode, and messages sent from it follow that mode: in a chat on Approve for me or Full access, they no longer ask before every action. To keep phones asking, turn off the switch in App settings › Security.
+- **A clearer Remote tab:** Settings & tools › Remote is laid out around your devices. While this computer's private address is being published over Tor, it shows the progress, and the QR code says Ready to scan once a phone can reach it. A paired phone keeps its connection open: in our test over Tor, each request took about 0.6 seconds instead of 1.
+- **See and use this computer from your phone:** with the iPhone app's update, a paired phone can watch this computer's screen and, if you allow it, take over its mouse and keyboard. Both are off for every phone until you turn them on in Settings & tools › Remote, and Foldmate's own windows and the windows the Wallet hides are blacked out. While a phone has control, a pill on this computer says so, with Stop (or press Ctrl+Alt+Esc), and Foldmate's work on the computer waits. In our test over Tor, a tap showed up in about 1.3 seconds.
+- **Faster on the same Wi-Fi:** a phone on this computer's Wi-Fi can connect straight to it instead of through Tor, with keys this computer makes for that phone. Turn on Same Wi-Fi connection in Settings & tools › Remote and allow it for the phone. It runs only on networks Windows calls Private; Tor stays the way in when the phone is elsewhere.
+- **A tidier model picker in the chat bar:** the bar's model menu is cleaner, and its + button opens Cloud models in the main window to add a provider.
+- **The context ring counts only the chat:** the room kept for the model's reply no longer counts as used, so the ring shows what the chat itself takes. Click it to see the reply's room on its own line.
+- **Leaner web research:** a web search now hands the model 6,000 characters of results instead of 9,000. In our tests the answers were as good, with about 30% fewer tokens to read and replies a little sooner.
+- **Two chats at once, and fixes:** Requests at once above 1 now runs the model without MTP, which made two chats slower than taking turns. Shift+click selects a run of chats to delete, a stopped reply's Continue sits still, and split view keeps room for its buttons.
 
 ## New in 1.1.7
 
@@ -206,9 +219,9 @@ When an update is available, a small arrow appears next to Foldmate's name in th
 Choose it to download the update (you can follow its progress or cancel it), then choose
 **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.7 is one of those: from
-1.1.6 it's a small download (about 18 MB). From an older version, the update downloads the
-full installer (about 0.88 GB).
+From 0.4.0 on, most updates download only the files that changed. 1.1.8 is one of those: from
+1.1.7 it's a small download (about 18 MB), and from 1.1.6 about 18 MB. From an older
+version, the update downloads the full installer (about 0.88 GB).
 
 ## Asking before it acts
 
