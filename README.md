@@ -1,4 +1,4 @@
-# Foldmate (Windows)
+# Foldmate (Windows, with a Mac preview)
 
 Foldmate runs AI models on your own PC. You don't need an account, and your chats stay on your computer
 unless you choose a cloud model.
@@ -55,6 +55,14 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
    during the first few minutes. Foldmate recommends a model that fits your PC and downloads it only when
    you choose **Download and load**. Models already in LM Studio's or Ollama's folders show up in
    **Models** where they are; nothing is copied.
+
+## Mac (preview)
+
+A Mac version of 1.1.11 is on the same release: download `Foldmate-1.1.11-mac.dmg` under **Assets**. It's built
+and tested on Apple silicon (an M1). It isn't notarized by Apple yet, so macOS stops it the first time:
+Control-click Foldmate in Applications and choose **Open**, or open **System Settings › Privacy & Security** and
+choose **Open Anyway**. Some features are Windows-only for now, including PC commands and the phone's video and
+computer sound.
 
 ## What you need
 
@@ -133,7 +141,7 @@ where you left off. Delete that folder yourself if you no longer need it.
 
 ## Known limits
 
-- Windows 11 only for now.
+- Windows 11, with a Mac preview for Apple silicon (see Mac, above).
 - Foldmate isn't code-signed yet (see Install, step 2).
 - Web research and OpenCode need WSL and virtualization. Without them, chat still works.
 - The translations haven't been reviewed by native speakers yet.
