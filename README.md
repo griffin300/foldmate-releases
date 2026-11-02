@@ -9,7 +9,15 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.12**.
+The latest version is **1.1.13**.
+
+## New in 1.1.13
+
+- **A sharper, smoother phone screen:** your phone's view of this computer stays sharp while you scroll or type, moves more smoothly over Tor, and text turns crisp the moment the screen stops. Colours now match this screen. It works with the iPhone app that shows video.
+- **Photos in your phone's chats:** send photos from the iPhone app to a chat on this computer's model. It needs a model that can see pictures, with Vision on. Photos go only to this computer's own model and aren't saved.
+- **Safer card checkouts:** in desktop control, the model can no longer read a card's security code that you typed, and the Wallet no longer fills lists such as Country, where a near match could pick the wrong option.
+- **Phone screen fixes:** with this computer's display turned off, the phone says the screen is unavailable instead of showing black, and the picture comes back as soon as the display does. After you unlock, or after Foldmate restarts, an open phone screen picks up again right away.
+- **Polish:** 16 layout fixes (approval cards, the Models page, German and narrow windows), plainer wording in every language, and less background work while the window sits idle.
 
 ## New in 1.1.12
 
@@ -44,7 +52,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.12.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.13.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -63,7 +71,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Mac (preview)
 
-A Mac version of 1.1.12 is on the same release: download `Foldmate-1.1.12-mac.dmg` under **Assets**. It's built
+The Mac preview is version 1.1.12: download `Foldmate-1.1.12-mac.dmg` from the [1.1.12 release](https://github.com/griffin300/foldmate-releases/releases/tag/v1.1.12). It's built
 and tested on Apple silicon (an M1). It isn't notarized by Apple yet, so macOS stops it the first time:
 Control-click Foldmate in Applications and choose **Open**, or open **System Settings › Privacy & Security** and
 choose **Open Anyway**. Some features are Windows-only for now, including PC commands and the phone's video and
@@ -102,9 +110,8 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.12 is one of those: from 1.1.11 it's a
-small download (about 18 MB), and from 1.1.10 about 19 MB. From an older version, the update downloads
-the full installer (about 0.88 GB).
+From 0.4.0 on, most updates download only the files that changed. 1.1.13 is one of those: from 1.1.12, 1.1.11 or 1.1.10 it's a small download
+(about 19 MB). From an older version, the update downloads the full installer (about 0.88 GB).
 
 ## Asking before it acts
 
