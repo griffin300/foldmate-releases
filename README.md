@@ -7,7 +7,23 @@ Foldmate runs AI models on your own PC. No account.
 - Web research goes direct by default. Turn on Through Tor for the private route; it never falls
   back to direct.
 
-This is an early build shared with friends. Thanks for trying it. The latest version is **1.1.8**.
+This is an early build shared with friends. Thanks for trying it. The latest version is **1.1.9**.
+
+## New in 1.1.9
+
+- **Set up automations by chatting:** ask in plain words, like "search the web for bananas every 15 minutes" or "remind me in 2 hours to call the dentist", and Foldmate sets it up, lists it, changes it or pauses it. Each one leaves a small line in the chat that opens it in Automations, and a repeat notifies you only when it finds something new.
+- **Send email from Outlook:** connect Outlook in Connections, then ask in any chat to email someone or to draft an email. A draft shows in the chat with Copy, Edit and Send, and in Ask every time you see the whole email, and can edit it, before it goes. Gmail follows in a later update.
+- **Faster updates from now on:** from the next update on, Foldmate opens again about 8 seconds after a small update instead of about 45, and web research is ready in about 14 seconds instead of about 84 (in our tests). A small Foldmate card shows while it installs, with no installer window, and the update sheet says up front whether it's a small or full update and how big it is.
+- **A steadier Code tab:** when OpenCode Zen's free allowance runs out, the Code tab says so once, says whether anything changed, and offers one click to switch to this computer's model or another free model. Branching a Code chat carries its memory into the copy, and Code replies show their thinking, time and steps like chat replies.
+- **Your phone's keyboard opens by itself:** with the iPhone app's update, tapping a text field on this computer from your phone opens the phone's keyboard, and it comes back for each new field. Only whether a field has focus is sent, never what's in it.
+- **Drag and scroll like a trackpad:** windows and selections follow your finger while you drag from the phone, and scrolling is smooth instead of a notch at a time. If the phone lets go, loses control or goes quiet, this computer releases the mouse button within a few seconds.
+- **Your phone sees the whole screen:** a phone you allow Computer use now sees and can use everything on the screen, Foldmate's own windows and the ones the Wallet hides included. Only allow it for your own phone. Foldmate's own work on the computer still never sees them.
+- **Same Wi-Fi without waiting for Tor:** on this computer's Wi-Fi your phone can connect as soon as the private link is switched on, without waiting for Tor, and keeps working if Tor can't connect. With the iPhone app's update the phone skips Tor while the Wi-Fi connection answers.
+- **Three phone permissions and a cleaner Remote tab:** Chat, Approve actions and Computer use replace nine separate permissions. Remote shows two switches, Pair a phone, Devices and Advanced, and a pairing card asks only for the two that matter.
+- **Quieter chat buttons:** a reply's copy, bookmark, read-aloud and branch buttons are smaller and stay faint until you point at them, and replies and steps have more room between them.
+- **The chat bar loads your model when you send:** with no model loaded, Send in the chat bar loads the model you used last and answers when it's ready, showing the seconds. Models now unload after 30 idle minutes unless you chose a time in model settings.
+- **Replies start sooner:** Foldmate now loads a tool family when a chat first needs it instead of sending every tool with every message. In our tests a typical task went from 38 to 20 seconds with the same results.
+- **Fixes:** scrolling up while a reply streams no longer jumps back down, a branch or copy of a Code chat keeps its own model instead of taking the project's cloud model, and a tool call the model wasn't offered no longer ends the turn.
 
 ## New in 1.1.8
 
@@ -219,9 +235,7 @@ When an update is available, a small arrow appears next to Foldmate's name in th
 Choose it to download the update (you can follow its progress or cancel it), then choose
 **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.8 is one of those: from
-1.1.7 it's a small download (about 18 MB), and from 1.1.6 about 18 MB. From an older
-version, the update downloads the full installer (about 0.88 GB).
+From 0.4.0 on, most updates download only the files that changed. 1.1.9 is one of those: from 1.1.8 it's a small download (about 19 MB), from 1.1.7 about 19 MB, and from 1.1.6 about 19 MB. From an older version, the update downloads the full installer (about 0.88 GB).
 
 ## Asking before it acts
 
