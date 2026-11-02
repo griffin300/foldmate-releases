@@ -9,7 +9,12 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.11**.
+The latest version is **1.1.12**.
+
+## New in 1.1.12
+
+- **Foldmate for Mac (preview):** a Mac version of 1.1.12 for Apple silicon is on the same release, next to the Windows installer (see Mac, below).
+- **Typing from your phone:** with the iPhone app's update, typing goes over in batches from the moment you connect.
 
 ## New in 1.1.11
 
@@ -39,7 +44,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.10.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.12.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -58,7 +63,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Mac (preview)
 
-A Mac version of 1.1.11 is on the same release: download `Foldmate-1.1.11-mac.dmg` under **Assets**. It's built
+A Mac version of 1.1.12 is on the same release: download `Foldmate-1.1.12-mac.dmg` under **Assets**. It's built
 and tested on Apple silicon (an M1). It isn't notarized by Apple yet, so macOS stops it the first time:
 Control-click Foldmate in Applications and choose **Open**, or open **System Settings › Privacy & Security** and
 choose **Open Anyway**. Some features are Windows-only for now, including PC commands and the phone's video and
@@ -97,8 +102,9 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.11 is one of those: from 1.1.10 it's a
-small download (about 19 MB). From an older version, the update downloads the full installer (about 0.88 GB).
+From 0.4.0 on, most updates download only the files that changed. 1.1.12 is one of those: from 1.1.11 it's a
+small download (about 18 MB), and from 1.1.10 about 19 MB. From an older version, the update downloads
+the full installer (about 0.88 GB).
 
 ## Asking before it acts
 
