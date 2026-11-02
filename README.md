@@ -1,289 +1,161 @@
-# Foldmate: friends preview (Windows)
+# Foldmate (Windows)
 
-Foldmate runs AI models on your own PC. No account.
+Foldmate runs AI models on your own PC. You don't need an account, and your chats stay on your computer
+unless you choose a cloud model.
 
-- Your chats are encrypted on your disk.
-- No telemetry.
-- Web research goes direct by default. Turn on Through Tor for the private route; it never falls
-  back to direct.
+- **Your chats are encrypted on your disk**, with a key protected by your Windows account.
+- **No telemetry or analytics.** Foldmate doesn't report what you do, and it never sends a support report for you.
+- **Models run on this PC.** A cloud model is only used when you pick one, and Foldmate asks before it sends an existing chat.
+- **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
+- **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-This is an early build shared with friends. Thanks for trying it. The latest version is **1.1.9**.
+The latest version is **1.1.10**.
+
+## New in 1.1.10
+
+- **Send email from Gmail:** connect Gmail in Connections, then ask in any chat to email someone, as with Outlook. You see the whole email, and can edit it, before it goes. Foldmate can send mail but never read it. Until Google finishes reviewing Foldmate, Google's sign-in page warns that it hasn't verified the app, and at most 100 people can connect Gmail.
+- **Foldmate in your language:** every screen and help page is now in Arabic, Chinese, French, German, Italian, Japanese, Korean, Portuguese, Russian and Spanish. The translations were made with AI help and haven't been reviewed by native speakers yet, so corrections are welcome on the Issues page.
+- **A calmer look:** a reply's copy, branch and other buttons stay out of sight until you point at the reply, and the tray menu has a quiet border and lines up like other Windows menus.
+- **Clearer messages when something goes wrong:** if setup, web research or a model can't start, Foldmate says what happened and what to do next, with the technical details a click away.
+- **Hear your computer on your phone:** with the iPhone app's update, tap the speaker while you watch the screen to hear this computer's sound. This computer shows when a phone is listening.
+- **Sharper and smoother on the same Wi-Fi:** on this computer's Wi-Fi the phone's picture is clearer and scrolls more smoothly (in our tests 8.8 updates a second instead of 8.1 at the Normal size), and Sharper goes up to 1920 pixels wide.
+- **Smoother typing over Tor:** over Tor, the phone's view of this computer updates about twice as often while you type (in our tests on real Tor, 4.8 times a second instead of 2.7), at the same picture quality.
+- **Drag anything from your phone:** dragging a tab or a window from the phone no longer stops halfway. Foldmate no longer second-guesses your own taps: only Windows can block one, and the phone says why.
+- **Approve more from your phone:** a phone allowed to approve actions can now approve PC commands and coding steps too. Wallet cards still need the computer.
+- **Simpler phone pairing:** pairing shows one request at a time, named for the phone, and closes by itself when it's done. Your phone says it was declined only when you press Deny.
+- **Fixes:** an email to an address you didn't type in the chat is approved on the computer, the phone can lock this computer with Win+L, and many smaller fixes.
 
 ## New in 1.1.9
 
 - **Set up automations by chatting:** ask in plain words, like "search the web for bananas every 15 minutes" or "remind me in 2 hours to call the dentist", and Foldmate sets it up, lists it, changes it or pauses it. Each one leaves a small line in the chat that opens it in Automations, and a repeat notifies you only when it finds something new.
-- **Send email from Outlook:** connect Outlook in Connections, then ask in any chat to email someone or to draft an email. A draft shows in the chat with Copy, Edit and Send, and in Ask every time you see the whole email, and can edit it, before it goes. Gmail follows in a later update.
-- **Faster updates from now on:** from the next update on, Foldmate opens again about 8 seconds after a small update instead of about 45, and web research is ready in about 14 seconds instead of about 84 (in our tests). A small Foldmate card shows while it installs, with no installer window, and the update sheet says up front whether it's a small or full update and how big it is.
-- **A steadier Code tab:** when OpenCode Zen's free allowance runs out, the Code tab says so once, says whether anything changed, and offers one click to switch to this computer's model or another free model. Branching a Code chat carries its memory into the copy, and Code replies show their thinking, time and steps like chat replies.
-- **Your phone's keyboard opens by itself:** with the iPhone app's update, tapping a text field on this computer from your phone opens the phone's keyboard, and it comes back for each new field. Only whether a field has focus is sent, never what's in it.
-- **Drag and scroll like a trackpad:** windows and selections follow your finger while you drag from the phone, and scrolling is smooth instead of a notch at a time. If the phone lets go, loses control or goes quiet, this computer releases the mouse button within a few seconds.
-- **Your phone sees the whole screen:** a phone you allow Computer use now sees and can use everything on the screen, Foldmate's own windows and the ones the Wallet hides included. Only allow it for your own phone. Foldmate's own work on the computer still never sees them.
-- **Same Wi-Fi without waiting for Tor:** on this computer's Wi-Fi your phone can connect as soon as the private link is switched on, without waiting for Tor, and keeps working if Tor can't connect. With the iPhone app's update the phone skips Tor while the Wi-Fi connection answers.
-- **Three phone permissions and a cleaner Remote tab:** Chat, Approve actions and Computer use replace nine separate permissions. Remote shows two switches, Pair a phone, Devices and Advanced, and a pairing card asks only for the two that matter.
-- **Quieter chat buttons:** a reply's copy, bookmark, read-aloud and branch buttons are smaller and stay faint until you point at them, and replies and steps have more room between them.
-- **The chat bar loads your model when you send:** with no model loaded, Send in the chat bar loads the model you used last and answers when it's ready, showing the seconds. Models now unload after 30 idle minutes unless you chose a time in model settings.
-- **Replies start sooner:** Foldmate now loads a tool family when a chat first needs it instead of sending every tool with every message. In our tests a typical task went from 38 to 20 seconds with the same results.
-- **Fixes:** scrolling up while a reply streams no longer jumps back down, a branch or copy of a Code chat keeps its own model instead of taking the project's cloud model, and a tool call the model wasn't offered no longer ends the turn.
+- **Send email from Outlook:** connect Outlook in Connections, then ask in any chat to email someone or to draft an email. A draft shows in the chat with Copy, Edit and Send, and in Ask every time you see the whole email, and can edit it, before it goes.
+- **Faster updates from now on:** Foldmate opens again about 8 seconds after a small update instead of about 45, and web research is ready in about 14 seconds instead of about 84 (in our tests). A small Foldmate card shows while it installs, with no installer window.
+- **A steadier Code tab:** when OpenCode Zen's free allowance runs out, the Code tab says so once and offers one click to switch to this computer's model or another free model.
+- **Your phone:** with the iPhone app's update, the phone's keyboard opens by itself for a text field on this computer, dragging and scrolling work like a trackpad, the same Wi-Fi works without waiting for Tor, and Remote has three permissions instead of nine.
+- **Replies start sooner:** Foldmate loads a tool family when a chat first needs it instead of sending every tool with every message. In our tests a typical task went from 38 to 20 seconds with the same results.
 
-## New in 1.1.8
-
-- **Fewer approval cards:** in Ask every time and Approve for me, one card can now allow a computer-use task: Allow for this task covers its steps in the apps it uses until the reply ends. Opening Chrome and searching asked 4 times; now it asks once. Sending, paying, deleting, passwords and protected windows still ask each time, and the cards and steps in the chat are smaller.
-- **More from your phone:** with the iPhone app's update, a paired phone can pick and load this computer's models, chat on them, set how hard a chat thinks, steer a reply while it runs and compact a chat.
-- **Phone messages follow the chat's mode:** a phone allowed to send can now raise or lower a chat's approval mode, and messages sent from it follow that mode: in a chat on Approve for me or Full access, they no longer ask before every action. To keep phones asking, turn off the switch in App settings › Security.
-- **A clearer Remote tab:** Settings & tools › Remote is laid out around your devices. While this computer's private address is being published over Tor, it shows the progress, and the QR code says Ready to scan once a phone can reach it. A paired phone keeps its connection open: in our test over Tor, each request took about 0.6 seconds instead of 1.
-- **See and use this computer from your phone:** with the iPhone app's update, a paired phone can watch this computer's screen and, if you allow it, take over its mouse and keyboard. Both are off for every phone until you turn them on in Settings & tools › Remote, and Foldmate's own windows and the windows the Wallet hides are blacked out. While a phone has control, a pill on this computer says so, with Stop (or press Ctrl+Alt+Esc), and Foldmate's work on the computer waits. In our test over Tor, a tap showed up in about 1.3 seconds.
-- **Faster on the same Wi-Fi:** a phone on this computer's Wi-Fi can connect straight to it instead of through Tor, with keys this computer makes for that phone. Turn on Same Wi-Fi connection in Settings & tools › Remote and allow it for the phone. It runs only on networks Windows calls Private; Tor stays the way in when the phone is elsewhere.
-- **A tidier model picker in the chat bar:** the bar's model menu is cleaner, and its + button opens Cloud models in the main window to add a provider.
-- **The context ring counts only the chat:** the room kept for the model's reply no longer counts as used, so the ring shows what the chat itself takes. Click it to see the reply's room on its own line.
-- **Leaner web research:** a web search now hands the model 6,000 characters of results instead of 9,000. In our tests the answers were as good, with about 30% fewer tokens to read and replies a little sooner.
-- **Two chats at once, and fixes:** Requests at once above 1 now runs the model without MTP, which made two chats slower than taking turns. Shift+click selects a run of chats to delete, a stopped reply's Continue sits still, and split view keeps room for its buttons.
-
-## New in 1.1.7
-
-- **Remote replaces Phone access:** Settings & tools › Remote lets your phone reach this computer through Foldmate's private link over Tor, with no account. Pair it with a QR code from the Foldmate iPhone app, see when each phone was last here, and set the name your phone shows for this computer. Unpairing in the app removes it here too; Tailscale and a phone browser are under Advanced.
-- **Load your last model from your phone:** when no model is loaded, the phone offers Load my last model: the one you last used on this computer, never a download. It needs the phone's Send permission, and says so when graphics memory is short.
-- **Phones respect locked chats:** a locked chat shows on the phone as Locked chat, with nothing readable, until you open it on this computer, and the phone waits while Foldmate asks for its startup password. Before 1.1.7 a paired phone could still read locked chats.
-- **A lighter engine:** an engine update that brings new images needs about 5.2 GB free instead of 7.9 GB and removes the previous version's images afterwards. If space is short, the Startup panel names the drive and how much is needed, and Retry checks again. The engine also starts about 10 seconds faster, and its log is capped at 64 MB.
-- **Clearer chat bar notices:** notices above the chat bar are one small card that stays readable over any wallpaper, with one button when there's something to do. A model that can't load for lack of graphics memory says so, with how much is free, instead of "Loading was cancelled".
-
-## New in 1.1.6
-
-- **A smarter chat bar:** its menu has a compact model picker for this PC's models and your cloud ones, a stopwatch sets how much the model thinks (Medium by default), and the context ring opens a panel with Compact now. The bar opens in front of your windows, and its working light is a soft pink glow.
-- **Notes beside the chat bar:** a small list you can tick off, edit and export as Markdown, text or a web page, from the bar's menu or in Foldmate.
-- **Alt+` opens the bar:** the key under Esc is the new default; Alt+Space, Ctrl+Alt+F and Ctrl+Alt+B are choices in App settings.
-- **Cloud models connect directly by default:** cloud APIs and OpenCode Zen go straight to the provider, which avoids the free-limit errors a shared Tor address caused. Through Tor stays a choice, and settings you chose are kept.
-- **Edit and resend in Code:** edit an earlier message in the Code tab and send it again, or regenerate OpenCode's last reply. You first see which of OpenCode's file changes from then on are undone; what Undo removes goes to the Recycle Bin, and you can keep the files instead.
-- **A slimmer window and fixes:** the title bar matches the app, windows lose their blue accent borders, steps and approvals in chat are tidier, PCs with little graphics memory are offered Bonsai, and phone pairing survives a lost reply.
-- **Steadier web search:** on the direct route, search skips sources that refuse or fail from your address, gives up on a stalled page sooner, and keeps Tor and direct results apart. The web research service is updated too, so its first start after this update takes a little longer.
-
-## New in 1.1.5
-
-- **Undo PC changes:** after PowerShell commands move, rename, copy, delete or write files, the reply offers Undo PC changes. A review shows what will happen first: moved files move back, changed files get their saved copy, and files the turn made go to the Recycle Bin. Nothing is deleted for good, and a file changed since is left as it is. Changes made by other programs, such as robocopy, aren't covered.
-- **Choice cards:** when only you can decide, such as which folder or which file, Foldmate shows the options as buttons, or you type your own answer, instead of guessing.
-- **Long computer tasks end with a report:** a task that reaches its step limit ends with a short report of what it did and what is left, and "continue" picks it up from there.
-- **Programs that end, and batch files:** when a finished command ends a program it started, Foldmate says which one and offers to keep it running with your approval. A batch file whose start line would never run its program is flagged at once.
-- **Fixes:** the chat bar's automatic save, folder messages, the Zero data retention switch, Memory and Privacy settings, transcription, the Wallet and Automation editors, and the Tools popup on small windows.
-
-## New in 1.1.4
-
-- **The chat bar on Alt+Space:** Alt+Space opens the chat bar over any app. Highlight text while it's open and it joins your question. Temporary chats, Load model and Always on top are in its ⋮ menu.
-- **One memory to bring with you:** About you and shared memory are now one Memory box in Your data and memory, with an off switch and a prompt that brings your memories over from another assistant.
-- **Folders whose chats talk:** drag chats into a folder and they can message each other by name, each on its own bot and model. It's free, and any folder can turn it off.
-- **Locked chats and an app lock:** lock a chat to hide its title and messages behind a password, and if you like, have Foldmate ask for it when it starts.
-- **Zero data retention:** one switch sends web searches and page reads through Tor, stops keeping command output and starts new chats as temporary ones.
-- **Automation ideas, a tidier Wallet, and fixes:** Automations open with ideas to start from, the Wallet is one searchable list, Google and Microsoft 365 lead the connectors, and many fixes make the chat bar, Assist and transcription steadier. The web research service is updated too, so its first start after this update takes a little longer.
-
-## New in 1.1.3
-
-- **A chat bar on Alt+right-click:** Alt+right-click opens a slim chat bar over any app, with what you selected attached. Add a screenshot by dragging a box, or dictate. It opens at the lower middle of the screen or next to the pointer, and this PC's model answers.
-- **Follow-ups that build on the last request:** Foldmate keeps the steps of your previous request in the chat, so a follow-up like "now do the same for March" can use what it already found instead of starting over.
-- **Approvals pick up where they stopped:** after you approve a step, the request continues from where it paused, so this PC's model doesn't reread everything first.
-- **Steadier transcription, and fixes:** transcribing a window stops cleanly when its sound can't be captured and says when part of it couldn't be written down. Quick changes to loading settings are all saved, an edit to Shared memory made while it saves is kept, and model-card settings you read apply to models installed earlier.
-
-## New in 1.1.2
-
-- **Steadier computer use and PowerShell:** wide PowerShell tables are no longer cut, long command output keeps its start and end, a path built on an unset variable is pointed out, and the reply goes on when an approved step can't run.
-- **Memory shared across your bots:** when the model suggests something to remember, you can keep it for every bot and mode, or only for that bot. Lens and Assist can use it too once you turn that on.
-- **Automations that start on their own:** an automation can start when files arrive in a folder, with up to three of them attached, or when Foldmate starts.
-- **Transcribe a window:** Ctrl+Alt+T records only the front app's sound, never your microphone, and Stop turns the recording into a transcript chat.
-- **Model card settings, and fixes:** a model whose card lists recommended settings uses them by default, Deep Research quotes each page under its own link, and many smaller fixes make chats and automations more reliable. The web research service is updated too, so its first start after this update takes a little longer.
-
-## New in 1.1.1
-
-- **Long chats remember more:** when a long chat is compacted, Foldmate now keeps your rules and corrections word for word, lists the steps already done, and sorts what it kept, so the model forgets less. Nothing is paraphrased, and the whole chat stays saved.
-- **Batch files that cmd can run:** when Foldmate writes a .bat or .cmd file that runs a path with spaces without quotes, or saves it in a form cmd can't read, it's told at once so it can fix it, instead of you finding out when the shortcut flashes and closes.
-- **Safer Wallet screenshots:** a card's browser window stays blacked out while any page in it shows the shop, a card the Wallet filled stays hidden in screen text after it locks, and Show code asks for your passphrase, as Copy does.
-- **More in your language, and fixes:** download messages, first-run sizes and update-check reasons are translated, first-run Retry recovers in more cases, and computer use says when a window was too slow to read in full.
-
-## New in 1.1.0
-
-- **Lens reads the text in a box:** Copy the text gives the words read in the box, with no model; a model that can't see pictures answers from that text, and text laid out as a table copies into Excel or Sheets. It's all read on this PC.
-- **Lens blacks out personal details it recognises:** before Lens sends a picture to a cloud model, it blacks out the emails and the phone, card and Social Security numbers it recognises there. You can untick it when Lens asks to send.
-- **Search the web from Lens:** Search the web opens a chat that searches about the box you drew, or about the question you typed.
-- **Search the web from any app:** select text in any app, and Assist's Search the web opens a chat in Foldmate that searches about it. Emails and phone and card numbers it recognises are left out.
-- **Sources under web answers:** a reply that searched the web lists its sources, numbered, and its citations link to them. Copy includes the list.
-- **Recent results, and sites to skip:** in Tools & integrations, choose results from the past day, month or year for a chat, and list sites that web searches leave out (Deep research doesn't use the list yet).
-- **Clearer model errors in Code:** when a cloud or Zen model stops OpenCode, the Code tab says why in plain words, such as a used-up free limit or a refused key. It no longer offers Reload last used model then.
-- **Copy picture, and skip a site from its source:** Lens's Copy picture puts the box you drew on the clipboard, Esc asks before closing Lens while Do is still working, and a source under an answer has a button that skips its site in future web searches.
-- **Fixes from our Lens review:** the shortcut no longer sends Ctrl+C to common terminals, a refused Lens start leaves no empty chat, photos fit in a chat, and Lens menus work from the keyboard.
-- **Safer Wallet and connectors:** a card the Wallet filled guards its whole browser window, in every chat and tab, and the Wallet types a password only into a password box. A connected service's result counts as untrusted, like a web page: Always allow pauses until your next message after one (read-only tools excepted). Excel and PowerPoint use a file you already have open instead of opening it again.
-- **Smoother first run and narrow windows:** Retry resumes the starter model's download, a damaged download starts over, and a full disk says so. Buttons, banners and menus fit in narrow windows and right-to-left languages.
-
-## New in 1.0.6
-
-- **Long tasks keep going:** when a long task fills the model's context, Foldmate sets its oldest steps aside instead of stopping. They stay in the chat's saved history.
-- **More fixes from our own review:** an automation moved to another bot can't get stuck waiting for an approval, linked chats' messages get the same safety check as text read on screen, and PowerPoint gets keyboard tips.
-- **Computer use:** in Full access, a command that only joins lines of text no longer asks first, and a task the model leaves half done with a stray note goes on to its next step.
-- **Skills and the developer API:** fixes from a bug hunt, including clean errors instead of crashes for malformed requests.
-
-## New in 1.0.5
-
-- **Repeated failures stop sooner:** when a download or command keeps failing the same way, even across your approvals, Foldmate stops retrying it and tells you what went wrong.
-- **Fixes from our own review:** linked chats (Resume during a running task, renaming after its chat was deleted, a full queue, a teammate named Parent), automations (Run now while an approval waits, a far-off once time, moving one to another bot) and three dialogs that screen readers now announce by name.
-
-## New in 1.0.2
-
-- **More fixes from our own review:** automatic deletion keeps working when one chat has many screenshots, cancelled Google pickers free up at once, Excel sheet names are checked without case, and temporary chats' uploads stay out of a bot's files.
-
-## New in 1.0.1
-
-- **Full access can accept licences:** in Full access, Foldmate can accept a licence agreement a task needs. In other modes it still hands the licence to you.
-- **Long tasks keep their place:** on long computer-use tasks Foldmate keeps a short note of what it has done, so it finishes more of them. Scrolling to an item says when only part of a name matched.
-- **13 fixes from a code review:** imports, documents, Office, Google files, voice chat, saved prompts and OpenCode behave more reliably.
-
-## New in 1.0.0
-
-- **Bring your chats from ChatGPT or Claude:** in **Backup & recovery**, choose your ChatGPT or Claude data export. Foldmate shows how many chats it holds, then adds them with their original dates. It's read on this PC; nothing is sent.
-- **Knowledge files for a bot:** in a bot's menu, add files it reads in every chat. Replies list the passages they drew on. Only this PC's model reads them.
-- **Temporary chats:** turn on **Temporary chat** in a new chat. It isn't kept, and it's deleted for good when you leave it, lock or quit.
-- **Talk to your bot:** hold the microphone button to talk. Foldmate sends when you stop, reads the answer aloud, then listens again. Speech stays on this PC. Natural voices are an optional download.
-- **A Wallet for your logins:** import logins from Chrome, Edge or Firefox, make strong ones, fill them with Alt + right-click or Ctrl+Alt+P, and keep two-factor codes. The model never sees the values.
-- **Computer use goes further:** a task that's still making progress keeps going past 24 steps, up to 72, and Foldmate carries on after you approve a step instead of stopping to describe it.
-- **Licences stay yours to accept:** a PC command that would accept a licence agreement for you is refused. The rest of the task goes on, and you get the licence to accept yourself.
-- **Direct by default, Tor when you want it:** searches, downloads and connected services go direct. Turn on **Through Tor** in **Tools & integrations** for the private route; it never falls back to direct.
-- **More for your chats:** archive chats, saved prompts with /, saved messages, About you for every bot, usage per day, and every chat exported in one .zip.
-- **Many smaller fixes:** shorter menus, faster settings lists, translated error messages, and focus and screen-reader fixes across the app.
-
-## New in 0.6.2
-
-- **Agent teams:** start a Researcher, Writer and Reviewer team under any chat in one step. The **Team** board shows what each linked chat is doing, what waits and its last result.
-- **Agents ask when they're stuck:** a linked chat that needs something only you can do tells you in its parent chat, with **Open its chat**. A declined approval no longer leaves it waiting.
-- **A daily brief:** **Automations** has a **Daily brief**: each morning, what your agents finished, what's waiting for you and what's still running, from this PC's model.
-- **Read further in a referenced chat:** when you reference another chat in a message, Foldmate can search and read more of it for that message.
-- **Computer use keeps going:** many steps at once no longer end a turn, Foldmate carries on when it says what it will do next, and it hands you a step only after looking at the screen.
-- **OpenCode effort per project:** choose OpenCode's effort in the Code model menu. Code also shows when OpenCode compacts a long session.
-- **Fixes:** **Rules** lists every Always allowed tool, chat notices are translated, and agents, automations and screen readers work more reliably.
-
-## New in 0.6.1
-
-- **One menu for Code's model:** the model button in Code lists this PC's models, OpenCode Zen's free models and your cloud models, and shows which one each chat uses. **/model** opens the same menu.
-- **Free Zen models that work:** turning on OpenCode Zen in a project that already has chats now works, and the menu offers Zen's current top three free models, those that keep no data first, each with what its provider keeps. Without a connection, the menu says so and keeps the last list.
-- **Computer use finds the right item:** Foldmate scrolls a long list until the item you named shows, won't act on a similar-looking row by mistake, and notices changes it can only see in the screenshot.
-- **Undo a memory change:** a bot's memory shows how full it is, and **Undo** puts back its last change for a day.
-- **Bring another chat in:** drag a chat from the sidebar onto the message box to reference it in your next message.
-- **Every rule in one place:** **Blocked commands** also lists the rules Foldmate always follows.
-- **Fixes:** chats kept on disk, decision models, OpenCode sessions, the model picker and OpenCode's questions behave more reliably, and every language is complete again.
-
-## New in 0.6.0
-
-- **Linked chats:** start a chat linked to this one, on its own model: this PC's, a cloud model, or a free Zen model in Code. The two message each other, and **Open side by side** shows both.
-- **One model per Code chat:** type **/model** to give each Code chat its own model, local or a free OpenCode Zen one. Switching a chat to Zen, and attaching a file in a Zen chat, ask first.
-- **Code tasks told in a few lines:** a longer Code task is summed up as it works (what it read, changed and ran), and folds back to that summary when it finishes.
-- **Steadier computer use:** Foldmate sees each control's state (on or off, expanded, how far a list is scrolled), can search a long window past what one look shows, says whether an action changed the window, stops when a dialog opens over it and stops repeating a step that isn't working. If Send, Pay or Delete shows no change, it isn't pressed again: Foldmate tells you it may have gone through.
-- **Answer OpenCode's questions:** when OpenCode needs a choice, it asks in the chat. Pick an answer, type your own or skip.
-- **This PC's model can approve routine steps (optional):** in **Approve for me**, a switch lets your own model approve a step that's clearly what you asked for. Passwords, payments, protected windows, downloads, risky commands and deleting always ask you. It's off until you turn it on.
-- **Vision on the GPU or the CPU:** when loading a model, choose where its vision part runs. On the CPU the graphics card stays free for the model itself, and pictures take longer to read.
-- **Pictures from connected services** go to this PC's vision model only, never to a cloud model.
-- **Keep chats ready on disk (optional):** in **Settings**, an encrypted working copy of recent chats makes switching back faster after the engine restarts.
-- **Your data, in one place:** storage, backups, the Wallet, cookies and Trash share one popup. **Blocked commands** are refused in every mode, Full access too.
-- **Fixes:** shorter tool descriptions leave more room for your chat, and connected services, Zen in Code and pictures in chat behave more reliably.
-
-## New in 0.5.1
-
-- **Agents:** give a bot a standing mission and a task list on the new **Team** page (in **Settings & tools**). Agents work through their tasks on their own, cloud and local side by side, and follow each chat's approval mode.
-- **PowerShell that finishes the job:** long commands keep running in the background and report back, each command picks up where the last one left off, and downloads are much faster. Downloads and installs ask first, even in Full access; simple look-ups need no click in **Ask every time**.
-- **Steadier computer use:** Foldmate waits for windows and dialogs to settle, switches to an app that's already open, and handles a pop-up in the middle of a task.
-- **A faster first reply:** after a model loads, the start every new chat shares is read ahead, so the first chat answers sooner. Streaming replies and opening **Models** are smoother.
-- **Cleaner replies:** a tool call the model writes out as text no longer shows in the chat, and the model is told when one couldn't run.
-- **Fixes:** the Wallet, OpenCode Zen in projects, the context panel, pictures in chat, and keyboard and screen-reader use.
-
-## New in 0.5.0
-
-- **Wallet & passwords:** logins and cards are kept encrypted on this PC. The model only picks which item to use and never sees the values. Each item fills only on its own site, and purchases follow your spending limits and ask you first. Open it from **Settings & tools**.
-- **A steadier Lens:** long answers no longer stop on their own, a busy model says so at once, and Do won't act on Foldmate's own window.
-- **See what fills the context:** click the context ring for a breakdown by part, with **Compact now**. Compacting no longer adds notices to the chat.
-- **Free cloud models in Code (optional):** OpenCode Zen's free models can be turned on per project, over Tor by default or directly. They're off until you choose them, and when on, that project's coding requests go to OpenCode Zen's servers.
-- **Faster replies:** models with built-in speculative decoding (MTP) now use it by default: faster, with the same answers.
-- **No Docker needed:** Foldmate's own engine runs web research and OpenCode. A PC that used Docker Desktop moves over once, automatically.
-- **Many smaller fixes:** pictures in chat, computer use, keyboard and screen-reader use, and project commands in Code behave more reliably.
-- **License:** Foldmate is free to use but not open source (all rights reserved). The open-source parts it carries keep their own licenses.
+Older versions' notes are on the [Releases](https://github.com/griffin300/foldmate-releases/releases) page.
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-<version>.exe` under
-   **Assets**.
-2. Run it. Windows may say **"Windows protected your PC"**, because this preview isn't
-   code-signed yet. Click **More info**, then **Run anyway**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.10.exe` under **Assets**.
+2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
+   - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
+   - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
+     Run anyway, so Foldmate can't run while it's on. Whether to turn it off is up to you. Read Microsoft's
+     guidance first: on many PCs it can't be turned back on without resetting Windows.
 3. The installer sets up what Foldmate needs:
    - Microsoft's Visual C++ runtime, if your PC doesn't have it;
-   - Windows' WSL, which Foldmate's private web engine runs on, if your PC doesn't have it.
+   - Windows Subsystem for Linux (WSL), which Foldmate's web research engine runs in, if your PC doesn't have it.
+     Windows downloads it from Microsoft.
 
    Windows may ask for permission (up to twice). A restart may be needed.
-4. Foldmate opens. Its AI engine comes with it, and private web research finishes setting up
-   in the background during the first few minutes. Foldmate recommends a model that fits
-   your PC and downloads it only when you choose **Download and load**. Models already in
-   LM Studio's or Ollama's folders show up in **Models** where they are; nothing is copied.
-   You can pick another in **Models** any time.
+4. Foldmate opens. Its AI engine comes with it, and web research finishes setting up in the background
+   during the first few minutes. Foldmate recommends a model that fits your PC and downloads it only when
+   you choose **Download and load**. Models already in LM Studio's or Ollama's folders show up in
+   **Models** where they are; nothing is copied.
 
 ## What you need
 
-- **Windows 11, 64-bit.** Windows 10 hasn't been tested yet.
+- **Windows 11, 64-bit.** Windows 11 is supported. Windows 10 may work, but it isn't supported. On a PC
+  with an ARM processor, chat works but web research doesn't.
 - **RAM:** 16 GB or more is recommended. 8 GB works with small models.
-- **Virtualization turned on** in your PC's BIOS/UEFI, for web research. Without it, chat still
-  works, and Foldmate tells you what to turn on.
-- **Disk:** plan for about 15 GB free to install and set up, plus your models.
-  A small model is about 1–2 GB.
-- **A graphics card is optional.** Models run on the processor too, just slower.
+- **Virtualization turned on** in your PC's BIOS/UEFI, for web research. Without it chat still works, and
+  Foldmate tells you which setting to turn on.
+- **Disk:** about 15 GB free to install and set up, plus your models. A small model is about 1–2 GB.
+- **A graphics card is optional.** Models run on the processor too, just more slowly.
+
+## Privacy: what goes online, and when
+
+Nothing you type leaves this PC unless you choose a cloud model or a connected service. These do go online:
+
+| What | When | Route |
+|---|---|---|
+| Web research | A bot searches or reads a page | Direct by default (sites see your IP address and what you search), or Through Tor |
+| Model search and downloads | You search in Models or click Download | Direct by default (Hugging Face sees your IP address), or Through Tor |
+| Engines, add-ons and natural voices | You choose to install one | The same route as models |
+| Cloud models and OpenCode Zen | Only when you pick one | Direct by default, or Through Tor, per provider |
+| Connected services (Gmail, Outlook and Microsoft 365, MCP servers) | A bot uses one you added | Direct by default, or Through Tor |
+| Your phone | While Remote is on | Tor (private link), your Wi-Fi (Same Wi-Fi connection), or your Tailscale network |
+| Update checks | In the background | Directly to this page's releases (GitHub sees your IP address). Downloading and installing each need your click |
+
+**Settings & tools › This computer › Local-only lockdown** stops all of it at once. Chat with your local
+model keeps working. Foldmate's Help (**F1 › Privacy**) has the full list.
 
 ## Updates
 
-Foldmate checks this page for new versions directly (not through Tor, so GitHub sees your IP
-address, as when you visit this page). Only releases signed with Foldmate's key install, and
-each file is checked first.
+Foldmate checks this page for new versions directly, not through Tor. Only releases signed with Foldmate's key
+install, and each file is checked before it's used. When an update is available, a small arrow appears next to
+Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-When an update is available, a small arrow appears next to Foldmate's name in the sidebar.
-Choose it to download the update (you can follow its progress or cancel it), then choose
-**Restart to update**.
-
-From 0.4.0 on, most updates download only the files that changed. 1.1.9 is one of those: from 1.1.8 it's a small download (about 19 MB), from 1.1.7 about 19 MB, and from 1.1.6 about 19 MB. From an older version, the update downloads the full installer (about 0.88 GB).
+From 0.4.0 on, most updates download only the files that changed. 1.1.10 isn't one of those: its web
+research service changed, so every version downloads the full installer (about 0.88 GB) to update.
 
 ## Asking before it acts
 
 Each chat has an approval mode:
 
 - **Ask every time:** every action on your PC shows a card first.
-- **Approve for me:** reading your screen, and OpenCode's work inside its project's sealed box,
-  run without asking; clicks, typing, deleting and browser steps still ask. An optional switch
-  (off by default) lets this PC's model approve routine steps that are clearly what you asked for.
-- **Full access:** Foldmate uses your PC without asking first: it opens apps, clicks and types,
-  sends and deletes, uses the clipboard, opens files and runs PC commands. Steps in protected
-  windows still ask: password managers, Windows Security and Settings, sign-in and User Account
-  Control prompts, Task Manager and the Registry Editor. PC commands that download or install
-  software still show a card. Every action is recorded in the chat.
-  Use it only in chats where you trust what the model is doing.
-- **Purchases with the Wallet** ask you first in every mode. In **Wallet & passwords › Limits and
-  purchases** you can allow purchases within your limits in Full access without asking (off by default).
+- **Approve for me:** reading your screen, and OpenCode's work inside its project's sealed box, run without
+  asking. Clicks, typing, deleting and browser steps still ask. An optional switch (off by default) lets this
+  PC's model approve routine steps that are clearly what you asked for.
+- **Full access:** Foldmate uses your PC without asking first. Steps in protected windows still ask: password
+  managers, Windows Security and Settings, sign-in and User Account Control prompts, Task Manager and the
+  Registry Editor. PC commands that download or install software still show a card, and every action is
+  recorded in the chat. Use it only in chats where you trust what the model is doing.
+- **Purchases with the Wallet** ask you first in every mode, unless you allow purchases within your limits in
+  Full access (off by default).
 
 ## The tray, the chat bar and Assist
 
-- **The tray:** right-click Foldmate's icon by the clock for a small menu: **Open Foldmate**,
-  **Load model** (your recent models), **Lens**, **Eject model**, **App settings** and **Quit Foldmate**.
-  Quit unloads Foldmate's model and stops its private web research, so their memory is free again.
-- **The chat bar:** press **Alt+Space**, choose **Lens** in that menu, or press **Ctrl+Alt+Space**
-  with nothing selected. A slim bar opens over any app; text you highlight while it's open joins
-  your question, and you can drag a box to add a screenshot or dictate. Its ⋮ menu has Temporary
-  chat, Load model and Always on top.
-- **Assist:** select text in any app, then press **Ctrl+Alt+Space**, to proofread, rewrite,
-  summarize, explain or translate it with your own model, or search the web about it.
-- **Alt + right-click** is off by default from 1.1.4. You can turn it on in **App settings ›
-  This PC** to open the chat bar with it; drawing and CAD apps lose that click.
+- **The tray:** right-click Foldmate's icon by the clock for **Open Foldmate**, **Load model**, **Lens**,
+  **Eject model**, **App settings** and **Quit Foldmate**. Quit unloads the model and stops web research, so
+  their memory is free again.
+- **The chat bar:** press **Alt+\`** (the key under Esc). Alt+Space, Ctrl+Alt+F and Ctrl+Alt+B are choices in
+  **App settings › This computer**. Text you highlight while it's open joins your question.
+- **Assist:** select text in any app and press **Ctrl+Alt+Space** to proofread, rewrite, summarize, explain or
+  translate it with your own model, or search the web about it.
 
-## Known limits of this preview
+## Your phone (beta)
 
-- Windows only for now.
-- The installer isn't code-signed yet (see step 2 above).
-- On a PC where Windows' Smart App Control is on, it may block Foldmate and its AI engine,
-  because they aren't code-signed yet.
+**Settings & tools › Remote** lets a paired phone use Foldmate on this PC: through Tor with no account, or
+straight over your own Wi-Fi. It's off until you turn it on. To pair, install Foldmate on your iPhone from the
+App Store, open Remote there and scan the code Foldmate shows. A phone browser over Tailscale works too:
+**Remote › Advanced**.
 
-## Help
+## Uninstall
 
-Press **F1** (or **Settings & tools › Support › Help**) for Foldmate's Help. It opens offline.
-If something goes wrong, **Settings & tools › Support › Support report** shows a short summary of
-your PC and Foldmate. Read it, save it, and send it yourself: Foldmate never sends it.
+Use **Settings › Apps › Installed apps › Foldmate › Uninstall**. This removes Foldmate and its web research
+engine (the WSL distro `foldmate-engine`). The engine's research data is saved to a folder first. Your chats,
+settings and models are kept (by default in `%LOCALAPPDATA%\PrivateLocalBot`), so installing again picks up
+where you left off. Delete that folder yourself if you no longer need it.
 
-## Questions and problems
+## Known limits
 
-Tell the person who shared this with you, and attach a support report if it helps.
+- Windows 11 only for now.
+- Foldmate isn't code-signed yet (see Install, step 2).
+- Web research and OpenCode need WSL and virtualization. Without them, chat still works.
+- The translations haven't been reviewed by native speakers yet.
 
-Requests for the source code of the open-source parts Foldmate ships (named in its license notes,
-under App settings > About & updates > Open-source licenses) go to winning1946@yahoo.com.
+## Help and support
+
+- Press **F1** (or **Settings & tools › Support › Help**) for Foldmate's Help. It works offline.
+- If something goes wrong, **Settings & tools › Support › Support report** shows a short summary of your PC and
+  Foldmate. Read it, save it, and attach it yourself: Foldmate never sends it.
+- Questions and problems: open an issue at https://github.com/griffin300/foldmate-releases/issues. Please
+  don't paste chats, keys or passwords there; a support report already leaves them out.
+
+## Security
+
+To report a security problem, open an issue that says only that you have one to report, with no details, and
+we'll arrange a private way to send it. Please don't post the details publicly until it's fixed.
+
+## License
+
+Foldmate is free to use but not open source: all rights reserved, under the Foldmate License that comes with
+it. The open-source parts it carries keep their own licenses. They're listed in Foldmate under **App settings ›
+About & updates › Open-source licenses**. To ask for the source code of the parts under the GPL, LGPL, AGPL
+or MPL, open an issue at https://github.com/griffin300/foldmate-releases/issues.
+
+Brand names and logos of the services and model makers Foldmate works with belong to their owners and only
+identify those services. Foldmate isn't affiliated with or endorsed by them.
