@@ -9,7 +9,16 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.10**.
+The latest version is **1.1.11**.
+
+## New in 1.1.11
+
+- **Your phone's screen as video:** with the iPhone app's update, the phone's view of this computer streams as H.264 video, coded by Windows and decoded by the iPhone's own hardware. Videos and animations take about a quarter of the data over Tor (in our tests), and the picture adjusts to the connection so it keeps moving instead of stalling.
+- **Typing that keeps up:** with the iPhone app's update, what you type on the phone goes over in batches, in order, and is never dropped for arriving late, so typing over Tor no longer falls further and further behind.
+- **Better sound:** hear this computer at full quality (48 kHz stereo) on the same Wi-Fi, and much clearer over Tor: sound up to 9.6 kHz instead of about 3.6 kHz. It needs the iPhone app's update.
+- **Steadier updates:** the update window keeps your place while it waits to restart, and from the next update on it shows real progress while the new version unpacks and installs.
+- **Help in every language:** Help's pages about your phone and about models are now fully translated.
+- **Fixes:** model settings no longer say a setting changed when none did, the welcome card keeps its newer design after you choose a different model, Test this computer no longer offers a graphics-card engine on a PC without one, and many smaller fixes.
 
 ## New in 1.1.10
 
@@ -25,14 +34,6 @@ The latest version is **1.1.10**.
 - **Simpler phone pairing:** pairing shows one request at a time, named for the phone, and closes by itself when it's done. Your phone says it was declined only when you press Deny.
 - **Fixes:** an email to an address you didn't type in the chat is approved on the computer, the phone can lock this computer with Win+L, and many smaller fixes.
 
-## New in 1.1.9
-
-- **Set up automations by chatting:** ask in plain words, like "search the web for bananas every 15 minutes" or "remind me in 2 hours to call the dentist", and Foldmate sets it up, lists it, changes it or pauses it. Each one leaves a small line in the chat that opens it in Automations, and a repeat notifies you only when it finds something new.
-- **Send email from Outlook:** connect Outlook in Connections, then ask in any chat to email someone or to draft an email. A draft shows in the chat with Copy, Edit and Send, and in Ask every time you see the whole email, and can edit it, before it goes.
-- **Faster updates from now on:** Foldmate opens again about 8 seconds after a small update instead of about 45, and web research is ready in about 14 seconds instead of about 84 (in our tests). A small Foldmate card shows while it installs, with no installer window.
-- **A steadier Code tab:** when OpenCode Zen's free allowance runs out, the Code tab says so once and offers one click to switch to this computer's model or another free model.
-- **Your phone:** with the iPhone app's update, the phone's keyboard opens by itself for a text field on this computer, dragging and scrolling work like a trackpad, the same Wi-Fi works without waiting for Tor, and Remote has three permissions instead of nine.
-- **Replies start sooner:** Foldmate loads a tool family when a chat first needs it instead of sending every tool with every message. In our tests a typical task went from 38 to 20 seconds with the same results.
 
 Older versions' notes are on the [Releases](https://github.com/griffin300/foldmate-releases/releases) page.
 
@@ -88,8 +89,8 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.10 isn't one of those: its web
-research service changed, so every version downloads the full installer (about 0.88 GB) to update.
+From 0.4.0 on, most updates download only the files that changed. 1.1.11 is one of those: from 1.1.10 it's a
+small download (about 19 MB). From an older version, the update downloads the full installer (about 0.88 GB).
 
 ## Asking before it acts
 
