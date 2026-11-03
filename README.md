@@ -13,6 +13,7 @@ The latest version is **1.1.15**.
 
 ## New in 1.1.15
 
+- **Mac preview updated to 1.1.15:** `Foldmate-1.1.15-mac.dmg` is on this release. Computer use, Share control and the screen-saver handling for your phone are Windows-only, so the Mac version doesn't show them.
 - **Steadier computer use:** when a page shows Saving or Loading after a click, the assistant waits for it to finish before it looks again, and it no longer stops early on long tasks.
 
 ## New in 1.1.14
@@ -85,7 +86,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Mac (preview)
 
-The Mac preview is version 1.1.12: download `Foldmate-1.1.12-mac.dmg` under **Assets** on this release. It's built
+The Mac preview is version 1.1.15: download `Foldmate-1.1.15-mac.dmg` under **Assets** on this release. It's built
 and tested on Apple silicon (an M1). It isn't notarized by Apple yet, so macOS stops it the first time:
 Control-click Foldmate in Applications and choose **Open**, or open **System Settings › Privacy & Security** and
 choose **Open Anyway**. Some features are Windows-only for now, including PC commands and the phone's video and
