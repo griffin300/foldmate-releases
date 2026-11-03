@@ -9,11 +9,20 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.15**.
+The latest version is **1.1.16**.
+
+## New in 1.1.16
+
+- **A more capable chat bar:** click the flamingo for a new chat; **Tools** lets a bar chat use web research or computer use (approvals still apply); **+** in the model list offers the model browser or an API provider.
+- **Exclusive mode, redesigned:** one compact row per app, with its own icon and its share of graphics memory.
+- **Models in one row:** Recommended, All, Installed, Filters and Sort on one line; capability filters moved into Filters.
+- **Connectors with real logos:** two columns of cards, each with its service's own logo (Gmail, Outlook, Microsoft 365, Google and more), all built into the app.
+- **A quicker start:** Foldmate opens sooner after a double-click (in our tests, the model's name shows about half a second sooner).
+- **Fixes:** the chat bar's shortcut works over the desktop and maximized apps; memory checks before loading now default to **Relaxed**; a shorter note in temporary chats.
 
 ## New in 1.1.15
 
-- **Mac preview updated to 1.1.15:** `Foldmate-1.1.15-mac.dmg` is on this release. Computer use, Share control and the screen-saver handling for your phone are Windows-only, so the Mac version doesn't show them.
+- **Mac preview updated to 1.1.15:** `Foldmate-1.1.15-mac.dmg` is on the [1.1.15 release](https://github.com/griffin300/foldmate-releases/releases/tag/v1.1.15). Computer use, Share control and the screen-saver handling for your phone are Windows-only, so the Mac version doesn't show them.
 - **Steadier computer use:** when a page shows Saving or Loading after a click, the assistant waits for it to finish before it looks again, and it no longer stops early on long tasks.
 
 ## New in 1.1.14
@@ -67,7 +76,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.15.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.16.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -86,7 +95,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Mac (preview)
 
-The Mac preview is version 1.1.15: download `Foldmate-1.1.15-mac.dmg` under **Assets** on this release. It's built
+The Mac preview is version 1.1.15: download `Foldmate-1.1.15-mac.dmg` from the [1.1.15 release](https://github.com/griffin300/foldmate-releases/releases/tag/v1.1.15). It's built
 and tested on Apple silicon (an M1). It isn't notarized by Apple yet, so macOS stops it the first time:
 Control-click Foldmate in Applications and choose **Open**, or open **System Settings › Privacy & Security** and
 choose **Open Anyway**. Some features are Windows-only for now, including PC commands and the phone's video and
@@ -125,8 +134,8 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.15 is one of those: from 1.1.14, 1.1.13 or 1.1.12 it's a small download (about 19 MB). From an older version,
-the update downloads the full installer (about 0.88 GB).
+From 0.4.0 on, most updates download only the files that changed. 1.1.16 is one of those: from 1.1.15, 1.1.14 or 1.1.13 it's a
+small download (about 19 MB). From an older version, the update downloads the full installer (about 0.88 GB).
 
 ## Asking before it acts
 
