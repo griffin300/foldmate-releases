@@ -9,7 +9,17 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.13**.
+The latest version is **1.1.14**.
+
+## New in 1.1.14
+
+- **Your phone's view with the screen saver on:** your phone can see and control this computer while its screen saver runs, even with the display turned off. A screen saver that asks for your password still counts as locked.
+- **Share control with your phone:** your phone keeps control until it hands it back. Turn on **Share control with this computer** (Remote, Advanced) to use this computer's mouse and keyboard at the same time; press Esc on this computer to take control back.
+- **Smoother Remote on the same Wi-Fi:** taps and scrolling show on your phone sooner (in our tests, taps about 50 ms sooner and scrolling at about 19 frames a second instead of 15).
+- **Clearer steps for you:** when the assistant needs you for a CAPTCHA, a sign-in or a card's security code, its card says what to do and where, with **Show me** and **I can't do this**. You have 15 minutes, and a step that times out is reported instead of stalling the task.
+- **CAPTCHAs and checkout warnings:** **Solve CAPTCHAs for me** (Security) lets the assistant try a CAPTCHA before it hands it to you; it's on, and you can turn it off. Some sites don't allow automated CAPTCHA solving. The assistant also warns you if a shop asks for your online-banking password, and purchases still ask you first.
+- **Faster first reply:** while Foldmate's web research service is still starting, your first message no longer waits for it (in our tests, about 2 s sooner).
+- **Fixes:** connector labels and sign-in errors in every language, a smoother chat while replies stream, and Foldmate retries on its own if it isn't answering at startup.
 
 ## New in 1.1.13
 
@@ -52,7 +62,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.13.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.14.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -71,7 +81,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Mac (preview)
 
-The Mac preview is version 1.1.12: download `Foldmate-1.1.12-mac.dmg` from the [1.1.12 release](https://github.com/griffin300/foldmate-releases/releases/tag/v1.1.12). It's built
+The Mac preview is version 1.1.12: download `Foldmate-1.1.12-mac.dmg` under **Assets** on this release. It's built
 and tested on Apple silicon (an M1). It isn't notarized by Apple yet, so macOS stops it the first time:
 Control-click Foldmate in Applications and choose **Open**, or open **System Settings › Privacy & Security** and
 choose **Open Anyway**. Some features are Windows-only for now, including PC commands and the phone's video and
@@ -110,7 +120,7 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.13 is one of those: from 1.1.12, 1.1.11 or 1.1.10 it's a small download
+From 0.4.0 on, most updates download only the files that changed. 1.1.14 is one of those: from 1.1.13, 1.1.12 or 1.1.11 it's a small download
 (about 19 MB). From an older version, the update downloads the full installer (about 0.88 GB).
 
 ## Asking before it acts
