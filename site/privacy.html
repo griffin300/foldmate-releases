@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
+  <title>Privacy | Foldmate</title>
+  <meta name="description" content="What Foldmate sends online, and when. Nothing you type leaves your PC unless you choose a cloud model or a connected service.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">Fold<span>mate</span></a>
+      <nav class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="privacy.html" aria-current="page">Privacy</a></li>
+          <li><a href="download.html">Download</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <div class="wrap">
+      <h1>Privacy: what goes online, and when</h1>
+      <p class="lead">Nothing you type leaves this PC unless you choose a cloud model or a connected service.</p>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Your chats are encrypted on your disk</h3>
+          <p>The key is protected by your Windows account.</p>
+        </div>
+        <div class="card">
+          <h3>No telemetry or analytics</h3>
+          <p>Foldmate doesn't report what you do, and it never sends a support report for you.</p>
+        </div>
+        <div class="card">
+          <h3>Models run on this PC</h3>
+          <p>A cloud model is only used when you pick one, and Foldmate asks before it sends an existing chat.</p>
+        </div>
+        <div class="card">
+          <h3>Web research goes direct by default</h3>
+          <p>Turn on <strong>Through Tor</strong> for the private route. It never falls back to direct.</p>
+        </div>
+        <div class="card">
+          <h3>You decide what it may do</h3>
+          <p>Each chat has an approval mode: Ask every time, Approve for me, or Full access.</p>
+        </div>
+      </div>
+
+      <h2>These do go online</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th scope="col">What</th><th scope="col">When</th><th scope="col">Route</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Web research</td><td>A bot searches or reads a page</td><td>Direct by default (sites see your IP address and what you search), or Through Tor</td></tr>
+            <tr><td>Model search and downloads</td><td>You search in Models or click Download</td><td>Direct by default (Hugging Face sees your IP address), or Through Tor</td></tr>
+            <tr><td>Engines, add-ons and natural voices</td><td>You choose to install one</td><td>The same route as models</td></tr>
+            <tr><td>Cloud models and OpenCode Zen</td><td>Only when you pick one</td><td>Direct by default, or Through Tor, per provider</td></tr>
+            <tr><td>Connected services (Gmail, Outlook and Microsoft 365, MCP servers)</td><td>A bot uses one you added</td><td>Direct by default, or Through Tor</td></tr>
+            <tr><td>Your phone</td><td>While Remote is on</td><td>Tor (private link), your Wi-Fi (Same Wi-Fi connection), or your Tailscale network</td></tr>
+            <tr><td>Update checks</td><td>In the background</td><td>Directly to Foldmate's releases on GitHub (GitHub sees your IP address). Downloading and installing each need your click</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="callout">
+        <p><strong>Settings &amp; tools › This computer › Local-only lockdown</strong> stops all of it at once. Chat with your local model keeps working. Foldmate's Help (<kbd>F1</kbd> › Privacy) has the full list.</p>
+      </div>
+
+      <h2>More details</h2>
+      <div class="prose">
+        <ul>
+          <li><strong>Support reports:</strong> <strong>Settings &amp; tools › Support › Support report</strong> shows a short summary of your PC and Foldmate. Read it, save it, and attach it yourself. Foldmate never sends it, and it leaves out your chats, keys and passwords.</li>
+          <li><strong>Updates:</strong> Foldmate checks for new versions directly, not through Tor. Only releases signed with Foldmate's key install, and each file is checked before it's used.</li>
+          <li><strong>Your phone:</strong> Remote is off until you turn it on. Photos you send from the iPhone app go only to this computer's own model and aren't saved.</li>
+          <li><strong>Email:</strong> you see the whole email, and can edit it, before it goes. With Gmail, Foldmate can send mail but never read it.</li>
+          <li><strong>If you uninstall:</strong> your chats, settings and models are kept, so installing again picks up where you left off. Delete that folder yourself if you no longer need it. The <a href="https://github.com/griffin300/foldmate-releases#uninstall">install guide</a> says where it is.</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <ul>
+        <li><a href="https://github.com/griffin300/foldmate-releases/releases">Releases</a></li>
+        <li><a href="https://github.com/griffin300/foldmate-releases/blob/main/CHANGELOG.md">Changelog</a></li>
+        <li><a href="https://github.com/griffin300/foldmate-releases/blob/main/SUPPORT.md">Support</a></li>
+        <li><a href="https://github.com/griffin300/foldmate-releases/blob/main/SECURITY.md">Security</a></li>
+        <li><a href="https://github.com/griffin300/foldmate-releases/issues">Issues</a></li>
+      </ul>
+      <p>Foldmate is free to use but not open source: all rights reserved, under the Foldmate License that comes with it. The open-source parts it carries keep their own licenses.</p>
+      <p>Brand names and logos of the services and model makers Foldmate works with belong to their owners and only identify those services. Foldmate isn't affiliated with or endorsed by them.</p>
+    </div>
+  </footer>
+</body>
+</html>

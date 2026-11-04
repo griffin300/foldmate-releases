@@ -9,74 +9,21 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
+It can also research the web, use your desktop for you (computer use), run PC commands, code with OpenCode,
+send email through connected services such as Gmail and Outlook, and let a paired iPhone use it through Tor or
+over your own Wi-Fi. Press **Alt+\`** to open the chat bar.
+
 The latest version is **1.1.17**.
+
+**On this page:** [Install](#install) · [Mac (preview)](#mac-preview) · [What you need](#what-you-need) ·
+[Privacy](#privacy-what-goes-online-and-when) · [Updates](#updates) · [Troubleshooting and FAQ](#troubleshooting-and-faq) ·
+[Help and support](#help-and-support)
 
 ## New in 1.1.17
 
 - **Smarter computer use:** the assistant now uses an exact calculator for totals with tax or delivery, price comparisons and free calendar times, and it touches nothing on screen, so it asks for no approval card. In our tests with the 27B model, pass rates were the same or better and tasks took about 11% less time on average.
 
-## New in 1.1.16
-
-- **A more capable chat bar:** click the flamingo for a new chat; **Tools** lets a bar chat use web research or computer use (approvals still apply); **+** in the model list offers the model browser or an API provider.
-- **Exclusive mode, redesigned:** one compact row per app, with its own icon and its share of graphics memory.
-- **Models in one row:** Recommended, All, Installed, Filters and Sort on one line; capability filters moved into Filters.
-- **Connectors with real logos:** two columns of cards, each with its service's own logo (Gmail, Outlook, Microsoft 365, Google and more), all built into the app.
-- **A quicker start:** Foldmate opens sooner after a double-click (in our tests, the model's name shows about half a second sooner).
-- **Fixes:** the chat bar's shortcut works over the desktop and maximized apps; memory checks before loading now default to **Relaxed**; a shorter note in temporary chats.
-
-## New in 1.1.15
-
-- **Mac preview updated to 1.1.15:** `Foldmate-1.1.15-mac.dmg` is on the [1.1.15 release](https://github.com/griffin300/foldmate-releases/releases/tag/v1.1.15). Computer use, Share control and the screen-saver handling for your phone are Windows-only, so the Mac version doesn't show them.
-- **Steadier computer use:** when a page shows Saving or Loading after a click, the assistant waits for it to finish before it looks again, and it no longer stops early on long tasks.
-
-## New in 1.1.14
-
-- **Your phone's view with the screen saver on:** your phone can see and control this computer while its screen saver runs, even with the display turned off. A screen saver that asks for your password still counts as locked.
-- **Share control with your phone:** your phone keeps control until it hands it back. Turn on **Share control with this computer** (Remote, Advanced) to use this computer's mouse and keyboard at the same time; press Esc on this computer to take control back.
-- **Smoother Remote on the same Wi-Fi:** taps and scrolling show on your phone sooner (in our tests, taps about 50 ms sooner and scrolling at about 19 frames a second instead of 15).
-- **Clearer steps for you:** when the assistant needs you for a CAPTCHA, a sign-in or a card's security code, its card says what to do and where, with **Show me** and **I can't do this**. You have 15 minutes, and a step that times out is reported instead of stalling the task.
-- **CAPTCHAs and checkout warnings:** **Solve CAPTCHAs for me** (Security) lets the assistant try a CAPTCHA before it hands it to you; it's on, and you can turn it off. Some sites don't allow automated CAPTCHA solving. The assistant also warns you if a shop asks for your online-banking password, and purchases still ask you first.
-- **Faster first reply:** while Foldmate's web research service is still starting, your first message no longer waits for it (in our tests, about 2 s sooner).
-- **Fixes:** connector labels and sign-in errors in every language, a smoother chat while replies stream, and Foldmate retries on its own if it isn't answering at startup.
-
-## New in 1.1.13
-
-- **A sharper, smoother phone screen:** your phone's view of this computer stays sharp while you scroll or type, moves more smoothly over Tor, and text turns crisp the moment the screen stops. Colours now match this screen. It works with the iPhone app that shows video.
-- **Photos in your phone's chats:** send photos from the iPhone app to a chat on this computer's model. It needs a model that can see pictures, with Vision on. Photos go only to this computer's own model and aren't saved.
-- **Safer card checkouts:** in desktop control, the model can no longer read a card's security code that you typed, and the Wallet no longer fills lists such as Country, where a near match could pick the wrong option.
-- **Phone screen fixes:** with this computer's display turned off, the phone says the screen is unavailable instead of showing black, and the picture comes back as soon as the display does. After you unlock, or after Foldmate restarts, an open phone screen picks up again right away.
-- **Polish:** 16 layout fixes (approval cards, the Models page, German and narrow windows), plainer wording in every language, and less background work while the window sits idle.
-
-## New in 1.1.12
-
-- **Foldmate for Mac (preview):** a Mac version of 1.1.12 for Apple silicon is on the same release, next to the Windows installer (see Mac, below).
-- **Typing from your phone:** with the iPhone app's update, typing goes over in batches from the moment you connect.
-
-## New in 1.1.11
-
-- **Your phone's screen as video:** with the iPhone app's update, the phone's view of this computer streams as H.264 video, coded by Windows and decoded by the iPhone's own hardware. Videos and animations take about a quarter of the data over Tor (in our tests), and the picture adjusts to the connection so it keeps moving instead of stalling.
-- **Typing that keeps up:** with the iPhone app's update, what you type on the phone goes over in batches, in order, and is never dropped for arriving late, so typing over Tor no longer falls further and further behind.
-- **Better sound:** hear this computer at full quality (48 kHz stereo) on the same Wi-Fi, and much clearer over Tor: sound up to 9.6 kHz instead of about 3.6 kHz. It needs the iPhone app's update.
-- **Steadier updates:** the update window keeps your place while it waits to restart, and from the next update on it shows real progress while the new version unpacks and installs.
-- **Help in every language:** Help's pages about your phone and about models are now fully translated.
-- **Fixes:** model settings no longer say a setting changed when none did, the welcome card keeps its newer design after you choose a different model, Test this computer no longer offers a graphics-card engine on a PC without one, and many smaller fixes.
-
-## New in 1.1.10
-
-- **Send email from Gmail:** connect Gmail in Connections, then ask in any chat to email someone, as with Outlook. You see the whole email, and can edit it, before it goes. Foldmate can send mail but never read it. Until Google finishes reviewing Foldmate, Google's sign-in page warns that it hasn't verified the app, and at most 100 people can connect Gmail.
-- **Foldmate in your language:** every screen and help page is now in Arabic, Chinese, French, German, Italian, Japanese, Korean, Portuguese, Russian and Spanish. The translations were made with AI help and haven't been reviewed by native speakers yet, so corrections are welcome on the Issues page.
-- **A calmer look:** a reply's copy, branch and other buttons stay out of sight until you point at the reply, and the tray menu has a quiet border and lines up like other Windows menus.
-- **Clearer messages when something goes wrong:** if setup, web research or a model can't start, Foldmate says what happened and what to do next, with the technical details a click away.
-- **Hear your computer on your phone:** with the iPhone app's update, tap the speaker while you watch the screen to hear this computer's sound. This computer shows when a phone is listening.
-- **Sharper and smoother on the same Wi-Fi:** on this computer's Wi-Fi the phone's picture is clearer and scrolls more smoothly (in our tests 8.8 updates a second instead of 8.1 at the Normal size), and Sharper goes up to 1920 pixels wide.
-- **Smoother typing over Tor:** over Tor, the phone's view of this computer updates about twice as often while you type (in our tests on real Tor, 4.8 times a second instead of 2.7), at the same picture quality.
-- **Drag anything from your phone:** dragging a tab or a window from the phone no longer stops halfway. Foldmate no longer second-guesses your own taps: only Windows can block one, and the phone says why.
-- **Approve more from your phone:** a phone allowed to approve actions can now approve PC commands and coding steps too. Wallet cards still need the computer.
-- **Simpler phone pairing:** pairing shows one request at a time, named for the phone, and closes by itself when it's done. Your phone says it was declined only when you press Deny.
-- **Fixes:** an email to an address you didn't type in the chat is approved on the computer, the phone can lock this computer with Win+L, and many smaller fixes.
-
-
-Older versions' notes are on the [Releases](https://github.com/griffin300/foldmate-releases/releases) page.
+Notes for earlier versions are in the [changelog](CHANGELOG.md). Older versions' notes are on the [Releases](https://github.com/griffin300/foldmate-releases/releases) page.
 
 ## Install
 
@@ -141,6 +88,68 @@ Foldmate's name in the sidebar. Choose it to download the update, then choose **
 From 0.4.0 on, most updates download only the files that changed. 1.1.17 is one of those: from 1.1.16, 1.1.15 or 1.1.14 it's a
 small download (about 19 MB). From an older version, the update downloads the full installer (about 0.88 GB).
 
+## Troubleshooting and FAQ
+
+### Windows says "Windows protected your PC". What do I do?
+
+Foldmate isn't code-signed yet, so Windows SmartScreen may stop the installer with this message.
+Click **More info**, then **Run anyway**.
+
+### Windows blocks the installer and there's no Run anyway button.
+
+That's **Smart App Control**, which is on for some new Windows 11 PCs. It blocks apps that aren't signed, so
+Foldmate can't run while it's on. Whether to turn it off is up to you. Read Microsoft's guidance first: on many
+PCs it can't be turned back on without resetting Windows.
+
+### Chat works, but web research doesn't.
+
+Web research runs in Windows Subsystem for Linux (WSL), and it needs virtualization turned on in your PC's
+BIOS/UEFI. Without it, chat still works, and Foldmate tells you which setting to turn on. On a PC with an ARM
+processor, chat works but web research doesn't. Right after you install, web research may still be setting up:
+it finishes in the background during the first few minutes. OpenCode needs WSL and virtualization too.
+
+### How do updates work?
+
+Foldmate checks this page for new versions in the background. When one is ready, a small arrow appears next to
+Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**. Downloading
+and installing each need your click. Most updates download only the files that changed: 1.1.17 is about 19 MB
+from 1.1.16, 1.1.15 or 1.1.14.
+From an older version, the update downloads the full installer (about 0.88 GB). Only releases signed with
+Foldmate's key install, and each file is checked before it's used. See [Updates](#updates).
+
+### Is there a Mac version?
+
+Yes, as a preview. It's version 1.1.15, built and tested on Apple silicon (an M1). Download
+`Foldmate-1.1.15-mac.dmg` from the [1.1.15 release](https://github.com/griffin300/foldmate-releases/releases/tag/v1.1.15).
+It isn't notarized by Apple yet, so macOS stops it the first time: Control-click Foldmate in Applications and
+choose **Open**, or open **System Settings › Privacy & Security** and choose **Open Anyway**. Some features are
+Windows-only for now, including computer use, Share control, the screen-saver handling for your phone, PC
+commands, and the phone's video and computer sound.
+
+### What changes when I turn on Through Tor?
+
+- **Web research:** by default it goes direct, and sites see your IP address and what you search. Through Tor
+  is the private route. It never falls back to direct.
+- **Model downloads, cloud models and connected services:** each can go direct (the default) or Through Tor.
+  For cloud models, you choose per provider.
+- **Update checks** go directly to this page's releases, not through Tor. GitHub sees your IP address.
+- **Your phone:** Remote works through Tor with no account, or straight over your own Wi-Fi. On the same Wi-Fi,
+  you hear this computer at full quality (48 kHz stereo). Over Tor, sound goes up to 9.6 kHz.
+
+### How do I stop everything from going online?
+
+Turn on **Settings & tools › This computer › Local-only lockdown**. It stops everything in the
+[privacy table](#privacy-what-goes-online-and-when) at once. Chat with your local model keeps working.
+
+### Do I need a graphics card?
+
+No. Models run on the processor too, just more slowly. 16 GB of RAM or more is recommended, and 8 GB works
+with small models.
+
+### Can I use models I already downloaded for LM Studio or Ollama?
+
+Yes. Models already in LM Studio's or Ollama's folders show up in **Models** where they are. Nothing is copied.
+
 ## Asking before it acts
 
 Each chat has an approval mode:
@@ -192,13 +201,14 @@ where you left off. Delete that folder yourself if you no longer need it.
 - Press **F1** (or **Settings & tools › Support › Help**) for Foldmate's Help. It works offline.
 - If something goes wrong, **Settings & tools › Support › Support report** shows a short summary of your PC and
   Foldmate. Read it, save it, and attach it yourself: Foldmate never sends it.
-- Questions and problems: open an issue at https://github.com/griffin300/foldmate-releases/issues. Please
-  don't paste chats, keys or passwords there; a support report already leaves them out.
+- Questions and problems: open an issue at https://github.com/griffin300/foldmate-releases/issues and choose a
+  bug report, a feature request or a question about setup or models. Please don't paste chats, keys or
+  passwords there; a support report already leaves them out. [SUPPORT.md](SUPPORT.md) says what to include.
 
 ## Security
 
-To report a security problem, open an issue that says only that you have one to report, with no details, and
-we'll arrange a private way to send it. Please don't post the details publicly until it's fixed.
+Please report security problems privately, not in a public issue. [SECURITY.md](SECURITY.md) explains how.
+Please don't post the details publicly until it's fixed.
 
 ## License
 

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
+  <title>FAQ | Foldmate</title>
+  <meta name="description" content="Answers about the SmartScreen warning, web research and virtualization, updates, the Mac preview and Through Tor.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">Fold<span>mate</span></a>
+      <nav class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+          <li><a href="download.html">Download</a></li>
+          <li><a href="faq.html" aria-current="page">FAQ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <div class="wrap">
+      <h1>Troubleshooting and FAQ</h1>
+      <p class="lead">Press <kbd>F1</kbd> in Foldmate for its Help, which works offline. If you still need help, see <a href="https://github.com/griffin300/foldmate-releases/blob/main/SUPPORT.md">Support</a>.</p>
+      <div class="faq">
+        <details>
+          <summary>Windows says "Windows protected your PC". What do I do?</summary>
+          <p>Foldmate isn't code-signed yet, so Windows SmartScreen may stop the installer with this message. Click <strong>More info</strong>, then <strong>Run anyway</strong>.</p>
+        </details>
+        <details>
+          <summary>Windows blocks the installer and there's no Run anyway button.</summary>
+          <p>That's <strong>Smart App Control</strong>, which is on for some new Windows 11 PCs. It blocks apps that aren't signed, so Foldmate can't run while it's on. Whether to turn it off is up to you. Read Microsoft's guidance first: on many PCs it can't be turned back on without resetting Windows.</p>
+        </details>
+        <details>
+          <summary>Chat works, but web research doesn't.</summary>
+          <p>Web research runs in Windows Subsystem for Linux (WSL), and it needs virtualization turned on in your PC's BIOS/UEFI. Without it, chat still works, and Foldmate tells you which setting to turn on. On a PC with an ARM processor, chat works but web research doesn't. Right after you install, web research may still be setting up: it finishes in the background during the first few minutes. OpenCode needs WSL and virtualization too.</p>
+        </details>
+        <details>
+          <summary>How do updates work?</summary>
+          <p>Foldmate checks for new versions in the background. When one is ready, a small arrow appears next to Foldmate's name in the sidebar. Choose it to download the update, then choose <strong>Restart to update</strong>. Downloading and installing each need your click. Most updates download only the files that changed: 1.1.17 is about 19 MB from 1.1.16, 1.1.15 or 1.1.14. From an older version, the update downloads the full installer (about 0.88 GB). Only releases signed with Foldmate's key install, and each file is checked before it's used.</p>
+        </details>
+        <details>
+          <summary>Is there a Mac version?</summary>
+          <p>Yes, as a preview. It's version 1.1.15, built and tested on Apple silicon (an M1). Download <code>Foldmate-1.1.15-mac.dmg</code> from the <a href="https://github.com/griffin300/foldmate-releases/releases/tag/v1.1.15">1.1.15 release</a>.</p><p>It isn't notarized by Apple yet, so macOS stops it the first time: Control-click Foldmate in Applications and choose <strong>Open</strong>, or open <strong>System Settings › Privacy &amp; Security</strong> and choose <strong>Open Anyway</strong>. Some features are Windows-only for now, including computer use, Share control, the screen-saver handling for your phone, PC commands, and the phone's video and computer sound.</p>
+        </details>
+        <details>
+          <summary>What changes when I turn on Through Tor?</summary>
+          <ul><li><strong>Web research:</strong> by default it goes direct, and sites see your IP address and what you search. Through Tor is the private route. It never falls back to direct.</li><li><strong>Model downloads, cloud models and connected services:</strong> each can go direct (the default) or Through Tor. For cloud models, you choose per provider.</li><li><strong>Update checks</strong> go directly to Foldmate's releases on GitHub, not through Tor. GitHub sees your IP address.</li><li><strong>Your phone:</strong> Remote works through Tor with no account, or straight over your own Wi-Fi. On the same Wi-Fi, you hear this computer at full quality (48 kHz stereo). Over Tor, sound goes up to 9.6 kHz.</li></ul>
+        </details>
+        <details>
+          <summary>How do I stop everything from going online?</summary>
+          <p>Turn on <strong>Settings &amp; tools › This computer › Local-only lockdown</strong>. It stops everything in the <a href="privacy.html">privacy table</a> at once. Chat with your local model keeps working.</p>
+        </details>
+        <details>
+          <summary>Do I need a graphics card?</summary>
+          <p>No. Models run on the processor too, just more slowly. 16 GB of RAM or more is recommended, and 8 GB works with small models.</p>
+        </details>
+        <details>
+          <summary>Can I use models I already downloaded for LM Studio or Ollama?</summary>
+          <p>Yes. Models already in LM Studio's or Ollama's folders show up in <strong>Models</strong> where they are. Nothing is copied.</p>
+        </details>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <ul>
+        <li><a href="https://github.com/griffin300/foldmate-releases/releases">Releases</a></li>
+        <li><a href="https://github.com/griffin300/foldmate-releases/blob/main/CHANGELOG.md">Changelog</a></li>
+        <li><a href="https://github.com/griffin300/foldmate-releases/blob/main/SUPPORT.md">Support</a></li>
+        <li><a href="https://github.com/griffin300/foldmate-releases/blob/main/SECURITY.md">Security</a></li>
+        <li><a href="https://github.com/griffin300/foldmate-releases/issues">Issues</a></li>
+      </ul>
+      <p>Foldmate is free to use but not open source: all rights reserved, under the Foldmate License that comes with it. The open-source parts it carries keep their own licenses.</p>
+      <p>Brand names and logos of the services and model makers Foldmate works with belong to their owners and only identify those services. Foldmate isn't affiliated with or endorsed by them.</p>
+    </div>
+  </footer>
+</body>
+</html>

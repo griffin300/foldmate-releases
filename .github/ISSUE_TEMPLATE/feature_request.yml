@@ -1,0 +1,57 @@
+name: Feature request
+description: Suggest something new for Foldmate, or a change to something it already does.
+title: "[Idea]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea. We read every request, but we can't promise to build each one.
+
+        This page is public. Please don't paste chats, keys or passwords here.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: Describe the task or the problem, not only the solution. For example, "I want to ... but today I have to ...".
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help?
+      description: How you'd like Foldmate to handle it.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part of Foldmate is it about?
+      options:
+        - Chat and models
+        - Web research
+        - Computer use and PC commands
+        - Approvals
+        - The chat bar, the tray or Assist
+        - The phone app
+        - Connected services
+        - Coding with OpenCode
+        - Languages and Help
+        - Install and updates
+        - Mac preview
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What do you do today instead? (optional)
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: Foldmate version (optional)
+      placeholder: "1.1.17"
+    validations:
+      required: false
