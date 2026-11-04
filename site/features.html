@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
+  <title>Features | Foldmate</title>
+  <meta name="description" content="What Foldmate can do: local models, approval modes, computer use, web research, the chat bar, your phone, connected services and coding with OpenCode.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">Fold<span>mate</span></a>
+      <nav class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="features.html" aria-current="page">Features</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+          <li><a href="download.html">Download</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <div class="wrap">
+      <h1>Features</h1>
+      <p class="lead">Everything runs on your PC unless you choose a cloud model or a connected service.</p>
+
+      <h2 id="models">Models on your PC</h2>
+      <div class="prose">
+        <ul>
+          <li>Foldmate recommends a model that fits your PC and downloads it only when you choose <strong>Download and load</strong>.</li>
+          <li>Models already in LM Studio's or Ollama's folders show up in <strong>Models</strong> where they are. Nothing is copied.</li>
+          <li>A graphics card is optional. Models run on the processor too, just more slowly.</li>
+          <li>A cloud model is only used when you pick one, and Foldmate asks before it sends an existing chat. <strong>+</strong> in the model list offers the model browser or an API provider.</li>
+        </ul>
+      </div>
+
+      <h2 id="approvals">You decide what it may do</h2>
+      <p class="prose">Each chat has an approval mode.</p>
+      <div class="grid">
+        <div class="card">
+          <h3>Ask every time</h3>
+          <p>Every action on your PC shows a card first.</p>
+        </div>
+        <div class="card">
+          <h3>Approve for me</h3>
+          <p>Reading your screen, and OpenCode's work inside its project's sealed box, run without asking. Clicks, typing, deleting and browser steps still ask. An optional switch (off by default) lets this PC's model approve routine steps that are clearly what you asked for.</p>
+        </div>
+        <div class="card">
+          <h3>Full access</h3>
+          <p>Foldmate uses your PC without asking first. Steps in protected windows still ask: password managers, Windows Security and Settings, sign-in and User Account Control prompts, Task Manager and the Registry Editor. Use it only in chats where you trust what the model is doing.</p>
+        </div>
+      </div>
+      <p class="prose">Purchases with the Wallet ask you first in every mode, unless you allow purchases within your limits in Full access (off by default).</p>
+
+      <h2 id="computer-use">Computer use and PC commands</h2>
+      <div class="prose">
+        <ul>
+          <li>The assistant uses an exact calculator for totals with tax or delivery, price comparisons and free calendar times. It touches nothing on screen, so it asks for no approval card.</li>
+          <li>When a page shows Saving or Loading after a click, the assistant waits for it to finish before it looks again.</li>
+          <li>When it needs you for a CAPTCHA, a sign-in or a card's security code, its card says what to do and where, with <strong>Show me</strong> and <strong>I can't do this</strong>.</li>
+          <li>PC commands that download or install software still show a card, and every action is recorded in the chat.</li>
+        </ul>
+      </div>
+
+      <h2 id="web-research">Web research</h2>
+      <div class="prose">
+        <p>A bot searches and reads pages for you. It goes direct by default, so sites see your IP address and what you search. Turn on <strong>Through Tor</strong> for the private route. It never falls back to direct.</p>
+        <p>The web research engine runs in Windows Subsystem for Linux (WSL), and it needs virtualization turned on in your PC's BIOS/UEFI. Without it, chat still works.</p>
+      </div>
+
+      <h2 id="chat-bar">The chat bar, the tray and Assist</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>The chat bar</h3>
+          <p>Press <kbd>Alt</kbd>+<kbd>`</kbd> (the key under Esc). Text you highlight while it's open joins your question. <strong>Tools</strong> lets a bar chat use web research or computer use, and approvals still apply.</p>
+        </div>
+        <div class="card">
+          <h3>Assist</h3>
+          <p>Select text in any app and press <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Space</kbd> to proofread, rewrite, summarize, explain or translate it with your own model, or search the web about it.</p>
+        </div>
+        <div class="card">
+          <h3>The tray</h3>
+          <p>Right-click Foldmate's icon by the clock to open Foldmate, load or eject a model, or quit. Quit unloads the model and stops web research, so their memory is free again.</p>
+        </div>
+      </div>
+
+      <h2 id="phone">Your phone (beta)</h2>
+      <div class="prose">
+        <ul>
+          <li><strong>Settings &amp; tools › Remote</strong> lets a paired phone use Foldmate on this PC: through Tor with no account, or straight over your own Wi-Fi. It's off until you turn it on.</li>
+          <li>To pair, install Foldmate on your iPhone from the App Store, open Remote there and scan the code Foldmate shows. A phone browser over Tailscale works too.</li>
+          <li>Your phone can see and control this computer. Its view streams as video, and you can hear this computer's sound. This computer shows when a phone is listening.</li>
+          <li>Send photos from the iPhone app to a chat on this computer's model. It needs a model that can see pictures, with Vision on. Photos go only to this computer's own model and aren't saved.</li>
+          <li>A phone allowed to approve actions can approve PC commands and coding steps too. Wallet cards still need the computer.</li>
+        </ul>
+      </div>
+
+      <h2 id="connections">Connected services</h2>
+      <div class="prose">
+        <p>Connect Gmail, Outlook, Microsoft 365, Google and more, or add MCP servers. Ask in any chat to email someone, and you see the whole email, and can edit it, before it goes. With Gmail, Foldmate can send mail but never read it.</p>
+      </div>
+
+      <h2 id="coding">Coding with OpenCode</h2>
+      <div class="prose">
+        <p>OpenCode works inside its project's sealed box. In Approve for me, its work there runs without asking. OpenCode needs WSL and virtualization. OpenCode Zen, a cloud option, is only used when you pick it.</p>
+      </div>
+
+      <h2 id="languages">In your language</h2>
+      <div class="prose">
+        <p>Every screen and help page is in English, Arabic, Chinese, French, German, Italian, Japanese, Korean, Portuguese, Russian and Spanish. The translations were made with AI help and haven't been reviewed by native speakers yet, so corrections are welcome on the <a href="https://github.com/griffin300/foldmate-releases/issues">Issues page</a>.</p>
+        <p>Press <kbd>F1</kbd> for Foldmate's Help. It works offline.</p>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <ul>
+        <li><a href="https://github.com/griffin300/foldmate-releases/releases">Releases</a></li>
+        <li><a href="https://github.com/griffin300/foldmate-releases/blob/main/CHANGELOG.md">Changelog</a></li>
+        <li><a href="https://github.com/griffin300/foldmate-releases/blob/main/SUPPORT.md">Support</a></li>
+        <li><a href="https://github.com/griffin300/foldmate-releases/blob/main/SECURITY.md">Security</a></li>
+        <li><a href="https://github.com/griffin300/foldmate-releases/issues">Issues</a></li>
+      </ul>
+      <p>Foldmate is free to use but not open source: all rights reserved, under the Foldmate License that comes with it. The open-source parts it carries keep their own licenses.</p>
+      <p>Brand names and logos of the services and model makers Foldmate works with belong to their owners and only identify those services. Foldmate isn't affiliated with or endorsed by them.</p>
+    </div>
+  </footer>
+</body>
+</html>

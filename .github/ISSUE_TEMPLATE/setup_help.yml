@@ -1,0 +1,72 @@
+name: Help with setup or models
+description: Ask a question about installing Foldmate, web research setup, the phone app or choosing a model.
+title: "[Help]: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before you ask, these may help:
+
+        - Press **F1** in Foldmate for its Help. It works offline.
+        - The [Troubleshooting and FAQ](https://github.com/griffin300/foldmate-releases#troubleshooting-and-faq) covers the SmartScreen warning, web research and virtualization, updates, the Mac preview and Through Tor.
+        - [What you need](https://github.com/griffin300/foldmate-releases#what-you-need) lists the Windows version, RAM and disk space Foldmate needs.
+
+        This page is public. Please don't paste chats, keys or passwords here.
+  - type: dropdown
+    id: topic
+    attributes:
+      label: What do you need help with?
+      options:
+        - Installing Foldmate (SmartScreen, Smart App Control, the installer)
+        - Web research (WSL, virtualization)
+        - Choosing, downloading or loading a model
+        - Models from LM Studio or Ollama
+        - Cloud models or connected services
+        - Pairing or using the phone app
+        - Updates
+        - The Mac preview
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: What you're trying to do, what you tried, and what you see. Copy any message Foldmate shows, word for word.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Foldmate version
+      placeholder: "1.1.17"
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Windows version
+      description: For example, Windows 11 Home 24H2. On the Mac preview, write your macOS version and Mac model instead.
+    validations:
+      required: true
+  - type: input
+    id: hardware
+    attributes:
+      label: RAM and graphics card
+      description: For example, "32 GB RAM, no graphics card". This matters most for questions about models.
+    validations:
+      required: false
+  - type: input
+    id: model
+    attributes:
+      label: Model (if your question is about one)
+    validations:
+      required: false
+  - type: textarea
+    id: support-report
+    attributes:
+      label: Support report (optional)
+      description: In Foldmate, open Settings & tools › Support › Support report. Read it, save it, and attach the file here or paste it. It leaves out your chats, keys and passwords.
+    validations:
+      required: false

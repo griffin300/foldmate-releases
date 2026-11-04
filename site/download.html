@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
+  <title>Download | Foldmate</title>
+  <meta name="description" content="Download Foldmate for Windows 11, or the Mac preview for Apple silicon.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">Fold<span>mate</span></a>
+      <nav class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+          <li><a href="download.html" aria-current="page">Download</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <div class="wrap">
+      <h1>Download Foldmate</h1>
+      <p class="lead">The latest version is 1.1.17, for Windows 11 (64-bit). A Mac preview is available for Apple silicon.</p>
+
+      <div class="grid">
+        <div class="card">
+          <h2 id="windows">Windows</h2>
+          <p>Open the latest release and download <code>Foldmate-Setup-1.1.17.exe</code> under <strong>Assets</strong>. The installer is about 0.88 GB.</p>
+          <p><a class="button primary" href="https://github.com/griffin300/foldmate-releases/releases/latest">Open the latest release</a></p>
+        </div>
+        <div class="card">
+          <h2 id="mac">Mac (preview)</h2>
+          <p>The Mac preview is version 1.1.15: download <code>Foldmate-1.1.15-mac.dmg</code> from the 1.1.15 release. It's built and tested on Apple silicon (an M1).</p>
+          <p><a class="button" href="https://github.com/griffin300/foldmate-releases/releases/tag/v1.1.15">Open the 1.1.15 release</a></p>
+        </div>
+      </div>
+
+      <h2>Install on Windows</h2>
+      <div class="prose">
+        <ol>
+          <li>Download <code>Foldmate-Setup-1.1.17.exe</code> from the latest release.</li>
+          <li>Run it. Foldmate isn't code-signed yet, so Windows may stop it:
+            <ul>
+              <li><strong>"Windows protected your PC"</strong> (SmartScreen): click <strong>More info</strong>, then <strong>Run anyway</strong>.</li>
+              <li><strong>Smart App Control</strong> (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer Run anyway, so Foldmate can't run while it's on. Whether to turn it off is up to you. Read Microsoft's guidance first: on many PCs it can't be turned back on without resetting Windows.</li>
+            </ul>
+          </li>
+          <li>The installer sets up what Foldmate needs: Microsoft's Visual C++ runtime, and Windows Subsystem for Linux (WSL), which Foldmate's web research engine runs in, if your PC doesn't have them. Windows downloads WSL from Microsoft. Windows may ask for permission (up to twice). A restart may be needed.</li>
+          <li>Foldmate opens. Its AI engine comes with it, and web research finishes setting up in the background during the first few minutes. Foldmate recommends a model that fits your PC and downloads it only when you choose <strong>Download and load</strong>.</li>
+        </ol>
+      </div>
+
+      <h2>What you need</h2>
+      <div class="prose">
+        <ul>
+          <li><strong>Windows 11, 64-bit.</strong> Windows 10 may work, but it isn't supported. On a PC with an ARM processor, chat works but web research doesn't.</li>
+          <li><strong>RAM:</strong> 16 GB or more is recommended. 8 GB works with small models.</li>
+          <li><strong>Virtualization turned on</strong> in your PC's BIOS/UEFI, for web research. Without it chat still works, and Foldmate tells you which setting to turn on.</li>
+          <li><strong>Disk:</strong> about 15 GB free to install and set up, plus your models. A small model is about 1–2 GB.</li>
+          <li><strong>A graphics card is optional.</strong> Models run on the processor too, just more slowly.</li>
+        </ul>
+      </div>
+
+      <h2>Open the Mac preview</h2>
+      <div class="prose">
+        <p>The Mac preview isn't notarized by Apple yet, so macOS stops it the first time. Control-click Foldmate in Applications and choose <strong>Open</strong>, or open <strong>System Settings › Privacy &amp; Security</strong> and choose <strong>Open Anyway</strong>.</p>
+        <p>Some features are Windows-only for now, including computer use, Share control, PC commands, and the phone's video and computer sound.</p>
+      </div>
+
+      <h2>Your iPhone (beta)</h2>
+      <div class="prose">
+        <p>Install Foldmate on your iPhone from the App Store. On your PC, turn on <strong>Settings &amp; tools › Remote</strong>, then open Remote on the phone and scan the code Foldmate shows.</p>
+      </div>
+
+      <h2>Updates</h2>
+      <div class="prose">
+        <p>When an update is available, a small arrow appears next to Foldmate's name in the sidebar. Choose it to download the update, then choose <strong>Restart to update</strong>. Most updates download only the files that changed: 1.1.17 is about 19 MB from 1.1.16, 1.1.15 or 1.1.14. From an older version, the update downloads the full installer (about 0.88 GB).</p>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <ul>
+        <li><a href="https://github.com/griffin300/foldmate-releases/releases">Releases</a></li>
+        <li><a href="https://github.com/griffin300/foldmate-releases/blob/main/CHANGELOG.md">Changelog</a></li>
+        <li><a href="https://github.com/griffin300/foldmate-releases/blob/main/SUPPORT.md">Support</a></li>
+        <li><a href="https://github.com/griffin300/foldmate-releases/blob/main/SECURITY.md">Security</a></li>
+        <li><a href="https://github.com/griffin300/foldmate-releases/issues">Issues</a></li>
+      </ul>
+      <p>Foldmate is free to use but not open source: all rights reserved, under the Foldmate License that comes with it. The open-source parts it carries keep their own licenses.</p>
+      <p>Brand names and logos of the services and model makers Foldmate works with belong to their owners and only identify those services. Foldmate isn't affiliated with or endorsed by them.</p>
+    </div>
+  </footer>
+</body>
+</html>

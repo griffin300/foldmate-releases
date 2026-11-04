@@ -1,0 +1,101 @@
+name: Bug report
+description: Something in Foldmate doesn't work the way it should.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem. The [Troubleshooting and FAQ](https://github.com/griffin300/foldmate-releases#troubleshooting-and-faq) may already have an answer.
+
+        This page is public. Please don't paste chats, keys or passwords here. To report a security problem, read [SECURITY.md](https://github.com/griffin300/foldmate-releases/blob/main/SECURITY.md) instead.
+  - type: input
+    id: version
+    attributes:
+      label: Foldmate version
+      description: The version of Foldmate you're using.
+      placeholder: "1.1.17"
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Windows version
+      description: For example, Windows 11 Home 24H2. On the Mac preview, write your macOS version and Mac model instead.
+    validations:
+      required: true
+  - type: input
+    id: gpu
+    attributes:
+      label: Graphics card (GPU)
+      description: The make and model, and how much memory it has. Write "None" if your PC doesn't have one.
+      placeholder: "None"
+    validations:
+      required: true
+  - type: input
+    id: ram
+    attributes:
+      label: RAM
+      placeholder: "16 GB"
+    validations:
+      required: false
+  - type: input
+    id: model
+    attributes:
+      label: Model
+      description: The model you were using. For a cloud model, write the provider too.
+    validations:
+      required: true
+  - type: dropdown
+    id: phone
+    attributes:
+      label: Did this happen in the phone app?
+      options:
+        - "No, on this computer"
+        - "Yes, in the iPhone app"
+        - "Yes, in a phone browser over Tailscale"
+        - "Both on the computer and on the phone"
+    validations:
+      required: true
+  - type: dropdown
+    id: route
+    attributes:
+      label: If it's from the phone, how is it connected?
+      options:
+        - "It's not from the phone"
+        - "Tor (private link)"
+        - "Same Wi-Fi"
+        - "Tailscale"
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What you saw, and what you expected to happen instead. Screenshots help, but check them for anything private first.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to make it happen again
+      placeholder: |
+        1. Open ...
+        2. Choose ...
+        3. See ...
+    validations:
+      required: true
+  - type: textarea
+    id: support-report
+    attributes:
+      label: Support report (optional)
+      description: In Foldmate, open Settings & tools › Support › Support report. Read it, save it, and attach the file here or paste it. It leaves out your chats, keys and passwords. Foldmate never sends it for you.
+    validations:
+      required: false
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Before you send
+      options:
+        - label: I removed chats, keys, passwords and anything else private from this report.
+          required: true
