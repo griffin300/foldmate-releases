@@ -9,7 +9,18 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.18**.
+The latest version is **1.1.19**.
+
+## New in 1.1.19
+
+- **Imagine, rebuilt:** a clearer Models sheet that suggests models for this PC, six shortcuts in the sidebar, and **This PC** or **Cloud** on every model. Imagine no longer uses ComfyUI.
+- **Civitai checkpoints on this PC:** install SD 1.5, SDXL, Pony and Illustrious checkpoints from Explore. They run here with Advanced settings, LoRAs, image to image and masked edits. Like LoRAs, they come straight from Civitai (not through Tor), and each is about 2 to 7 GB.
+- **Bring your settings:** import a picture or workflow from A1111, Forge, Civitai or ComfyUI, or use a Civitai picture's settings in one click. Anything that can't come over (a ControlNet, say) is named.
+- **Search Hugging Face** from the Models sheet: each image model shows its size and whether it runs on this PC.
+- **Connect an agent:** Claude Desktop, Cursor or OpenCode can make pictures with the models on this PC, free. Connect gives you the setup to paste.
+- **A quicker chat bar:** with nothing selected, the shortcut no longer stops to copy first, and the bar opens in front of your apps.
+- **Cloud models with logos:** the model picker shows each cloud model's provider logo and name, without the route or context size.
+- **Fixes:** Imagine's Advanced settings show their controls again, Reuse settings brings back the prompt and model, and Civitai searches filter and page correctly.
 
 ## New in 1.1.18
 
@@ -91,7 +102,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.18.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.19.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -151,8 +162,8 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.18 isn't one of those: its web
-research service changed, so every version downloads the full installer (about 0.88 GB) to update.
+From 0.4.0 on, most updates download only the files that changed. 1.1.19 isn't one of those: every version
+downloads the full installer (about 0.88 GB) to update.
 
 ## Asking before it acts
 
