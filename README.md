@@ -9,7 +9,18 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.17**.
+The latest version is **1.1.18**.
+
+## New in 1.1.18
+
+- **Imagine: pictures made on this PC** with image models you install. Upscale x2 or x4, vary or expand a picture in one click, start from a template, or sketch with **Draw** (it needs an edit model).
+- **Explore:** find LoRA add-ons on Civitai and Hugging Face. Only .safetensors files install, each checked against its SHA-256. Civitai is reached straight from this PC, not through Tor, so Civitai sees your IP address and what you search. Mature pictures stay hidden until you turn on the 18+ setting.
+- **A browser pane beside the chat:** watch the private browser live, open up to four tabs, and take control when you want. Password fields, and fields the site marks as one-time codes or card details, are hidden in the live view and masked from what the AI reads back.
+- **Locked folders:** a locked folder's chats open only with your lock password, on this PC and on a paired phone. Chats from the chat bar now go into their own **Bar** folder.
+- **Settings in your pictures:** saved pictures keep their settings and prompt in the PNG file. It's on by default; turn off **Embed settings in saved images** to stop it.
+- **Connector permissions:** each connector has its own tool permissions, and you can ask again for a tool you allowed.
+- **Older chats:** the sidebar shows your 200 newest chats and every chat in a folder or pinned; **Show older chats** brings in the rest. A message you are reading stays put when a reply finishes.
+- **Calmer wording:** shorter, clearer text across the app, Eject without a popup, and the model picker centred.
 
 ## New in 1.1.17
 
@@ -80,7 +91,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.17.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.18.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -124,6 +135,8 @@ Nothing you type leaves this PC unless you choose a cloud model or a connected s
 | Web research | A bot searches or reads a page | Direct by default (sites see your IP address and what you search), or Through Tor |
 | Model search and downloads | You search in Models or click Download | Direct by default (Hugging Face sees your IP address), or Through Tor |
 | Engines, add-ons and natural voices | You choose to install one | The same route as models |
+| Imagine models and Explore (Hugging Face) | You download a model or browse Explore | The same route as models |
+| Explore (Civitai) | You browse or install from Civitai | Direct only (Civitai sees your IP address and what you search). With Through Tor on, Civitai isn't used |
 | Cloud models and OpenCode Zen | Only when you pick one | Direct by default, or Through Tor, per provider |
 | Connected services (Gmail, Outlook and Microsoft 365, MCP servers) | A bot uses one you added | Direct by default, or Through Tor |
 | Your phone | While Remote is on | Tor (private link), your Wi-Fi (Same Wi-Fi connection), or your Tailscale network |
@@ -138,8 +151,8 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.17 is one of those: from 1.1.16, 1.1.15 or 1.1.14 it's a
-small download (about 19 MB). From an older version, the update downloads the full installer (about 0.88 GB).
+From 0.4.0 on, most updates download only the files that changed. 1.1.18 isn't one of those: its web
+research service changed, so every version downloads the full installer (about 0.88 GB) to update.
 
 ## Asking before it acts
 
