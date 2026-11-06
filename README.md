@@ -9,7 +9,25 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.19**.
+The latest version is **1.1.20**.
+
+## New in 1.1.20
+
+- **Imagine, redesigned:** a Create column, a results bar for Generations, Queue and Pipelines, and an inspector for each picture.
+- **Start from a picture:** Image mode can start from a picture you add or one you made. Choose how much it may change; the shape follows the picture. **Start from this** in a picture's details puts it there.
+- **Speech, music and sound effects:** Imagine has tabs for each. Each model installs on this PC with one click. Each model shows its licence in the catalog.
+- **Agent as a director:** the Agent tab turns a description into a plan with steps and prompts. You can check the plan before you run it.
+- **Makers' logos:** model cards and Hugging Face results show each maker's logo where the maker has one. Rebel AI quants say so on their cards.
+- **Provider logos:** the model picker shows a provider's logo on each cloud row. Custom providers show their host's logo where one is bundled, and a plain cloud otherwise.
+- **Start in a new folder (Code):** makes an empty folder in Documents\Foldmate and opens it as a project. The folder is made only when you click.
+- **Made files:** each made file says what kind of file it is, such as Word document.
+- **Reviewed marks (Code):** the marks in the Changes panel stay after a reload or restart.
+- **Scheduled Code tasks:** an automation can run a task in a Code project on a schedule, such as Mondays at 10:00: run the tests and summarize failures. Each run is a new Code conversation in Plan; it only reads and runs the commands you list.
+- **Trace:** a conversation's ⋯ menu opens Trace: how long each turn took, where the time went, and every tool call with its arguments and result. Export only when you click it.
+- **Show progress:** Settings > Chats chooses just results, key steps or everything. It changes only the display.
+- **Glass style:** dropdowns, checkboxes and radio buttons share one style.
+- **Beta updates:** Settings > Advanced has a switch to receive beta updates. It is off unless you turn it on.
+- **Installer:** opens in one window with the Foldmate mark, its name and one status line.
 
 ## New in 1.1.19
 
@@ -102,7 +120,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.19.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.20.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -162,7 +180,7 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.19 isn't one of those: every version
+From 0.4.0 on, most updates download only the files that changed. 1.1.20 isn't one of those: every version
 downloads the full installer (about 0.88 GB) to update.
 
 ## Asking before it acts
