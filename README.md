@@ -9,7 +9,22 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.20**.
+The latest version is **1.1.21**.
+
+## New in 1.1.21
+
+- **Notebooks:** attach a folder of Markdown pages or your Obsidian vault to a chat. The bot reads and searches it, and its edits come as suggestions you accept, or apply with Undo. Pages stay in their folder on this PC.
+- **Pictures from the chat bar:** type what you want and choose **Make a picture**, or **Make a picture from this** to start from your screen. **Change the last picture** makes a new version from your words.
+- **Pictures in Chat:** in a chat, the model can make a picture on this PC when a picture model is installed. Before it frees graphics memory, it asks you once.
+- **Your phone's camera in Imagine:** **Phone camera** asks your paired iPhone for a photo to start from. It travels over your own Wi-Fi only and lands on this PC as the phone took it. It needs the Foldmate iPhone app and the same Wi-Fi connection turned on in Remote.
+- **Imagine from your iPhone:** the Foldmate iPhone app can make pictures and clips on this PC and edit them. Each phone needs its Imagine permission, which is off until you turn it on in Remote.
+- **Notes in Settings:** Settings > Notes lists your notebooks and quick notes: add a folder or an Obsidian vault, rename, choose the default, export.
+- **Example pictures:** an empty Imagine gallery starts with example pictures, each with its model, settings and prompt. Delete them like any picture.
+- **Picks for this PC:** **Get started** opens a **For this PC** tab with image, video and audio models that fit this PC's graphics memory.
+- **More cloud models:** cloud providers show as cards with their logos, and 12 more image, edit and video models come through fal with your own key.
+- **A tidier Imagine:** a wider Create column you can resize, the tools in one row, a button to bring back a hidden sidebar, a Close bar in picture details, and a menu on each picture's ⋯.
+- **Phones reconnect on their own:** if the phone connection can't start, Foldmate tries again every 20 seconds, and Remote shows why with a **Retry** button.
+- **Fixes:** NVIDIA PCs fall back to the standard engine when the CUDA one can't download. FLUX.2 klein 4B, Z-Image Turbo and Chroma1-HD install again. A rare freeze when moving a chat from the chat bar is gone.
 
 ## New in 1.1.20
 
@@ -120,7 +135,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.20.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.21.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -180,7 +195,7 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.20 isn't one of those: every version
+From 0.4.0 on, most updates download only the files that changed. 1.1.21 isn't one of those: every version
 downloads the full installer (about 0.88 GB) to update.
 
 ## Asking before it acts
