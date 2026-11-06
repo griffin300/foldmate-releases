@@ -9,7 +9,19 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.21**.
+The latest version is **1.1.22**.
+
+## New in 1.1.22
+
+- **An audio studio:** Audio is a studio now. Play clips together as tracks, place, trim and fade each one, record from your microphone, master the mix with EQ, compressor, reverb and limiter, and save it to your gallery.
+- **Voice cloning:** make a voice from a short clip of someone who agreed to it, then speak any text in that voice, on this PC. Each voice keeps your confirmation. The two voice models install on this PC (about 3 GB each).
+- **Characters:** **+ > Voice mode > Characters**: give a character a persona and a voice, then **Talk** to it out loud. Its replies are read in its voice when the Natural voice is installed.
+- **Adjust your pictures:** **Adjust** on any picture: light, color, a tone curve and color mixer, detail, vignette and grain, crop and straighten, looks and **Auto**. It saves a new picture and keeps the original.
+- **Text on pictures:** in **Adjust**, add text to a picture, drag it into place, and choose its font, size, color and shadow.
+- **Imagine from any phone:** the phone page has an **Imagine** tab: describe a picture, pick its shape and make it on this PC, watch it run, and browse your gallery. It needs the phone's Imagine permission, which is off until you turn it on in **Remote**.
+- **A quicker start:** Foldmate's window keeps its own scripts between starts instead of loading them all again.
+- **A quicker chat bar:** over apps that don't share their selection, the chat bar opens without waiting for a copy. Text you selected still joins the bar when it arrives.
+- **Fixes:** a bot's notebook edit no longer overwrites a page you saved meanwhile, and code examples in pages are no longer read as sections. Phone camera photos are taken only over your Wi-Fi. Imagine's view buttons are centered.
 
 ## New in 1.1.21
 
@@ -135,7 +147,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.21.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.22.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -195,7 +207,7 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.21 isn't one of those: every version
+From 0.4.0 on, most updates download only the files that changed. 1.1.22 isn't one of those: every version
 downloads the full installer (about 0.88 GB) to update.
 
 ## Asking before it acts
