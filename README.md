@@ -9,7 +9,22 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.24**.
+The latest version is **1.1.25**.
+
+## New in 1.1.25
+
+- **A full image editor:** **Adjust** gains brush masks and masks by brightness or a picked color. Switch it to **Layers** for layers and masks, selections, brushes, clone, fill and gradients, text, shapes and the pen, curves, levels and more adjustments with a live preview, and a full history.
+- **A video editor:** cut gallery clips on a timeline with video, title and audio tracks: the blade, snapping, fades and transitions, keyframes for position, size and opacity, and export to MP4 (AV1), WebM, MKV, GIF and more.
+- **Audio Studio, rebuilt:** tracks hold many clips. Split them, regenerate one into alternate takes, draw volume and pan lines, duck music under a voice, and work in **Arrange**, **Mix** or **Master**. Projects save on this PC, and the side panel folds away to give the tracks room.
+- **Captions for any video:** make captions for a gallery video with speech-to-text on this PC, edit and time each line, choose a look, then draw them into the video or save an SRT file.
+- **Reframe:** turn any gallery video into 9:16, 1:1, 4:5 or 16:9, held still or panning.
+- **Clean up, smooth and tighten:** **Clean up voice** lowers hiss, hum and room noise, **Smooth motion** makes a clip 60 fps or slow motion, and **Cut the pauses** shortens the silences between sentences. All three also work from the phone.
+- **Imagine's top bar:** Imagine's sections move to a bar across the top, the model browser and Library are redone, and Characters Workflows and the Storyboard follow the new look.
+- **Characters in a cloned voice:** a character can speak in a voice cloned on this PC. The first time, Foldmate asks you to confirm you may use that voice.
+- **A faster start:** Foldmate's window appears at once and finishes loading while the rest of the app starts.
+- **Better on NVIDIA cards:** the first chat model loads on the CUDA engine when it's installed, FLUX.2 klein stays on 16 GB cards and runs faster, and a missing CUDA runtime is named instead of asking you to update the driver.
+- **Claude Code and Codex:** the MCP window has setup tabs for Claude Code and Codex.
+- **Fixes:** the Qwen3.8 27B pick for 16 GB cards loads with the Q4 cache its note asks for, and Imagine's page no longer scrolls under its top bar.
 
 ## New in 1.1.24
 
@@ -178,7 +193,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.24.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.25.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -238,7 +253,7 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.24 isn't one of those: every version
+From 0.4.0 on, most updates download only the files that changed. 1.1.25 isn't one of those: every version
 downloads the full installer (about 0.88 GB) to update.
 
 ## Asking before it acts
