@@ -9,7 +9,24 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.22**.
+The latest version is **1.1.23**.
+
+## New in 1.1.23
+
+- **Voice mode:** **+ > Voice mode** opens its own window: a live transcript, push to talk or hands-free, interrupt anytime, and your choice of microphone and voice.
+- **Characters:** characters have cards with portraits. Add one of eight starters or make your own with a picture, a persona, a greeting and a voice. Your paired iPhone can use them too.
+- **Characters that can use tools:** turn on a character's **Web research and PC control** switch and it can search the web and use your PC. It's off by default, and your approval settings apply.
+- **More photo tools:** **Adjust** adds Heal, Color grading, Noise reduction, Dehaze and Perspective, a before and after view, and presets of your own settings.
+- **A fuller audio studio:** tracks can play backwards, faster or slower, through a tone and with an echo. Snap clips to the beat, master with a preset and save each track on its own.
+- **Start and end frames:** cloud video can start from your picture and end on another with Kling, Veo 3.1, Wan 3.0, Seedance, LTX 2.5 and MiniMax H3 Max.
+- **More video models:** eight more video models install on this PC, including Wan 2.1 1.3B for 8 GB cards and smaller MiniMax H3 files, and video can start from words alone. New with your own fal key: FLUX 3 video, LTX 2.5 fast, Wan 3.0 prime and MiniMax H3 Max. MiniMax H3's licence excludes some regions: its card shows the terms.
+- **Camera moves:** video can ask for a camera move: push in, pull back, pan, orbit, crane up, handheld or locked off.
+- **Search all models:** one search finds this PC's models and the cloud's, every kind at once.
+- **Speak with your fal key:** Speak can lip-sync a portrait or a face video through fal with your own key.
+- **More Imagine on the phone:** on the phone page's **Imagine** tab, make videos and sounds too, pick the model and style, save to the phone, or move a picture to the PC's Recycle Bin.
+- **Updates while you work:** a full update installs while you keep working. Foldmate closes only at the end.
+- **A calmer chat bar:** the microphone button and the status line left the chat bar. **Dictate** and **Voice mode** are in the **+** menu, and Ctrl+Shift+Space still dictates.
+- **Fixes:** photo edits made after or during a save ask before they're lost. Leaving Audio stops a recording. Play works after a seek and plays the clip you chose. A failed voice save can be tried again.
 
 ## New in 1.1.22
 
@@ -147,7 +164,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.22.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.23.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -207,7 +224,7 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.22 isn't one of those: every version
+From 0.4.0 on, most updates download only the files that changed. 1.1.23 isn't one of those: every version
 downloads the full installer (about 0.88 GB) to update.
 
 ## Asking before it acts
