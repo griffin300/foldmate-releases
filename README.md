@@ -9,7 +9,21 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.23**.
+The latest version is **1.1.24**.
+
+## New in 1.1.24
+
+- **Agent as a director:** pick a workflow such as an ad, a short film or a social clip, write the brief, choose pictures, video, sound and **Edit**, and **Run Agent** plans the steps, makes them and puts the clips and the sound together into one video.
+- **Imagine pipelines:** build a pipeline of up to 12 steps, each with any installed model and its own Advanced settings. One run makes up to 48 jobs.
+- **Characters in their own window:** Imagine's Characters open in a window: a library of people, mascots and products, with their reference pictures, poses, voices, clips and export packs.
+- **MCP window:** set up Claude Desktop, Cursor, OpenCode, Windsurf or VS Code to use Foldmate, see each agent's permissions, and revoke one.
+- **Pictures in Image mode:** Image mode has **Add a picture** for models that use reference pictures, such as FLUX.2 klein.
+- **Hugging Face installs:** install an image or video model from Hugging Face in any family Foldmate recognises, not only SDXL. SD 3.5 is still not supported.
+- **Audio Studio mastering:** the Audio tab is laid out for mixing and mastering: a five-band EQ with a draggable curve, a compressor, reverb and a limiter. Export writes 16- or 24-bit WAV at 44.1 or 48 kHz.
+- **Settings in six sections:** and **Keep the private link on** starts the link with Foldmate when Tor is installed and lockdown is off.
+- **Imagine on the phone:** install Imagine models from a paired phone. Newly paired phones have Imagine on by default.
+- **Plainer names:** Assist and Lens are gone from the app's words: the chat bar is the **Chat bar**, Ctrl+Alt+Space is the **Selected text** shortcut for **Quick actions**, and voice mode's characters are now **Companions**.
+- **Fixes:** Explore previews load again, Fits my GPU shows your card's real size, the Imagine feed bar wraps when the feed is narrow, and voice, character and photo-preset bugs are fixed.
 
 ## New in 1.1.23
 
@@ -164,7 +178,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.23.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.24.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -224,7 +238,7 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.23 isn't one of those: every version
+From 0.4.0 on, most updates download only the files that changed. 1.1.24 isn't one of those: every version
 downloads the full installer (about 0.88 GB) to update.
 
 ## Asking before it acts
@@ -242,14 +256,14 @@ Each chat has an approval mode:
 - **Purchases with the Wallet** ask you first in every mode, unless you allow purchases within your limits in
   Full access (off by default).
 
-## The tray, the chat bar and Assist
+## The tray, the chat bar and Quick actions
 
-- **The tray:** right-click Foldmate's icon by the clock for **Open Foldmate**, **Load model**, **Lens**,
+- **The tray:** right-click Foldmate's icon by the clock for **Open Foldmate**, **Load model**, **Chat bar**,
   **Eject model**, **App settings** and **Quit Foldmate**. Quit unloads the model and stops web research, so
   their memory is free again.
 - **The chat bar:** press **Alt+\`** (the key under Esc). Alt+Space, Ctrl+Alt+F and Ctrl+Alt+B are choices in
   **App settings › This computer**. Text you highlight while it's open joins your question.
-- **Assist:** select text in any app and press **Ctrl+Alt+Space** to proofread, rewrite, summarize, explain or
+- **Quick actions:** select text in any app and press **Ctrl+Alt+Space** to proofread, rewrite, summarize, explain or
   translate it with your own model, or search the web about it.
 
 ## Your phone (beta)
