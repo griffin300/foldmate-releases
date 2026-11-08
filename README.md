@@ -9,7 +9,24 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.26**.
+The latest version is **1.1.27**.
+
+## New in 1.1.27
+
+- **AI edits in the image editor:** describe a change on the **AI tools** tab and it's made on this PC. Select a part first and only that part changes. The result arrives as a new layer, so you can hide or undo it.
+- **Agent in the editors:** tell the agent what you want, like warmer colours, a 4:5 crop and a title. It plans the steps with your chat model, you check them, and each one runs as an undoable edit. In the image and video editors.
+- **Pick the AI models:** the **AI tools** tab in both editors shows which picture or video model makes the change, and which chat model the agent plans with. Switch either one there.
+- **Image and video editor switch:** the icons by the editor's title switch between the image and video editors. The picture goes with you.
+- **A better magic wand:** the magic wand has its own place in the tools. Set **Tolerance** in percent and the selection follows as you drag. It has smooth edges and a mode that inverts where selections overlap.
+- **Smoother zoom and pan:** zoom glides instead of jumping, and a flick of the hand tool keeps moving a little. **Reset tools** puts every tool back as it started.
+- **YouTube tools in the video editor:** J, K and L for playback, markers you can copy as YouTube chapters, punch-in zoom, close gaps, 4K and Shorts frames, and a 1280 x 720 thumbnail export.
+- **Captions on the timeline:** make captions from a clip's speech, on this PC. They land on their own track, one line at a time.
+- **Title templates and styles:** name and role, subscribe reminder, chapter card and end screen templates. Give any title an outline, a shadow or a box so it reads on any footage.
+- **Clearer waveforms and smoother knobs:** waveforms in Audio Studio and the video editor fill their clips and show every syllable. Knobs turn smoothly with a drag up or down, Shift for fine control.
+- **Voice tools in Audio Studio:** **Clone a voice** or **Use a saved voice** from AI tools. **Clean up voice** and **Remove noise** work on your speech track without picking a clip first.
+- **Example voices:** if your gallery has no sounds yet, it shows four example voice clips, each with the words and voice that made it. Delete them like any item.
+- **Close the Create panel:** close the Create panel in any Imagine view for more room. A small icon brings it back.
+- **More fixes:** late replies no longer land in the wrong project, the image editor's toolbar fits at common window sizes, batch and queue controls keep your place, and video exports retry a dropped connection.
 
 ## New in 1.1.26
 
@@ -224,7 +241,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.26.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.27.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -284,7 +301,7 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.26 isn't one of those: every version
+From 0.4.0 on, most updates download only the files that changed. 1.1.27 isn't one of those: every version
 downloads the full installer (about 0.88 GB) to update.
 
 ## Asking before it acts
