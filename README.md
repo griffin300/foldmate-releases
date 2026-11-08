@@ -9,7 +9,18 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.27**.
+The latest version is **1.1.28**.
+
+## New in 1.1.28
+
+- **Unsaved work stays safe:** switching projects or starting a new one in Audio Studio saves first and asks before discarding anything. An older video project file can no longer replace a newer one, and renaming a picture counts as a change.
+- **Late replies land where they belong:** an AI picture edit, captions, an export start or a saved voice that arrives after you moved on no longer lands in another picture, timeline or mode. **Stop** always stops an image AI edit.
+- **Video editor fixes:** **Close** and **Discard changes** close the editor with a picture clip on the timeline, the image and video switch works after discarding, and an untouched project no longer asks about unsaved changes.
+- **Steadier video agent:** **Speed** fits the clip to its source like the Speed control, a title goes after the titles already there and one Undo removes it, and every step acts on the clip chosen when the plan ran.
+- **Small windows:** the video editor keeps Project media beside the inspector. Space on a focused button presses it, and chapters past the end of the timeline are flagged before you copy them.
+- **Chat opens with your bot:** not the bot of your last Code session. The update card can be closed and no longer stays on top of other windows.
+- **Gallery and Library:** the Library shows JPEG pictures. The gallery no longer lists sounds, and Audio Studio opens with the example voices on its tracks.
+- **More fixes:** Esc that closes the model browser no longer also asks to close the editor, the Create panel stays closed after a restart, and the image agent leaves a locked layer alone.
 
 ## New in 1.1.27
 
@@ -241,7 +252,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.27.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.28.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -301,7 +312,7 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.27 isn't one of those: every version
+From 0.4.0 on, most updates download only the files that changed. 1.1.28 isn't one of those: every version
 downloads the full installer (about 0.88 GB) to update.
 
 ## Asking before it acts
