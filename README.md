@@ -9,7 +9,38 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.25**.
+The latest version is **1.1.26**.
+
+## New in 1.1.26
+
+- **Video exports save again:** **Export to gallery** in the video editor saves the clip again. In 1.1.25 it stopped at Saving and the clip was lost.
+- **Titles in video exports:** video editor exports with a title work again. In 1.1.25 they were refused with a message about drawing titles.
+- **H.264 and AAC exports:** the video editor exports H.264 video as MP4 or MOV, and AAC audio as M4A, with Windows' own encoders.
+- **Video editor fixes:** animated size and opacity export as they play in the preview, a split clip keeps its animation, trims stop where the clip's video starts, and **Solo** only quiets other sound tracks.
+- **Layer styles:** give any layer in the image editor a drop shadow, an outer glow or an outline, with its own color and size. Rasterizing a layer keeps its style.
+- **LUTs in Adjust:** import a 3D LUT (.cube) from Lightroom, Premiere, Resolve or a film pack on the **Looks** tab and set how strongly it applies, or export your look as a LUT for those apps.
+- **Split at scene changes:** in the video editor, split a clip at each change of shot in one step. It runs on this PC.
+- **Piano roll in Audio Studio:** write notes for a built-in synth or drum kit in a key and scale, let the note tools write chords, an arpeggio, a bass line, a melody or a beat, bring MIDI files in and out, and add the pattern to your tracks. The pattern is saved with the project.
+- **Smoother Imagine gallery:** scrolling a long gallery, opening a picture's details and moving between chat and Imagine no longer stall or redraw the gallery on a slower PC.
+- **Redesigned video editor:** Project media with search and filters, film strips and detailed waveforms on the timeline, workspaces across the top, and Clip, Audio, Effects and Color in the inspector. One click brings a clip onto the timeline, and Export is no longer under the window's buttons.
+- **Redesigned image editor:** the image editor and Adjust are one window: your pictures to add as layers, a column of tools, Layers, Adjust, Effects and AI tools on the right, and Generate, Expand, Remove and Improve across the top. **Edit** beside Image or Video opens the editor, and videos have **Edit** in their details.
+- **Retouch and selection tools:** the image editor has a **magic wand**, Shift and Alt to add to or take away from a selection, **Select > Modify** (Feather, Expand, Contract, Border), and new brushes: spot healing and healing (they take the light around the spot), blur, sharpen, smudge, **Liquify** (push, bloat, pucker, twirl; also Filter > Liquify), dodge, burn and sponge. Right-click a tool, or press and hold it, for the others in its group.
+- **Distort and Perspective:** **Layer > Distort** and **Layer > Perspective** in the image editor drag a picture layer's corners, with a live preview; Enter makes the pixels at the layer's own resolution, Esc cancels.
+- **Saturation, Chorus and Delay:** Audio Studio tracks have three more effects in their chain and the Effects Rack. The Delay follows the project's tempo (1/4, 1/8, dotted 1/8 or 1/16 note).
+- **Turn and flip video clips:** Transform in the video editor turns a clip to any angle and flips it, in the preview and the export.
+- **Green screen:** **Effects > Chroma key** in the video editor removes a green or blue screen, or a colour you pick, with Similarity and Smoothness, so the tracks below show through.
+- **Engine filter on Hugging Face:** Works with Foldmate's engine now finds the image and Wan video models the engine runs.
+- **Clearer Imagine bar:** the top bar shows each button's name. **Edit** on a picture opens the full image editor; the AI's edit by instruction is now **AI edit**.
+- **One-click screenshots in the chat bar:** the chat bar's screenshot button takes the whole screen at once, with no strip to draw a box in, and the chip says **Your screen**. A chat bar left open no longer closes on its own ("This bar has closed") after ten minutes.
+- **Chat bar opens sooner:** the chat bar no longer waits for a slow app to say what's selected. The selection follows a moment later.
+- **Big model engine:** with a recent NVIDIA or AMD card and enough memory, Qwen3.8-Flash-Next can run on Strata, an optional engine you install in one click from **Models**. On a test RTX 4080 it answered 1.4 to 2 times as fast as the standard engine. The model is under the Qwen Community License 1.0.
+- **Image editor fixes:** color changes undo in one step and Cancel leaves no trace, an open adjustment holds the rest of the editor, a duplicated group keeps its pictures, and a crop or turn in Adjust keeps its shape.
+- **Saves keep your latest edits:** edits made while a save or export runs are kept, in Audio Studio, the video and image editors, Storyboard, notebooks and model presets. **Remove canvas** removes the canvas on screen.
+- **Approvals in the chat bar:** a small shield beside **Tools** shows the chat's approval mode and changes it, as in the main chat. Cards in the bar offer their real answers, and anything the bar can't show opens in Foldmate.
+- **Redesigned model loader:** **Load** and **Inference** are compact cards: a memory timeline, this PC's tightest resource, a compatibility check, the main loading settings with the big model engine switch in view, sampling presets, and your system prompt beside them. Every setting is still there.
+- **Clearer model downloads:** in the model browser, **Quantization** is a table: each version's size, what it is for, whether it fits your GPU and its own download button, with **Download selected** under it.
+- **Imagine beside your chat model:** when there's room, Imagine makes pictures with part of its model in system memory instead of unloading your chat model. When it does have to unload it, the chat model loads again by itself after the pictures are done.
+- **More fixes:** a clip can't run past the end of its video, a layer's mask turns with the layer, and text typed in the image editor is kept when you click away.
 
 ## New in 1.1.25
 
@@ -193,7 +224,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.25.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.26.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -253,7 +284,7 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.25 isn't one of those: every version
+From 0.4.0 on, most updates download only the files that changed. 1.1.26 isn't one of those: every version
 downloads the full installer (about 0.88 GB) to update.
 
 ## Asking before it acts
