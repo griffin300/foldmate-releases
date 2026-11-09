@@ -9,7 +9,19 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.28**.
+The latest version is **1.1.29**.
+
+## New in 1.1.29
+
+- Your own browser in the side panel: tabs, an address bar, Back and Forward. Click and type right in the page. Sites you sign in to stay signed in, and that data is kept encrypted on this PC.
+- The AI can use this browser only when you say so, and a strip with Stop shows while it does. Direct is the default route. Tor is one click, and changing the route opens a new browser.
+- Pictures: up to 16 in a message, each up to 32 MB. They are kept up to 2560 pixels on the long side by default, and you can raise that to 4096.
+- The model sheet is much shorter on the Load and Inference tabs, with less text and a smaller chart. The context panel shows a labelled breakdown, including the system prompt and tools.
+- Imagine shows a small loaded-model bar with an eject button. The plus next to Pictures brings images from your PC into the image editor.
+- The video editor can clone a voice or use a saved one from its AI tools and make speech for your video.
+- Browser, Activity and Split view are now simple icons at the top right. Add files opens the picker at once, and Transcribe audio has its own row in the + menu.
+- The Build and Plan switch slides between modes. The Code tab no longer warns that OpenCode cannot start before you have used it. Chat redraws less while a reply streams and while the app is idle.
+- Your browser sign-ins stay encrypted on this PC. Cloud models stay off unless you turn them on.
 
 ## New in 1.1.28
 
@@ -252,7 +264,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.28.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.29.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -312,7 +324,7 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.28 isn't one of those: every version
+From 0.4.0 on, most updates download only the files that changed. 1.1.29 isn't one of those: every version
 downloads the full installer (about 0.88 GB) to update.
 
 ## Asking before it acts
