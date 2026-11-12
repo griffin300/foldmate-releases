@@ -9,7 +9,19 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.29**.
+The latest version is **1.1.30**.
+
+## New in 1.1.30
+
+- Pipelines is now a node canvas: connect picture, video, sound, text and logic steps, run them through Imagine's queue, and start from ready-made starters that end in a finished picture, clip or video.
+- My models: put a .gguf or .safetensors picture or video model file in the My models folder and it shows up in Imagine, ready to use. Foldmate reads what it is from the file, and you can set its steps, CFG and sampler.
+- Video editor: ripple, roll and slip trims, keyframes, speed ramps, cross dissolves, adjustment layers, captions that light up each word, voiceover at the playhead and YouTube export presets.
+- Audio Studio: stem split, transcripts that edit the audio, Reverb and Delay sends, punch-in recording, clip gain and Normalize, loudness on export, and FLAC and MP3 files.
+- Image editor: adjustment layers and filters, free transform, quick mask, pen pressure, AI edits that land as a layer, Select subject and Remove background on this PC. The magic wand's edge marches gently instead of blinking.
+- AI fill, Expand, Remove, Vary, Enhance, Draw and Characters now work with the model that Get started installs. Upscale x2 and Enhance detail make a real, sharper picture.
+- Video from words alone: this PC makes the first frame, then animates it, in a wide, tall or square shape. A 4-step Wan 2.2 Turbo model is in the catalog as an option, under a non-commercial licence.
+- Chat and Code got a polish pass, and Eject and the other top bar controls stay clickable at every window size.
+- Fixes: saving to the gallery and voice cloning answer again, the export engine installs again, and a run that runs out of memory says so. Cloud models stay off unless you turn them on.
 
 ## New in 1.1.29
 
@@ -264,7 +276,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.29.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.30.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -324,8 +336,8 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.29 isn't one of those: every version
-downloads the full installer (about 0.88 GB) to update.
+From 0.4.0 on, most updates download only the files that changed. 1.1.30 isn't one of those: every version
+downloads the full installer (about 0.89 GB) to update.
 
 ## Asking before it acts
 
