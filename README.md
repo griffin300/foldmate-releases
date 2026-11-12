@@ -15,13 +15,13 @@ The latest version is **1.1.30**.
 
 - Pipelines is now a node canvas: connect picture, video, sound, text and logic steps, run them through Imagine's queue, and start from ready-made starters that end in a finished picture, clip or video.
 - My models: put a .gguf or .safetensors picture or video model file in the My models folder and it shows up in Imagine, ready to use. Foldmate reads what it is from the file, and you can set its steps, CFG and sampler.
+- Code tab: a terminal for your own commands in the project folder, in a dock under the conversation that can pop out into its own window. Files and Changes are icon buttons, and the approval card's note is one line.
 - Video editor: ripple, roll and slip trims, keyframes, speed ramps, cross dissolves, adjustment layers, captions that light up each word, voiceover at the playhead and YouTube export presets.
 - Audio Studio: stem split, transcripts that edit the audio, Reverb and Delay sends, punch-in recording, clip gain and Normalize, loudness on export, and FLAC and MP3 files.
-- Image editor: adjustment layers and filters, free transform, quick mask, pen pressure, AI edits that land as a layer, Select subject and Remove background on this PC. The magic wand's edge marches gently instead of blinking.
-- AI fill, Expand, Remove, Vary, Enhance, Draw and Characters now work with the model that Get started installs. Upscale x2 and Enhance detail make a real, sharper picture.
+- Image editor: adjustment layers and filters, free transform, quick mask, pen pressure, AI edits that land as a layer, Select subject and Remove background on this PC. Selection outlines are smooth lines that march gently.
+- AI fill, Expand, Remove, Vary, Enhance, Draw and Characters work with the model that Get started installs. A custom picture size can go up to 2048 px a side and about 2.4 megapixels, depending on your graphics memory.
 - Video from words alone: this PC makes the first frame, then animates it, in a wide, tall or square shape. A 4-step Wan 2.2 Turbo model is in the catalog as an option, under a non-commercial licence.
-- Chat and Code got a polish pass, and Eject and the other top bar controls stay clickable at every window size.
-- Fixes: saving to the gallery and voice cloning answer again, the export engine installs again, and a run that runs out of memory says so. Cloud models stay off unless you turn them on.
+- Chat and Code got a polish pass, Eject stays clickable at every window size, saving to the gallery and voice cloning answer again, and a run that runs out of memory says so. Cloud models stay off unless you turn them on.
 
 ## New in 1.1.29
 
