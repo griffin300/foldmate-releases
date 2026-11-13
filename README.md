@@ -9,7 +9,19 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.31**.
+The latest version is **1.1.32**.
+
+## New in 1.1.32
+
+- Fusion: a cloud model you set up and this PC's model can work together in a chat or a Code project, either one leading. It stays off until you turn it on, with a cap on cloud tokens.
+- Chat bar replies show bold, lists, tables and code cards, each with its own Copy. The context panel splits the window part by part, and Context shows what compaction kept.
+- Long tasks on this PC hold together: when a task outgrows the context, old screen readings go first and your request and the model's notes stay, so it keeps its place and finishes much sooner.
+- The Wallet opens with Windows Hello or a recovery key, both off until you set them up. Lock an Imagine folder to keep its files encrypted and hidden, or lock a Code conversation.
+- With Direct browsing, the browser panel is a real browser inside Foldmate's window, with tabs. It never reaches this PC's own addresses or your home network. Tor browsing stays in the private browser.
+- Model search keeps drafters and helper files apart from chat models, shows more results and GGUF builds, and opens pasted links. Code has a Local only switch; its web search and MCP go through Tor.
+- Chat and connected agents use the picture model you choose, in Imagine's model menu or in Tools. Chat can ask for a size, a tileable texture or a negative prompt, and says plainly when a model is missing or too big for this PC.
+- Imagine makes material maps, game engine packs and pixel art, and its MCP server makes sounds and sprite sheets. Turn on Make assets in Code's Tools menu and OpenCode saves pictures and sounds in your project.
+- With Keep the private link on, a dropped phone link tries again by itself. No total quota on your pictures and documents, only a free-disk floor. A failed load offers Load without Vision.
 
 ## New in 1.1.31
 
@@ -288,7 +300,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.31.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.32.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -348,7 +360,7 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.31 isn't one of those: every version
+From 0.4.0 on, most updates download only the files that changed. 1.1.32 isn't one of those: every version
 downloads the full installer (about 0.89 GB) to update.
 
 ## Asking before it acts
