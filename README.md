@@ -9,7 +9,17 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.33**.
+The latest version is **1.1.34**.
+
+## New in 1.1.34
+
+- Ask for a picture in a chat and Foldmate makes it with picture models you added (My models or a Hugging Face download), not only the catalog's. A cloud picture model you set up counts too. Before, chat could say it had no picture tool.
+- If a reply or task is still running when you choose Restart to update, the update window asks: restart anyway, or when it finishes. No Windows box that can hide behind Foldmate.
+- An update you already downloaded is ready when you open Foldmate again, instead of downloading a second time. If its file is in use or the drive is full, Foldmate says so.
+- When Windows has too little memory left for Strata's fast mode, the model now reads its experts from disk instead of failing to start.
+- Foldmate now clears the icons that earlier runs or an interrupted update left in the notification area, so only one stays.
+- If saving a storyboard, an Audio Studio project or a video edit fails, your changes stay and Foldmate says why. Delete in Audio Studio names the project it removes.
+- With Strata as the backend, choose MTP under Speculative decoding when you load a model. Strata downloads a 0.9 GB draft layer once and then writes faster. If MTP doesn't start, Strata loads without it.
 
 ## New in 1.1.33
 
@@ -304,7 +314,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.33.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.34.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -364,7 +374,7 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.33 isn't one of those: every version
+From 0.4.0 on, most updates download only the files that changed. 1.1.34 isn't one of those: every version
 downloads the full installer (about 0.89 GB) to update.
 
 ## Asking before it acts
