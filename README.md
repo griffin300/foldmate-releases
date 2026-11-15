@@ -9,7 +9,18 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.39**.
+The latest version is **1.1.40**.
+
+## New in 1.1.40
+
+- Removing a program or a game, closing an app or clearing a temporary folder by command now runs in Full access: a path under Program Files (x86) was mistaken for a protected folder. Windows Settings, Task Manager and the Registry Editor can be read and worked like any app.
+- On your own connection, search asks its engines together, no longer waits for slow pages, and an ordinary reply takes at most two rounds of searching and reading. Over eight test questions on a 27B model, answers started about a third sooner.
+- On your own connection, search can read Wikipedia pages again, and questions about code and software get general web results first instead of unrelated pages from developer sites.
+- A picture you ask for in chat shows a card at once, folding open as it is made, and the queue waits for the reply to end instead of failing. In Imagine, pick several pictures to move or delete, right-click a picture for its actions, and copy with one button.
+- A message you steer in while a reply is still being written is taken up right away, and the words already written are kept.
+- A reply that streams in no longer slows down a long chat, Find is quicker, and Tools & integrations shows its rows as soon as it opens.
+- Data & memory has a search field: type a word to find a setting in any of its sections.
+- Generate always comes back after Draw or Agent, pictures already on this PC offer Copy and Show in folder instead of Download, and Move to folder lists your folders again.
 
 ## New in 1.1.39
 
@@ -372,7 +383,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.39.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.40.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -432,7 +443,7 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.39 isn't one of those: every version
+From 0.4.0 on, most updates download only the files that changed. 1.1.40 isn't one of those: every version
 downloads the full installer (about 0.89 GB) to update.
 
 ## Asking before it acts
