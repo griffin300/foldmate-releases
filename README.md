@@ -9,7 +9,23 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.38**.
+The latest version is **1.1.39**.
+
+## New in 1.1.39
+
+- Leave a message, its files, or everything before a point out of what the model reads, to save tokens in long chats. It stays in the chat, dimmed, and Put back returns it.
+- App settings and the Settings & tools menu have a search field: type a word to find a setting in any section.
+- Ask for a stopwatch or a countdown. Your PC keeps the time to the millisecond, so readings are exact however long a reply takes. In Full access, a timer can run a PowerShell command when it ends.
+- Computer control can hold a key or a mouse button for a set time, or wait a set number of seconds. Stop and lockdown let go at once.
+- A backup with an attachment from a deleted chat now restores, and restored chats keep their queued messages, paused, and their Canvas.
+- Remove deletes only the board you confirmed, an edit survives a save conflict, Accept all applies just what it shows, and the model can read long notes whole.
+- Stop and Clear show the right output, each project keeps its own unsent line and history, errors after a command ends are shown, and Add to message always fits.
+- Your last change is the one kept, a saved prompt inserts its new words, a prompt that starts with a path is sent as a message, and typing with an input method no longer moves the menu.
+- A diagram that timed out tries again when you reopen the chat, a missing renderer offers to fix it, and diagrams from a chat you left no longer hold this one up.
+- A failed resume never leaves a download waiting with nothing to start it, a failed Remove doesn't hide the model, and a storage move checks every model file before removing the original.
+- Undo the bot's last edit never changes a different page, and an accepted decision-log entry goes where its preview showed.
+- Hidden chats no longer crowd out title matches, Korean results show the word you searched, and Usage counts each reply once.
+- Importing a Claude project again also repairs projects that an older version imported only in part.
 
 ## New in 1.1.38
 
@@ -356,7 +372,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.38.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.39.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -416,7 +432,7 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.38 isn't one of those: every version
+From 0.4.0 on, most updates download only the files that changed. 1.1.39 isn't one of those: every version
 downloads the full installer (about 0.89 GB) to update.
 
 ## Asking before it acts
