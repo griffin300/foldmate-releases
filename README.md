@@ -9,7 +9,19 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.37**.
+The latest version is **1.1.38**.
+
+## New in 1.1.38
+
+- Files in Chat lists text files you pasted in and files Code edited, leaves out what deleted messages attached, jumps to older messages, and tries again by itself after a hiccup.
+- Chatterbox and Qwen3-TTS read at your reading speed without changing pitch, and short English replies keep the voice you chose. Qwen3-TTS lists the three languages it reads aloud in.
+- Moving Imagine's models moves only Imagine's own files and never overwrites anything; queued pictures wait for the move. A download that already has every byte is checked instead of fetched again.
+- A restored backup brings pinned and archived chats back as they were, so Delete chats automatically still leaves them alone. It also keeps any chat with queued messages not yet sent.
+- In search, one busy chat no longer hides the others, accented text is found however it was typed, and locked chats never take a result's place.
+- A Duplicate or Branch that fails leaves no half copy, and copies no longer add to Usage.
+- Stop right after Run no longer leaves the terminal busy, accented letters and emoji come through intact, and Chat's Terminal always opens its own dock.
+- Notebook approvals, Undo and search hold up when a save fails or a page changes outside Foldmate. Notebook, Activity, Browser and Canvas open one at a time.
+- Importing a Claude project again brings in the files an earlier import left out.
 
 ## New in 1.1.37
 
@@ -344,7 +356,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.37.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.38.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -404,7 +416,7 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.37 isn't one of those: every version
+From 0.4.0 on, most updates download only the files that changed. 1.1.38 isn't one of those: every version
 downloads the full installer (about 0.89 GB) to update.
 
 ## Asking before it acts
