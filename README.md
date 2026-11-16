@@ -9,7 +9,19 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.43**.
+The latest version is **1.1.44**.
+
+## New in 1.1.44
+
+- Switching chats no longer flashes an empty chat or rebuilds the list, a reply no longer jumps when its search steps finish, the Load sheet opens without growing and jumping, the model list is drawn once, Imagine keeps its pictures in place while a job runs and stops checking its queue while it's closed, and Foldmate sends over a third fewer requests as it starts and about half as many while it sits idle.
+- Imagine's Queue is a full page: the running job with its live picture and progress, then the waiting ones and what's finished, each with its picture, model and size. Drag a job to a new place, tick jobs by number to run them next or remove them, queue a copy, or start a finished job over.
+- Models → Hardware & runtimes shows the graphics card, processor and memory beside the engines that run your models, the build in use and engine updates, on one compact page that fits without scrolling.
+- In the Load sheet the context can be any length the model takes: type a number, or drag the slider, which catches on the usual sizes. The memory bar at the top now shows the model, its context, other apps and what's free, to scale.
+- With computer use on, Foldmate can show a picture file from your PC right in the chat, such as one it just made, instead of writing its path. Files changed on this PC have Show in folder in the chat's Files list.
+- Brush strokes follow smooth curves through their points instead of straight lines. In Paint, Foldmate clicks buttons instead of pressing them through Windows' accessibility interface, which could freeze Paint, and an action refused before it did anything says so plainly.
+- When a local model's thinking slipped into its reply, it now goes to the thinking section and only the answer shows.
+- A long task keeps going while it makes progress. When it does pause, because its last steps weren't getting anywhere, it says so in plain words, and continue picks it up.
+- The private web engine starts again after an update even if a container stopped moments before, Imagine's step counter and live preview no longer jump while a picture is made, the notices about long chats are in plain words, and Full access no longer asks before a script that only removes an invisible marker from a file.
 
 ## New in 1.1.43
 
@@ -413,7 +425,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.43.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.44.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -473,8 +485,8 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.43 is one of those: from 1.1.42 it's a small download
-(about 20.2 MB). From an older version, the update downloads the full installer (about 0.89 GB).
+From 0.4.0 on, most updates download only the files that changed. 1.1.44 is one of those: from 1.1.43 or 1.1.42 it's a small
+download (about 20.7 MB). From an older version, the update downloads the full installer (about 0.89 GB).
 
 ## Asking before it acts
 
