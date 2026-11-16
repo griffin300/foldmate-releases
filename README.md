@@ -9,7 +9,14 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.44**.
+The latest version is **1.1.45**.
+
+## New in 1.1.45
+
+- In Paint, opening Edit colors froze Paint; Foldmate now picks the nearest colour in Paint's palette instead. Paint's own menus and drop-downs can be clicked, and a brush stroke no longer starts on the canvas edges, where it resized the picture.
+- An app that stops responding is reported at once, instead of after several long waits.
+- A screen saver that isn't a lock no longer stops a computer-use task: Foldmate's look closes it. Foldmate now only reads the screen saver's password setting; an older check could switch it off for the rest of the session.
+- A task that ends its turn by announcing its first step gets one more step to take it.
 
 ## New in 1.1.44
 
@@ -425,7 +432,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.44.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.45.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -485,8 +492,8 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.44 is one of those: from 1.1.43 or 1.1.42 it's a small
-download (about 20.7 MB). From an older version, the update downloads the full installer (about 0.89 GB).
+From 0.4.0 on, most updates download only the files that changed. 1.1.45 is one of those: from 1.1.44, 1.1.43 or 1.1.42 it's a
+small download (about 20.7 MB). From an older version, the update downloads the full installer (about 0.89 GB).
 
 ## Asking before it acts
 
