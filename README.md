@@ -9,7 +9,19 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.41**.
+The latest version is **1.1.42**.
+
+## New in 1.1.42
+
+- A computer task that keeps making progress now goes on past 72 steps; one that is stuck or repeating itself still stops. In a test on a 27B model, filing thirty help-desk tickets ran to about 100 steps in a single request.
+- Computer use can drag a brush along a path of points on a paint app's canvas, so it can draw lines and shapes, not only drag one thing onto another. Maximizing or moving a window now counts as a change, so it isn't tried again.
+- Asked to scroll until some words show, computer use looks for them in a document's own text and scrolls straight there. A slider or number box can be set to a value in one step instead of with the arrow keys.
+- PowerShell errors reach the model as one line each, a .ps1 script Windows blocks comes with the way to run it once, a Program Files (x86) path written so it can't work is caught before it runs, and asking to open a PowerShell window points to the command tool instead.
+- The “Using this computer” bar and live view show only while Foldmate moves the pointer or types into a window, not while it runs PowerShell, and the live view is now a small strip that no longer covers the chat. App settings > Desktop control can hide them.
+- The Backend line at the top of the Load sheet is now a dropdown with the standard engine and the big model engine (Strata), which you can also install from there.
+- When other apps leave a model a little short of graphics memory, the Load sheet offers a smaller VRAM reserve that keeps all of it on the card. Even a small part in system RAM slows a model down a lot.
+- A message you put back into context comes back with its words, deleting a message also clears what marked it as left out, and Continue works when only notices follow the reply.
+- A picture batch that fails part-way shows the pictures it did make, a Cancel that can't go through says why, a paused countdown brought to zero ends, a dictation part that fails keeps the transcript so far, and a long message queue is saved and restored.
 
 ## New in 1.1.41
 
@@ -389,7 +401,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.41.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.42.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -449,7 +461,7 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.41 isn't one of those: every version
+From 0.4.0 on, most updates download only the files that changed. 1.1.42 isn't one of those: every version
 downloads the full installer (about 0.89 GB) to update.
 
 ## Asking before it acts
