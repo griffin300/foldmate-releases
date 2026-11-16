@@ -9,7 +9,19 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.42**.
+The latest version is **1.1.43**.
+
+## New in 1.1.43
+
+- From 1.1.42, this update is a small download that restarts Foldmate, not the full installer. Updates stay small whenever Foldmate's background engine doesn't change.
+- Quit closes Foldmate's window and tray icon right away; unloading the model and stopping the engine finish out of sight. Opening Foldmate again straight after waits for that to end.
+- Image models open on Popular models, with the ones tested for your graphics card first. A model's card lists its versions with their size and whether they fit, and installs from there. Recommended community lists community models and their makers, and searching a maker's name opens their models.
+- On graphics cards with room for it, Quality has a High choice: the largest picture size for the shape. A custom size goes in steps of 8, so 1920 × 1080 works.
+- The Library is its own page and opens from Audio and Agent too. Picking pictures no longer redraws the gallery, Delete asks before removing the picked ones, the Queue button shows how many jobs wait, and a notice that isn't an error goes away by itself.
+- The picture box in Imagine has Use a character, with a list of yours, beside Start from a picture. Ctrl+V adds a copied picture from anywhere on the page, and the box says how many pictures the model takes.
+- Reference pictures show their previews, the Use in Imagine menu opens on top, and the Characters window shows its own messages, so a custom workflow says what happened. With a character chosen, Imagine says when a picture is made by another model than the one picked.
+- Deleting a drive or a personal folder, restarting the PC and stopping system programs are now also caught when they are written inside another shell call. PowerShell errors point at the right line.
+- Quit no longer starts a waiting update's installer, opening Foldmate while it is still closing waits instead of failing, a refused model switch isn't saved as that model's settings, and a model without saved settings no longer takes the last model's extra options.
 
 ## New in 1.1.42
 
@@ -401,7 +413,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.42.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.43.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -461,8 +473,8 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.42 isn't one of those: every version
-downloads the full installer (about 0.89 GB) to update.
+From 0.4.0 on, most updates download only the files that changed. 1.1.43 is one of those: from 1.1.42 it's a small download
+(about 20.2 MB). From an older version, the update downloads the full installer (about 0.89 GB).
 
 ## Asking before it acts
 
