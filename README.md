@@ -9,7 +9,16 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.45**.
+The latest version is **1.1.46**.
+
+## New in 1.1.46
+
+- **Faster update installs:** when an update has downloaded, one **Restart to update** button installs it at once, with no waiting and no Later. A small update gets its files ready several at a time, so Foldmate is back sooner.
+- **More models in Imagine:** Qwen-Image-Edit 2511 and 2509, FLUX.1 Kontext dev, FLUX.3 Image Klein, LongCat-Image and LongCat-Image-Edit, Qwen-Image 2512 and 2.1, the LTX-2.5 video model, Stable Audio 3 for music, and more voices can be installed. Wan 2.2, LTX-2.3 and MiniMax H3 videos can start and end on pictures you choose. Some of these models' licences don't allow commercial use: check a model's licence before using what it makes commercially.
+- **Longer computer tasks:** when Foldmate looks at a window again during a long task, it reads only what changed since its last full look, so long tasks fit in the model's context and finish sooner. A window of the same app no longer counts as covering the one in use, and a window that stops answering is called busy or frozen.
+- **The keyboard stays where you are:** after Send, Regenerate, Edit and resend, Delete or Undo, the keyboard stays in the message box. In a chat, one Tab reaches the messages and the arrow keys move between them.
+- **Side-by-side changes and monthly automations:** code review cards can show a change side by side, a file Foldmate makes can be shown in its folder or opened in your editor, and an automation can run once a month, on a day from 1 to 28.
+- **Fixes:** long chats scroll and sit idle more smoothly, a downloaded small update survives a full disk or a new check, Notebook pages saved as PDF keep their look, free time in your calendars keeps to the day's hours, and Imagine's top bar fits a narrow window.
 
 ## New in 1.1.45
 
@@ -432,7 +441,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.45.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.46.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -492,8 +501,8 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.45 is one of those: from 1.1.44, 1.1.43 or 1.1.42 it's a
-small download (about 20.7 MB). From an older version, the update downloads the full installer (about 0.89 GB).
+From 0.4.0 on, most updates download only the files that changed. 1.1.46 is one of those: from 1.1.45, 1.1.44 or 1.1.43 it's a
+small download (about 20.8 MB). From an older version, the update downloads the full installer (about 0.89 GB).
 
 ## Asking before it acts
 
