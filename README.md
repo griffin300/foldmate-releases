@@ -9,7 +9,16 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.47**.
+The latest version is **1.1.48**.
+
+## New in 1.1.48
+
+- **Dictation you can see:** dictation started from the + menu shows that it is recording, for how long, and the keys that stop it. Voice mode fits a narrow window, and the hands-free note says what it does.
+- **Words that fit:** long labels in the chat bar, Assist, the sidebar and Voice mode wrap instead of being cut off, in every language, and the chat list's search hint no longer shows cut off.
+- **A steadier browser pane:** Escape closes the browser's find bar before the pane, and after you type an address it puts the page's address back without closing the pane. A search with no match says 0/0, the address and find text read well in the light theme, and opening the pane from the keyboard puts you in its address field.
+- **The keyboard keeps its place:** after you save, cancel, delete, rename, branch, stop a reply or close a panel, the focus stays where you were instead of jumping to the top of the page: in chats and the sidebar, the Notebook, Code's Changes, Pipelines, the Wallet, Notes, Memory and backups. Escape closes the Notebook, and F2 renames a node in Pipelines.
+- **Imagine's editors:** the video editor's timeline tools wrap on a narrow window, Shot grid says when it is still making pictures, and Back from a model's card returns you to that card.
+- **Fixes:** a printed or PDF chat keeps its title, a Connections sheet opens at its top, a paused chat queue says why in your language, notebook search keeps what you type, a skill example opens as a new skill, and Advanced loading has no stray sliders. Code's change cards keep Side by side on the note's line, the "isn't answering" notice goes as soon as Foldmate answers again, and Help names the menus as the app shows them.
 
 ## New in 1.1.47
 
@@ -450,7 +459,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.47.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.48.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -510,8 +519,8 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.47 is one of those: from 1.1.46, 1.1.45 or 1.1.44 it's a
-small download (about 20.8 MB). From an older version, the update downloads the full installer (about 0.89 GB).
+From 0.4.0 on, most updates download only the files that changed. 1.1.48 is one of those: from 1.1.47, 1.1.46 or 1.1.45 it's a
+small download (about 21.1 MB). From an older version, the update downloads the full installer (about 0.89 GB).
 
 ## Asking before it acts
 
