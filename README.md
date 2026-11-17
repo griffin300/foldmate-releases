@@ -9,7 +9,16 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.46**.
+The latest version is **1.1.47**.
+
+## New in 1.1.47
+
+- **Fish Audio voice cloning:** Imagine can speak your text in a voice you add with Fish Audio S2 Pro: expressive speech in more than 80 languages. Its licence (the Fish Audio Research License) allows personal and non-commercial use; commercial use needs a licence from Fish Audio.
+- **Type any picture size:** a **Size** box under Quality shows the size each Quality makes for the shape; type your own and Quality says Custom. High uses the model's own size where Imagine knows it, and past what this PC has made, Imagine says it may spill into system memory and makes it anyway.
+- **Warnings instead of walls:** a model that may not fit this PC's graphics memory shows a warning, and still installs and runs with offload. A card within half a gigabyte of what a model asks for counts as enough.
+- **More models load, and errors say why:** models downloaded in ComfyUI's GGUF form, like Qwen-Image 2.1 Q8, now load, and MiniMax H3 leads the video picks. When pictures can't be made, Imagine shows the engine's own reason.
+- **Imagine feels steadier:** a ticked picture shows its ring at once, and a plain click opens a picture while others are ticked. The gallery keeps its place when the inspector opens or the tile size changes, and each picture still being made keeps its Cancel button.
+- **Fixes:** sending a chat message no longer freezes the window for a few seconds, the Library shows its example pictures again, a picture that can't load no longer leaves an empty tile, Code's Changes panel says Mark reviewed and keeps file names whole, and a Code project's automation can run once a month.
 
 ## New in 1.1.46
 
@@ -441,7 +450,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.46.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.47.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -501,7 +510,7 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.46 is one of those: from 1.1.45, 1.1.44 or 1.1.43 it's a
+From 0.4.0 on, most updates download only the files that changed. 1.1.47 is one of those: from 1.1.46, 1.1.45 or 1.1.44 it's a
 small download (about 20.8 MB). From an older version, the update downloads the full installer (about 0.89 GB).
 
 ## Asking before it acts
