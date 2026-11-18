@@ -9,7 +9,16 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.50**.
+The latest version is **1.1.51**.
+
+## New in 1.1.51
+
+- **Web research starts more reliably:** if virtualization is switched off on this PC, Foldmate now says so and what to do, instead of asking you to retry. A start that is slow while a model loads tries again by itself, a search that arrives while web research is starting is asked again instead of failing, and Foldmate no longer asks for a reinstall when its engine was only slow to answer.
+- **Strata keeps its speed:** reading pictures on the graphics card no longer takes memory the model needs, which could slow replies a lot on a 24 GB card. Eject and Reload now free the engine's memory before the next load starts.
+- **A clearer Load sheet:** Strata models show their own memory figures instead of a warning about system RAM, quick buttons set common context sizes, and builds of Qwen3.8-Flash-Next start with the original model card's sampling.
+- **Cleaner Continue:** while a reply is being continued, the model's thinking shows as thinking, never as part of the reply, and a continued list no longer appears twice on Strata.
+- **Computer use wastes fewer steps:** a tooltip or menu no longer renumbers every control, a step that opens one lists only what changed, and brush strokes that leave no mark are reported so the model can correct its aim. A file name given in a Save dialog is typed in, so the file is saved under that name. A task no longer ends early when the model writes a stray note where its next action belongs.
+- **Fixes:** Ctrl+K finds chats with the sidebar hidden. The keyboard keeps its place in Notes and Imagine. A finished automation shows as done within seconds. Long bot names show whole on hover. Chats started from the chat bar use your selected bot. The Inference tab's prompt box says whose instructions it holds. A chat model placed in Imagine's models folder is offered in Models. The welcome screen no longer jumps as the app starts, and the startup status shows at once.
 
 ## New in 1.1.50
 
@@ -477,7 +486,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.50.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.51.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -537,8 +546,8 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.50 is one of those: from 1.1.49, 1.1.48 or 1.1.47 it's a
-small download (about 21.4 MB). From an older version, the update downloads the full installer (about 0.89 GB).
+From 0.4.0 on, most updates download only the files that changed. 1.1.51 is one of those: from 1.1.50, 1.1.49 or 1.1.48 it's a
+small download (about 21.3 MB). From an older version, the update downloads the full installer (about 0.89 GB).
 
 ## Asking before it acts
 
