@@ -9,7 +9,16 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.48**.
+The latest version is **1.1.49**.
+
+## New in 1.1.49
+
+- **Very large models on your graphics card:** the Strata engine, now 0.2.15, runs big mixture-of-experts models like Qwen3.8-Flash-Next: the busiest parts on the graphics card, the rest in RAM. It runs every model Strata does, from Swift and the Coder to Unsloth's files and Qwen3.6-35B-A3B, and the NVFP4 packs on NVIDIA. The model browser also offers SC117's uncensored Flash-Next (IQ3_XXS), run on a Radeon RX 7900 XTX with chat, pictures and OpenCode.
+- **Strata in one click:** choose Strata in the Load sheet or the model browser: one card says what it is and what it needs, and one click gets the engine, its drafter and pictures. If Windows' page file is too small for its fastest mode, the card says what to set and opens the setting. Its files download directly; with Tor on for model files, turn Tor off for them (the Tor relay carries them from the next full update).
+- **A Backend list that fits your card:** the Load sheet lists the engines your graphics card runs, the usual one first: Vulkan, ROCm, Strata and CPU on AMD; CUDA, Vulkan, Strata and CPU on NVIDIA. One that isn't installed installs from the list.
+- **Faster replies on Strata:** Auto picks the drafter that's faster on your card, about 30% faster on a Radeon RX 7900 XTX, with the same answers. You can also choose MTP, DFlash2 or Off; Qwen3.6 drafts with its own layers.
+- **Pictures on Strata:** Strata reads pictures you attach, with its own reader on the graphics card or the processor, after a one-time 0.9 GB download.
+- **Fixes:** bots can be renamed from their ⋯ menu, and deleting a note can be undone. Renaming keeps what you type when the list redraws, Imagine's notices show in the sheet you're in, and the keyboard stays where you are in more places.
 
 ## New in 1.1.48
 
@@ -459,7 +468,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.48.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.49.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -519,8 +528,8 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.48 is one of those: from 1.1.47, 1.1.46 or 1.1.45 it's a
-small download (about 21.1 MB). From an older version, the update downloads the full installer (about 0.89 GB).
+From 0.4.0 on, most updates download only the files that changed. 1.1.49 is one of those: from 1.1.48, 1.1.47 or 1.1.46 it's a
+small download (about 21.4 MB). From an older version, the update downloads the full installer (about 0.89 GB).
 
 ## Asking before it acts
 
