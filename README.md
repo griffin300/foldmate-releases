@@ -9,7 +9,18 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.53**.
+The latest version is **1.1.54**.
+
+## New in 1.1.54
+
+- **See context and speed while OpenCode works:** in the Code tab, the context ring now moves after every model step instead of once a turn. The bar above the message box says the speed and the tokens written so far, and each reply's line says its tok/sec.
+- **Context and speed for cloud models too:** a Code project linked to a cloud model now moves the context ring after every model step and says its speed, as this computer's model does.
+- **/goal ends sooner and says when it is met:** OpenCode knows from the first message how to say the goal is met, so a met goal needs no extra turn. The goal strip then says Goal met and its clock stops. A goal no longer pushes on after you refuse one of its actions, and Foldmate's own follow-ups are one quiet line each.
+- **A loop guard that only stops real loops:** OpenCode is stopped only when it repeats the same command, or the same cycle of commands, with the same result. Fixing files with commands between test runs is no longer taken for a loop.
+- **Full access keeps going in the Code tab:** when OpenCode ends a reply by announcing its next coding step, such as that it will implement it next, it gets one automatic go-on instead of waiting for you.
+- **Esc and Up work as in OpenCode's terminal:** in the Code tab, pressing Esc twice in the message box stops the running task, and the Up arrow in the empty box brings back what you sent before in this conversation; Down goes forward again.
+- **Clearer tools in the Code tab:** the switches that need OpenCode on this computer say so in a few words, and one line above them explains why, with a button to change where OpenCode runs.
+- **Fixes:** a steered turn's reply says it stopped for your message and what it had changed. The context ring starts empty after /clear and shows the session's size again after a restart.
 
 ## New in 1.1.53
 
@@ -504,7 +515,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.53.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.54.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -564,8 +575,8 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.53 is one of those: from 1.1.52, 1.1.51 or 1.1.50 it's a
-small download (about 21.2 MB). From an older version, the update downloads the full installer (about 0.89 GB).
+From 0.4.0 on, most updates download only the files that changed. 1.1.54 is one of those: from 1.1.53, 1.1.52 or 1.1.51 it's a
+small download (about 21.1 MB). From an older version, the update downloads the full installer (about 0.89 GB).
 
 ## Asking before it acts
 
