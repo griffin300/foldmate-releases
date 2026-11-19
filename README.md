@@ -9,7 +9,16 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.52**.
+The latest version is **1.1.53**.
+
+## New in 1.1.53
+
+- **Faster on Radeon RX 7900 cards:** on an RX 7900 XT or XTX, the big model engine reads long prompts about 60% faster and writes about 7% faster, with the same answers. Other cards run as before.
+- **/goal keeps OpenCode working:** in the Code tab, a goal set with /goal is followed up each time OpenCode stops, until it says the goal is met, asks you something, or you pause or stop it.
+- **Steer works in the Code tab:** Steer stops OpenCode's current step, keeps what it did, and sends your message to it next. A session that can't take a request starts fresh with a summary of the chat and sends it again, without /clear.
+- **A smoother Code tab:** Tab or a click on a command in the / list puts it in the message box. In Full access, a progress report gets one automatic go-on. OpenCode on this computer with a Zen model chosen uses this computer's model and says so. Tools lists only what OpenCode can use. OpenCode repeating the same command is stopped and told to move on.
+- **Save memories without asking:** a new switch under Use memory lets bots add what they learn about you to Memory with no card. They still ask after reading a page, file or screen, and never save passwords.
+- **Fixes:** in Full access, computer use goes on when the model says "say continue". Notices in Data & memory panes no longer cover the pane's title.
 
 ## New in 1.1.52
 
@@ -495,7 +504,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.52.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.53.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -555,8 +564,8 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.52 is one of those: from 1.1.51, 1.1.50 or 1.1.49 it's a
-small download (about 21.3 MB). From an older version, the update downloads the full installer (about 0.89 GB).
+From 0.4.0 on, most updates download only the files that changed. 1.1.53 is one of those: from 1.1.52, 1.1.51 or 1.1.50 it's a
+small download (about 21.2 MB). From an older version, the update downloads the full installer (about 0.89 GB).
 
 ## Asking before it acts
 
