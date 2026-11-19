@@ -9,7 +9,16 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.51**.
+The latest version is **1.1.52**.
+
+## New in 1.1.52
+
+- **Computer use can aim at single pixels:** on a large screen, the picture the model points in is smaller than the screen, so it could not hit an exact spot. It can now ask for a close-up at full detail, its screenshots say their scale, and it can pull a resize handle on purpose.
+- **Computer use finishes more small tasks:** the items of drop-down menus in apps such as Paint and File Explorer are listed to the model. Key names such as Return or Page Down are understood, a drag is no longer refused because something nearby moves by itself, a finished task ends with a reply, and opening a file says which app it opened in.
+- **Fast mode answers sooner:** in Strata's fast mode, a reply that follows a chat title or a memory note no longer reads the whole chat again first, in all but very long chats.
+- **See and pause the bot in the browser pane:** while the bot uses the browser pane, the pane's bar says what it is doing in a few words, with Pause and Resume.
+- **More ways to take your work out:** the design editor downloads a PSD with its layers. The video editor exports a square 1:1 shape beside the vertical one. Short notes export as Markdown files in a .zip.
+- **Fixes:** each Pipelines node says what it does, and Check points out an empty prompt. The sidebar no longer shifts as Foldmate opens. A template's text in Create a bot is not counted as something you typed. The Check for updates button says what a check shares.
 
 ## New in 1.1.51
 
@@ -486,7 +495,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.51.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.52.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -546,7 +555,7 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.51 is one of those: from 1.1.50, 1.1.49 or 1.1.48 it's a
+From 0.4.0 on, most updates download only the files that changed. 1.1.52 is one of those: from 1.1.51, 1.1.50 or 1.1.49 it's a
 small download (about 21.3 MB). From an older version, the update downloads the full installer (about 0.89 GB).
 
 ## Asking before it acts
