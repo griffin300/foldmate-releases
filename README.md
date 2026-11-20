@@ -9,7 +9,15 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.54**.
+The latest version is **1.1.55**.
+
+## New in 1.1.55
+
+- **Clone a voice with Reverb-TTS:** in Imagine's Audio, choose Reverb-TTS to speak in a voice from a short clip you add. It runs on your graphics card: the first sound comes in about a quarter of a second, and a minute of speech takes a few seconds. Its model is free for non-commercial use.
+- **Adding a voice is easier:** when you record, Add a voice offers a sentence to read, and it fills in what the clip says by itself, so a cloned voice sounds closer. A tip says what makes a good clip.
+- **Reverb-TTS reads replies aloud:** in Models, Voices, Reverb-TTS can read replies aloud in one of its five voices or in a voice you cloned in Imagine.
+- **Esc twice now stops a Code task:** in 1.1.54 the Code tab's Esc keys didn't work as described. Now the first Esc in the message box says Press Esc again to stop, and a second within two seconds stops the task. /stop stops a running task again, and in Chat one Esc stops a reply.
+- **Fixes:** in the Code tab, /goal no longer takes a reply that says the goal isn't met for done, the loop guard no longer stops a countdown, and Up goes back through the whole chat. Updates, Startup, notebook and PSD exports, Notes, automations, attachments, the video editor's recovery and Library links behave as they should.
 
 ## New in 1.1.54
 
@@ -515,7 +523,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.54.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.55.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -575,8 +583,8 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.54 is one of those: from 1.1.53, 1.1.52 or 1.1.51 it's a
-small download (about 21.1 MB). From an older version, the update downloads the full installer (about 0.89 GB).
+From 0.4.0 on, most updates download only the files that changed. 1.1.55 is one of those: from 1.1.54, 1.1.53 or 1.1.52 it's a
+small download (about 21.3 MB). From an older version, the update downloads the full installer (about 0.89 GB).
 
 ## Asking before it acts
 
