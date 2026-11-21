@@ -9,7 +9,14 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.56**.
+The latest version is **1.1.57**.
+
+## New in 1.1.57
+
+- **The Code tab keeps going on long tasks:** A long task no longer stops at its 200th step as if OpenCode had crashed, and no clock cuts it off while OpenCode is working. While the model writes a large file you see its speed and the tokens written, and a running command shows how long it has run. Yes or no, number and multiple-choice questions from OpenCode now get their answers through.
+- **Scanned PDFs read as they look:** A scanned page made of several pictures is put together whole, a turned page comes out the right way up, and a PDF with a text cover sheet still gives its scanned pages. Sending waits until every page is attached. Spreadsheets keep their repeated rows, their blank rows and the values stored in their cells.
+- **Reverb-TTS downloads once:** Reverb-TTS installed in Models > Voices and in Imagine shares one download, about 500 MB less, and removing it from one place leaves the other working. Video titles keep their exact size when you try another frame preset and come back. Two different attachments with the same name each get their own row in Files.
+- **Fixes:** forty fixes from a review: a schedule says when the spring clock change moves its run, Strata installs and cancels report what is really on disk, a Radeon beside an unsupported NVIDIA card can run Strata, Regenerate always acts on its own chat, Library selections and deletes do what they say, a voice preview stops when asked, and more.
 
 ## New in 1.1.56
 
@@ -530,7 +537,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.56.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.57.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -590,7 +597,7 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.56 is one of those: from 1.1.55, 1.1.54 or 1.1.53 it's a
+From 0.4.0 on, most updates download only the files that changed. 1.1.57 is one of those: from 1.1.56, 1.1.55 or 1.1.54 it's a
 small download (about 21.5 MB). From an older version, the update downloads the full installer (about 0.89 GB).
 
 ## Asking before it acts
