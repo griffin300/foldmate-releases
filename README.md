@@ -9,7 +9,14 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.55**.
+The latest version is **1.1.56**.
+
+## New in 1.1.56
+
+- **The Code tab shows its work:** each step names the file it reads or changes, as a path in your project, and Preview opens it. Every kind of question OpenCode asks is shown, so a task no longer ends when it asks one. When a task stops, it says why: OpenCode's program ended, or Foldmate's own code failed, and Help's Support report shows where.
+- **More documents open in chat:** A password-protected PDF asks for its password. A scanned PDF without text goes to a model that reads pictures as pictures of its pages. LibreOffice's .odt, .ods and .odp files attach like Word, Excel and PowerPoint files.
+- **Strata 0.2.17 for big models:** Foldmate now uses Strata 0.2.17, its engine for big models. If you use it, install it again in Models > Engines: the models you prepared are kept and aren't prepared again. In our test on an RX 7900 XTX, replies came faster with the same answers. It also runs on RX 6600 cards, and the Coder model can use the DFlash2 drafter.
+- **Fixes:** In the Code tab, the loop guard also stops a command repeated with only a filter added and no longer stops a countdown that changes, /goal no longer takes a reply saying the goal isn't met for done, each task needs its own Esc twice, and a prompt recalled with Up stays in its chat. A cloned voice keeps each clip's own words, Reverb-TTS read-aloud recovers after a failed start or a Stop, Pipeline Check finds an empty prompt leaving a group, and the gallery drops pictures deleted elsewhere. In Chat, holding Esc no longer stops a reply, and a slow Send no longer clears a draft in another chat.
 
 ## New in 1.1.55
 
@@ -523,7 +530,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.55.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.56.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -583,8 +590,8 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.55 is one of those: from 1.1.54, 1.1.53 or 1.1.52 it's a
-small download (about 21.3 MB). From an older version, the update downloads the full installer (about 0.89 GB).
+From 0.4.0 on, most updates download only the files that changed. 1.1.56 is one of those: from 1.1.55, 1.1.54 or 1.1.53 it's a
+small download (about 21.5 MB). From an older version, the update downloads the full installer (about 0.89 GB).
 
 ## Asking before it acts
 
