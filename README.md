@@ -9,7 +9,14 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.57**.
+The latest version is **1.1.58**.
+
+## New in 1.1.58
+
+- **The Code tab thinks like Chat:** each Code tab step now thinks at the level you chose for the model, exactly as Chat does, with the same room to think. A long build or test run is never stopped while it runs, a running step names its command or the file it is writing, and its clock starts when it actually runs.
+- **Every scan in a PDF reaches Vision:** A scan drawn inside a PDF drawing group or under a selectable page number is read as a picture, only the visible part of a cropped page is sent, and a PDF you remove while it loads stays removed. Spreadsheet times and amounts in a currency keep their values.
+- **Sending never doubles up:** A message whose confirmation got lost is never saved or answered twice, editing a queued message never loses it, and a file from a failed message comes back to its own chat. Earlier versions of a reply stay reachable, and a restore in one window shows in the others.
+- **Fixes:** forty-two fixes from a review: automations keep a run the clocks moved past midnight, the context ring counts edits, model changes and Code correctly, chat search jumps to the message, the Library and gallery keep your selection and what is loaded, and more.
 
 ## New in 1.1.57
 
@@ -537,7 +544,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.57.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.58.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -597,8 +604,8 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.57 is one of those: from 1.1.56, 1.1.55 or 1.1.54 it's a
-small download (about 21.5 MB). From an older version, the update downloads the full installer (about 0.89 GB).
+From 0.4.0 on, most updates download only the files that changed. 1.1.58 is one of those: from 1.1.57, 1.1.56 or 1.1.55 it's a
+small download (about 21.1 MB). From an older version, the update downloads the full installer (about 0.89 GB).
 
 ## Asking before it acts
 
