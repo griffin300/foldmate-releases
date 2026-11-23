@@ -9,7 +9,18 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.58**.
+The latest version is **1.1.59**.
+
+## New in 1.1.59
+
+- **Materials, sprites and icons for your projects:** Imagine makes tileable PBR materials on any PC, with exports for Unity, Unreal, Godot and Roblox, and Generate from this turns a Design into the start of a new picture. The image engine is updated for steadier runs, and MiniMax H3 and Wan 2.1 1.3B now install everything they need on 16 GB and 8 GB cards.
+- **Effects, scopes and loudness in the editors:** The video editor adds 13 transitions and 9 effects that look the same in the preview and the export, waveform, parade, vectorscope and histogram scopes, and timeline export to EDL, OpenTimelineIO and FCP 7 XML. The photo editor gets seven of the new effects, and Audio Studio adds a compressor, a limiter and a loudness meter, and can bring an export to a loudness target.
+- **Imagine for your coding agents:** Agents connected to Imagine get one-call recipes (game asset packs, app icon sets, product photos, sticker packs and more), saved style locks and characters for matching pictures, live previews in apps that show them, and connect buttons for Claude Desktop, Cursor, Codex and OpenCode. The Code tab makes pictures, sounds, music and materials for your project by default, and every file it writes still asks first.
+- **Top cloud models, priced live:** Check live models lists the top cloud picture, video and music models from Runware and fal with today's prices, and OpenRouter shows chat prices. Agents can finish a free local draft in the cloud within a monthly budget you set, and Cloud in the model picker opens setup when nothing is linked yet.
+- **A more useful chat bar:** With text selected, one press proofreads, rewrites, summarizes, explains or translates it, and Paste into the app puts the answer back where you were typing. Up and Down bring back earlier questions, and Ctrl+Shift+C copies the last answer. Scanned PDFs are now read with Windows' own text recognition, for any model, and you can drop a file on the bar to ask about it.
+- **Smoother sign-ins and checkouts:** When Foldmate works in a browser for you, it declines non-essential cookies, and it hands you one-time codes and your bank's payment check with a clear card. After the Wallet fills in a card, every final press, such as Confirm order or Subscribe, asks you first.
+- **Fusion 2, and more from your phone:** With Fusion, a cloud model plans and this PC's model does the work: one approval card lists every task and the folders it may write, each task shows its progress, and you can stop one or all, from the PC or your phone. Your phone can also record a voice to clone and send photos, sounds and clips into Imagine's gallery.
+- **Fixes:** Twenty-seven fixes from a review: sending after a failed message, Remote's Edit keeping Plan or Deep research, the Imagine queue after a restart, moving Imagine's storage, Design and Audio Studio projects, MIDI round trips, the Code tab's file list after switching projects, and more.
 
 ## New in 1.1.58
 
@@ -544,7 +555,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.58.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.59.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -604,8 +615,8 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.58 is one of those: from 1.1.57, 1.1.56 or 1.1.55 it's a
-small download (about 21.1 MB). From an older version, the update downloads the full installer (about 0.89 GB).
+From 0.4.0 on, most updates download only the files that changed. 1.1.59 is one of those: from 1.1.58, 1.1.57 or 1.1.56 it's a
+small download (about 23.0 MB). From an older version, the update downloads the full installer (about 0.89 GB).
 
 ## Asking before it acts
 
