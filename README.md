@@ -9,7 +9,15 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.60**.
+The latest version is **1.1.61**.
+
+## New in 1.1.61
+
+- **Big pictures on smaller cards:** Graphics cards with 6 GB free now make pictures up to 2048 x 2048: Imagine keeps the model in your PC's memory while it draws. When a picture still doesn't fit, Imagine says so and what helps, including the one-click engine update on PCs that have the older engine.
+- **Ten more image models:** ERNIE-Image Turbo, Ovis-Image, Z-Image base, FLUX.2 klein base, Chroma1-Radiance, SDXL, Stable Diffusion 1.5, HiDream-O1, Iris and MiniT2I are in Imagine's models, each with settings for smaller cards.
+- **Choose where pictures save:** Storage now starts with where things are saved. If Windows' Pictures folder syncs to OneDrive, new pictures, videos and sounds save on this PC instead, and one click moves the ones already there.
+- **Strata 0.2.21:** Foldmate's big-model engine moves to Strata 0.2.21 and its fixes, with the AMD tuning measured again on the new engine.
+- **Fixes:** Fixes from a review and a screenshot sweep: the plans sheet's layout, the full-screen button, the Blender and Fusion 360 cards, iPhone scans and the Blender bridge, Audio Studio, question cards, Code Fusion, motions, phone media, and Imagine in smaller windows.
 
 ## New in 1.1.60
 
@@ -566,7 +574,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.60.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.61.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -626,8 +634,8 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.60 is one of those: from 1.1.59, 1.1.58 or 1.1.57 it's a
-small download (about 23.5 MB). From an older version, the update downloads the full installer (about 0.89 GB).
+From 0.4.0 on, most updates download only the files that changed. 1.1.61 is one of those: from 1.1.60, 1.1.59 or 1.1.58 it's a
+small download (about 23.6 MB). From an older version, the update downloads the full installer (about 0.89 GB).
 
 ## Asking before it acts
 
