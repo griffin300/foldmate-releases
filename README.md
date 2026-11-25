@@ -9,7 +9,11 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.61**.
+The latest version is **1.1.62**.
+
+## New in 1.1.62
+
+- **Fixes:** Fixes from a review of 1.1.61: moving pictures to another folder, Imagine's sizes, batches and editors, Canvas, question cards, phone imports, backups and more. No new features.
 
 ## New in 1.1.61
 
@@ -574,7 +578,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.61.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.62.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -634,8 +638,8 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.61 is one of those: from 1.1.60, 1.1.59 or 1.1.58 it's a
-small download (about 23.6 MB). From an older version, the update downloads the full installer (about 0.89 GB).
+From 0.4.0 on, most updates download only the files that changed. 1.1.62 is one of those: from 1.1.61, 1.1.60 or 1.1.59 it's a
+small download (about 22.8 MB). From an older version, the update downloads the full installer (about 0.89 GB).
 
 ## Asking before it acts
 
