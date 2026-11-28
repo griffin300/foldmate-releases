@@ -9,7 +9,14 @@ unless you choose a cloud model.
 - **Web research goes direct by default.** Turn on **Through Tor** for the private route. It never falls back to direct.
 - **You decide what it may do.** Each chat has an approval mode: Ask every time, Approve for me, or Full access.
 
-The latest version is **1.1.64**.
+The latest version is **1.1.65**.
+
+## New in 1.1.65
+
+- **Fewer dead ends on your PC:** Windows' 'Select an app' picker is closed after any open, a name is typed where Windows only takes typing, unlicensed Office is said plainly, and Windows system changes ask first, even in Full access.
+- **Stop gives your queue back:** Stop puts queued messages back in the message box, in order, and the context ring shows its percent once past half. /goal is offered in Code, where it keeps working.
+- **Upscale and Animate on the row:** A picture's Upscale x2 and Animate sit on its main row, the Storyboard shows its steps instead of a time guess, and Forget clears a model's loading fields.
+- **About sixty fixes:** Fixes from two reviews: a second window that catches up after edits, exports followed through a lost connection, the phone's queue keeping your words, Lens and shortcuts. An app you remove loses its key.
 
 ## New in 1.1.64
 
@@ -592,7 +599,7 @@ Older versions' notes are on the [Releases](https://github.com/griffin300/foldma
 
 ## Install
 
-1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.64.exe` under **Assets**.
+1. Open the **latest release** on this page and download `Foldmate-Setup-1.1.65.exe` under **Assets**.
 2. Run it. Foldmate isn't code-signed yet, so Windows may stop it:
    - **"Windows protected your PC"** (SmartScreen): click **More info**, then **Run anyway**.
    - **Smart App Control** (on some new Windows 11 PCs): it blocks apps that aren't signed and doesn't offer
@@ -652,7 +659,7 @@ Foldmate checks this page for new versions directly, not through Tor. Only relea
 install, and each file is checked before it's used. When an update is available, a small arrow appears next to
 Foldmate's name in the sidebar. Choose it to download the update, then choose **Restart to update**.
 
-From 0.4.0 on, most updates download only the files that changed. 1.1.64 is one of those: from 1.1.63 it's a small download (about 29.2 MB).
+From 0.4.0 on, most updates download only the files that changed. 1.1.65 is one of those: from 1.1.64 or 1.1.63 it's a small download (about 29.3 MB).
 From an older version, the update downloads the full installer (about 0.90 GB).
 
 ## Asking before it acts
